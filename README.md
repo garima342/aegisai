@@ -4,7 +4,7 @@
 
 AegisAI audits AI/ML systems **before deployment** for data quality, fairness, security, explainability and governance risk, then produces a single AI Risk Score (0–100) and an audit-ready report.
 
-**Team:** Garima Sethi (25MCAN0293), Ankita Sharma (25MCAN0033) | **Guide:** Ms. Shaifali
+**Team:** Garima Sethi (25MCAN0293), Ankita Sharma (25MCAN0033)
 
 ## Modules
 | ID | Module | Docs |
