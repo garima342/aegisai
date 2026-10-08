@@ -1,0 +1,66 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model AiSystem {
+  id          String   @id @default(uuid())
+  name        String
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  assessments Assessment[]
+}
+
+model Assessment {
+  id          String   @id @default(uuid())
+  systemId    String
+  system      AiSystem @relation(fields: [systemId], references: [id])
+  status      String   @default("draft")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  findings    Finding[]
+  controls    Control[]
+  scores      ScoreSnapshot[]
+}
+
+model Finding {
+  id             String     @id @default(uuid())
+  assessmentId   String
+  assessment     Assessment @relation(fields: [assessmentId], references: [id])
+  module         String     
+  domain         String     
+  checkId        String
+  title          String
+  description    String
+  severity       String     
+  evidence       Json       
+  recommendation String
+  status         String     @default("open")
+  createdAt      DateTime   @default(now())
+  updatedAt      DateTime   @updatedAt
+}
+
+model Control {
+  id           String     @id @default(uuid())
+  assessmentId String
+  assessment   Assessment @relation(fields: [assessmentId], references: [id])
+  name         String
+  description  String
+  status       String
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+}
+
+model ScoreSnapshot {
+  id           String     @id @default(uuid())
+  assessmentId String
+  assessment   Assessment @relation(fields: [assessmentId], references: [id])
+  overall      Float
+  domains      Json       
+  createdAt    DateTime   @default(now())
+}
