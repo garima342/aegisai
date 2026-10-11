@@ -67,8 +67,8 @@ function initStore(): SystemStore {
 
   const hrSystem: AiSystem = {
     id: hrSystemId,
-    name: 'HR Recruitment AI',
-    description: 'Automated resume screening and candidate ranking system evaluating prospective software engineering applicants.',
+    name: 'Hiring Screener v3',
+    description: 'Automated resume screening and candidate ranking system evaluating prospective applicants.',
     purpose: 'Screen incoming candidate CVs against job specifications and predict hiring probability.',
     intendedUse: 'Pre-screening inbound applicants to assist human recruiters in shortlisting.',
     modelType: 'tabular_classifier',
