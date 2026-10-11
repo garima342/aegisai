@@ -20,7 +20,7 @@ export async function GET(
 
     try {
       const assessments = await prisma.assessment.findMany({
-        where: { systemId: id },
+        where: { aiSystemId: id },
         include: { artifacts: true },
         orderBy: { createdAt: 'desc' },
       });
@@ -72,8 +72,8 @@ export async function POST(
       if (system) {
         const created = await prisma.assessment.create({
           data: {
-            systemId: id,
-            status: parsed.data.status || 'draft',
+            aiSystemId: id,
+            status: (parsed.data.status || 'draft') as any,
             runDataRisk: parsed.data.runDataRisk,
             runSecurity: parsed.data.runSecurity,
             runGovernance: parsed.data.runGovernance,
@@ -94,7 +94,7 @@ export async function POST(
     const newAssessment: Assessment = {
       id: assessmentId,
       systemId: id,
-      status: parsed.data.status || 'draft',
+      status: (parsed.data.status || 'draft') as any,
       runDataRisk: parsed.data.runDataRisk,
       runSecurity: parsed.data.runSecurity,
       runGovernance: parsed.data.runGovernance,

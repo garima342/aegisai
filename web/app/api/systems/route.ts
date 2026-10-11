@@ -136,7 +136,7 @@ export async function POST(request: NextRequest) {
     const systemId = `sys-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`;
     const now = new Date().toISOString();
 
-    const suggestion = suggestRiskTier(data.domainContext, data.modelType);
+    const suggestion = suggestRiskTier(data.domainContext, data.modelType as any);
     const riskTier = data.riskTier || suggestion.suggestedTier;
 
     // Attempt Prisma persistence
@@ -147,10 +147,10 @@ export async function POST(request: NextRequest) {
           description: data.description || '',
           purpose: data.purpose,
           intendedUse: data.intendedUse,
-          modelType: data.modelType,
+          modelType: data.modelType as any,
           domainContext: data.domainContext,
           sensitiveAttributes: data.sensitiveAttributes,
-          riskTier,
+          riskTier: riskTier as any,
           owner: data.owner,
           llmConfig: data.llmConfig ? (data.llmConfig as any) : undefined,
         },
@@ -169,10 +169,10 @@ export async function POST(request: NextRequest) {
       description: data.description,
       purpose: data.purpose,
       intendedUse: data.intendedUse,
-      modelType: data.modelType,
+      modelType: data.modelType as any,
       domainContext: data.domainContext,
       sensitiveAttributes: data.sensitiveAttributes,
-      riskTier,
+      riskTier: riskTier as any,
       suggestedRiskTier: suggestion.suggestedTier,
       riskRationale: suggestion.rationale,
       owner: data.owner,
