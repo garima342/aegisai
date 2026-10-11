@@ -9,7 +9,6 @@ Exposes stateless endpoints:
 
 import io
 import json
-from pathlib import Path
 from typing import Any
 
 import pandas as pd
@@ -20,6 +19,7 @@ from app.m2.config import (
     FAIRNESS_RISK_CAP,
     MAX_CSV_SIZE_BYTES,
     MODEL_PERFORMANCE_RISK_CAP,
+    resolve_file_path,
 )
 from app.m2.data_quality import run_data_quality_suite
 from app.m2.fairness import evaluate_fairness
@@ -61,7 +61,7 @@ async def _parse_dataframe_and_params(request: Request) -> tuple[pd.DataFrame, d
                     detail=f"Failed to parse CSV string: {exc}",
                 ) from exc
         elif dataset_path:
-            p = Path(dataset_path)
+            p = resolve_file_path(dataset_path)
             if not p.is_file():
                 raise HTTPException(
                     status_code=status.HTTP_404_NOT_FOUND,
@@ -114,7 +114,7 @@ async def _parse_dataframe_and_params(request: Request) -> tuple[pd.DataFrame, d
                     detail=f"Failed to parse uploaded CSV: {exc}",
                 ) from exc
         elif form.get("dataset_path"):
-            p = Path(str(form["dataset_path"]))
+            p = resolve_file_path(str(form["dataset_path"]))
             if not p.is_file():
                 raise HTTPException(
                     status_code=status.HTTP_404_NOT_FOUND,
@@ -297,7 +297,7 @@ async def evaluate_performance_endpoint(request: Request) -> dict[str, Any]:
                     detail=f"Failed to parse CSV file: {exc}",
                 ) from exc
         elif form.get("dataset_path"):
-            p = Path(str(form["dataset_path"]))
+            p = resolve_file_path(str(form["dataset_path"]))
             if not p.is_file():
                 raise HTTPException(
                     status_code=status.HTTP_404_NOT_FOUND,
@@ -365,7 +365,7 @@ async def evaluate_performance_endpoint(request: Request) -> dict[str, Any]:
         dataset_path = params.get("dataset_path")
         csv_content = params.get("csv_content")
         if dataset_path:
-            p = Path(dataset_path)
+            p = resolve_file_path(dataset_path)
             if not p.is_file():
                 raise HTTPException(
                     status_code=status.HTTP_404_NOT_FOUND,

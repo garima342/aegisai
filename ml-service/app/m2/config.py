@@ -5,7 +5,27 @@ consistently referenced across checks and documented in docs/modules/M2_data_mod
 """
 
 import os
+from pathlib import Path
 from typing import Final
+
+
+def resolve_file_path(path_input: str | Path) -> Path:
+    """Resolve a relative or absolute file path.
+
+    If the path does not exist relative to current working directory, attempts
+    resolving relative to the repository root.
+    """
+    p = Path(path_input)
+    if p.is_file():
+        return p
+    repo_root = Path(__file__).resolve().parents[3]
+    candidate = repo_root / path_input
+    if candidate.is_file():
+        return candidate
+    candidate_cwd = Path("..") / path_input
+    if candidate_cwd.is_file():
+        return candidate_cwd
+    return p
 
 # ---------------------------------------------------------------------------
 # Security & Model Loading Settings

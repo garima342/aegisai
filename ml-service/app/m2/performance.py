@@ -26,6 +26,7 @@ from app.m2.config import (
     OVERFITTING_GAP_MEDIUM,
     PERFORMANCE_ACCURACY_LOW,
     PERFORMANCE_F1_LOW,
+    resolve_file_path,
 )
 from app.models import Finding, FindingEvidence
 
@@ -82,7 +83,7 @@ def safe_load_model(
         except Exception as exc:
             raise RuntimeError(f"Failed to safely load model from bytes: {exc}") from exc
 
-    path = Path(model_input)
+    path = resolve_file_path(model_input)
     if not path.is_file():
         raise FileNotFoundError(f"Model file not found at: {path}")
 
