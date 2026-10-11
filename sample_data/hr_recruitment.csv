@@ -1,0 +1,2001 @@
+candidate_id,gender,age,years_experience,technical_score,interview_score,referral_source,certifications_count,hired
+CAN-00001,Male,49,4.8,56.8,57.9,Campus,0,0
+CAN-00002,Female,28,2.0,33.9,91.9,Employee Referral,1,0
+CAN-00003,Female,56,9.3,74.7,95.1,LinkedIn,9,1
+CAN-00004,Female,49,4.8,96.7,79.9,Employee Referral,0,0
+CAN-00005,Male,35,3.1,45.5,77.2,Campus,1,0
+CAN-00006,Male,31,0.4,70.8,64.7,Internal,0,0
+CAN-00007,Male,37,6.7,59.4,73.5,LinkedIn,2,0
+CAN-00008,Female,37,6.6,77.8,56.3,Job Board,1,0
+CAN-00009,Female,52,2.2,67.4,52.2,LinkedIn,0,0
+CAN-00010,Female,46,0.0,49.6,47.2,LinkedIn,1,0
+CAN-00011,Male,34,6.4,55.3,73.7,Internal,1,0
+CAN-00012,Female,27,4.3,57.5,48.7,,1,0
+CAN-00013,Female,30,6.2,90.2,61.0,Job Board,0,0
+CAN-00014,Male,57,11.9,89.4,67.1,,0,1
+CAN-00015,Male,41,4.9,65.3,81.9,LinkedIn,1,0
+CAN-00016,Male,39,3.2,88.4,59.9,,1,0
+CAN-00017,Male,42,1.0,67.4,83.6,LinkedIn,0,0
+CAN-00018,Female,25,3.9,65.1,81.1,LinkedIn,0,0
+CAN-00019,Male,54,5.6,70.9,53.0,Job Board,0,0
+CAN-00020,Male,48,5.2,74.3,83.7,Job Board,0,1
+CAN-00021,Female,28,11.0,61.7,64.0,LinkedIn,1,0
+CAN-00022,Male,27,6.7,70.3,61.0,Employee Referral,1,0
+CAN-00023,Male,36,4.5,81.8,64.1,Job Board,0,0
+CAN-00024,Male,39,2.5,71.9,68.0,,1,0
+CAN-00025,Male,53,5.9,70.6,62.2,Campus,0,0
+CAN-00026,Female,32,1.8,77.4,56.2,,8,0
+CAN-00027,Male,41,5.6,80.0,57.5,LinkedIn,0,0
+CAN-00028,Male,45,6.7,69.1,69.9,Internal,7,0
+CAN-00029,Female,36,4.2,62.9,65.8,Employee Referral,1,0
+CAN-00030,Male,28,2.8,72.8,75.4,,0,0
+CAN-00031,Female,42,0.0,46.1,68.7,LinkedIn,0,0
+CAN-00032,Male,47,9.0,66.8,69.1,Internal,7,1
+CAN-00033,Male,35,6.4,32.9,76.3,Job Board,0,0
+CAN-00034,Female,42,6.5,44.9,87.9,,7,0
+CAN-00035,Female,39,0.0,42.6,88.4,,0,0
+CAN-00036,Female,26,9.8,85.7,86.8,Campus,2,1
+CAN-00037,Male,24,3.4,70.2,80.2,LinkedIn,1,0
+CAN-00038,Male,44,4.0,51.1,97.2,Campus,0,0
+CAN-00039,Female,47,1.3,77.4,74.1,Employee Referral,1,0
+CAN-00040,Male,45,0.0,84.8,72.6,Employee Referral,0,0
+CAN-00041,Male,40,9.1,77.6,99.4,Campus,0,1
+CAN-00042,Male,46,9.5,67.2,29.8,Employee Referral,0,0
+CAN-00043,Male,42,4.4,73.5,65.0,Job Board,0,0
+CAN-00044,Female,33,2.6,83.5,85.5,Employee Referral,1,0
+CAN-00045,Male,54,3.7,63.0,81.7,Employee Referral,0,0
+CAN-00046,Female,25,3.8,70.4,100.0,Internal,1,0
+CAN-00047,Male,28,0.8,66.1,69.5,LinkedIn,0,0
+CAN-00048,Female,43,4.0,45.8,62.0,Campus,0,0
+CAN-00049,Female,54,5.5,83.7,63.4,Employee Referral,1,0
+CAN-00050,Male,38,8.6,100.0,72.5,Campus,0,1
+CAN-00051,Female,45,5.0,56.9,90.7,Campus,0,0
+CAN-00052,Female,55,0.0,84.4,90.9,LinkedIn,0,0
+CAN-00053,Female,49,6.2,57.4,67.2,Job Board,0,0
+CAN-00054,Female,43,4.1,72.0,71.5,,6,0
+CAN-00055,Female,38,9.8,92.6,59.4,LinkedIn,0,0
+CAN-00056,Female,55,10.0,62.2,60.9,LinkedIn,0,0
+CAN-00057,Male,27,10.1,69.8,82.6,,1,1
+CAN-00058,Male,27,3.0,43.0,90.4,Employee Referral,0,0
+CAN-00059,Male,55,12.0,60.0,58.2,LinkedIn,0,1
+CAN-00060,Male,22,6.2,41.4,71.4,LinkedIn,0,0
+CAN-00061,Male,31,10.7,76.4,64.6,LinkedIn,0,1
+CAN-00062,Male,42,3.2,82.5,80.1,Job Board,0,1
+CAN-00063,Female,26,4.0,66.7,62.6,LinkedIn,0,0
+CAN-00064,Male,23,6.0,74.3,41.0,Internal,1,0
+CAN-00065,Male,43,5.5,65.1,82.1,LinkedIn,0,0
+CAN-00066,Female,23,9.4,81.1,63.8,LinkedIn,0,0
+CAN-00067,Male,31,4.2,71.9,65.2,Job Board,0,0
+CAN-00068,Female,55,9.1,40.2,74.1,LinkedIn,0,0
+CAN-00069,Male,37,7.6,84.1,72.9,LinkedIn,2,1
+CAN-00070,Female,43,4.3,64.2,74.4,Employee Referral,0,0
+CAN-00071,Female,33,7.3,50.9,45.2,LinkedIn,0,0
+CAN-00072,Male,45,3.3,63.4,75.8,LinkedIn,0,0
+CAN-00073,Male,31,13.2,41.5,41.3,Internal,0,0
+CAN-00074,Female,56,0.0,51.3,78.8,LinkedIn,1,0
+CAN-00075,Female,53,7.4,72.1,83.7,Job Board,0,0
+CAN-00076,Female,28,0.0,73.4,48.8,Campus,0,0
+CAN-00077,Female,42,4.2,74.6,72.6,LinkedIn,0,0
+CAN-00078,Male,41,4.7,70.0,82.8,LinkedIn,0,0
+CAN-00079,Male,47,10.3,59.6,61.7,Job Board,0,0
+CAN-00080,Male,25,2.6,69.2,77.4,Job Board,0,0
+CAN-00081,Female,43,9.6,63.4,29.0,Employee Referral,2,0
+CAN-00082,Female,36,0.9,45.6,83.4,LinkedIn,9,0
+CAN-00083,Male,42,9.7,58.4,68.4,LinkedIn,2,0
+CAN-00084,Male,36,3.3,83.3,64.4,,0,0
+CAN-00085,Male,43,5.3,93.8,81.8,LinkedIn,1,1
+CAN-00086,Male,49,3.8,79.8,92.2,Job Board,0,1
+CAN-00087,Female,35,9.5,93.2,74.8,LinkedIn,1,1
+CAN-00088,Female,48,8.8,71.3,90.5,Campus,0,0
+CAN-00089,Female,49,6.6,96.1,46.3,Campus,0,0
+CAN-00090,Male,47,1.0,100.0,77.3,LinkedIn,1,1
+CAN-00091,Male,23,2.5,44.0,66.2,Employee Referral,0,0
+CAN-00092,Female,46,1.4,73.3,57.0,Campus,0,0
+CAN-00093,Female,24,0.0,71.3,41.0,Job Board,0,0
+CAN-00094,Female,29,9.4,63.6,76.6,Campus,0,0
+CAN-00095,Female,54,3.9,77.4,80.3,Employee Referral,0,0
+CAN-00096,Male,56,3.8,70.6,86.8,Employee Referral,0,0
+CAN-00097,Female,27,10.2,59.0,84.5,Employee Referral,0,0
+CAN-00098,Male,44,3.3,69.6,57.2,LinkedIn,0,0
+CAN-00099,Male,46,2.1,88.1,86.1,Job Board,0,1
+CAN-00100,Male,40,4.2,72.7,87.5,Employee Referral,0,1
+CAN-00101,Male,26,1.0,79.4,64.4,Job Board,0,0
+CAN-00102,Female,32,6.2,65.8,68.4,LinkedIn,2,0
+CAN-00103,Male,33,3.7,76.8,54.9,Campus,0,0
+CAN-00104,Male,31,3.2,51.9,88.7,Internal,2,0
+CAN-00105,Female,29,2.9,62.5,46.8,Employee Referral,1,0
+CAN-00106,Male,45,4.6,68.5,75.5,Internal,2,0
+CAN-00107,Male,49,5.3,50.9,59.6,Employee Referral,1,0
+CAN-00108,Female,57,3.2,57.5,52.5,LinkedIn,1,0
+CAN-00109,Male,42,3.7,74.7,41.8,Job Board,0,0
+CAN-00110,Male,29,4.7,71.9,65.0,Internal,0,0
+CAN-00111,Male,30,4.4,82.1,50.3,LinkedIn,0,0
+CAN-00112,Male,36,5.1,61.0,68.8,LinkedIn,2,0
+CAN-00113,Female,39,2.6,70.9,92.8,Campus,2,0
+CAN-00114,Female,41,8.5,59.9,70.8,Job Board,1,0
+CAN-00115,Female,27,5.3,80.6,96.0,Employee Referral,1,0
+CAN-00116,Female,33,3.2,87.9,54.2,Job Board,2,0
+CAN-00117,Female,23,6.2,77.2,50.1,LinkedIn,0,0
+CAN-00118,Male,28,4.7,85.9,53.6,LinkedIn,1,0
+CAN-00119,Female,37,0.0,70.5,67.1,LinkedIn,0,0
+CAN-00120,Female,24,6.2,82.1,100.0,,0,0
+CAN-00121,Female,24,1.4,71.1,44.7,Internal,0,0
+CAN-00122,Female,48,8.3,54.6,76.7,LinkedIn,0,0
+CAN-00123,Male,54,4.2,73.7,58.2,Internal,1,0
+CAN-00124,Male,49,7.7,55.1,64.9,Employee Referral,0,0
+CAN-00125,Male,22,2.8,100.0,50.4,Campus,6,0
+CAN-00126,Male,29,5.2,65.0,80.3,Job Board,0,0
+CAN-00127,Female,53,9.2,79.7,67.4,Campus,0,0
+CAN-00128,Female,25,4.1,69.8,83.2,Campus,1,0
+CAN-00129,Male,51,2.9,51.5,70.5,LinkedIn,1,0
+CAN-00130,Male,27,7.3,41.5,41.0,Job Board,0,0
+CAN-00131,Male,40,7.2,81.2,83.4,Job Board,8,1
+CAN-00132,Male,53,3.1,93.2,39.8,Employee Referral,0,0
+CAN-00133,Male,30,0.0,59.0,41.8,Job Board,2,0
+CAN-00134,Male,33,2.9,45.1,55.2,LinkedIn,1,0
+CAN-00135,Female,32,7.4,65.1,55.3,LinkedIn,0,0
+CAN-00136,Male,37,2.3,55.9,87.5,Job Board,0,0
+CAN-00137,Male,22,5.0,60.2,65.6,LinkedIn,1,0
+CAN-00138,Female,42,2.7,79.2,85.5,Job Board,1,0
+CAN-00139,Male,51,0.0,69.2,60.0,LinkedIn,1,0
+CAN-00140,Female,34,2.6,57.6,72.4,Employee Referral,0,0
+CAN-00141,Female,55,7.4,78.8,74.6,LinkedIn,1,0
+CAN-00142,Male,25,0.0,80.0,77.7,Employee Referral,1,0
+CAN-00143,Male,49,5.9,64.9,61.5,Job Board,1,0
+CAN-00144,Male,52,0.8,72.1,62.7,LinkedIn,0,0
+CAN-00145,Male,48,7.1,77.8,63.8,LinkedIn,1,1
+CAN-00146,Male,26,7.5,76.4,44.9,Employee Referral,1,0
+CAN-00147,Female,46,4.4,70.6,66.8,,1,0
+CAN-00148,Male,24,4.4,91.5,62.6,,0,1
+CAN-00149,Male,54,2.2,78.7,76.1,Employee Referral,0,0
+CAN-00150,Male,25,0.3,63.2,69.3,Campus,8,0
+CAN-00151,Female,46,10.9,63.3,86.7,Internal,0,0
+CAN-00152,Male,41,2.0,61.6,69.0,Campus,0,0
+CAN-00153,Male,55,10.5,79.5,60.1,,0,1
+CAN-00154,Male,47,2.0,60.7,68.8,Employee Referral,0,0
+CAN-00155,Female,26,6.8,63.6,78.1,LinkedIn,1,0
+CAN-00156,Male,56,1.0,85.9,43.2,,0,0
+CAN-00157,Female,49,6.8,72.9,58.0,Campus,0,0
+CAN-00158,Female,50,3.9,88.0,58.3,Campus,1,0
+CAN-00159,Male,30,3.9,82.0,73.8,Campus,8,1
+CAN-00160,Female,27,7.1,52.3,75.4,LinkedIn,0,0
+CAN-00161,Male,40,3.4,68.5,69.4,Employee Referral,0,0
+CAN-00162,Female,32,0.0,84.8,33.3,Job Board,0,0
+CAN-00163,Female,23,7.7,51.7,44.9,Campus,0,0
+CAN-00164,Female,30,1.0,76.3,64.7,LinkedIn,0,0
+CAN-00165,Male,42,6.8,69.4,61.0,Job Board,2,0
+CAN-00166,Female,45,8.4,43.7,68.1,LinkedIn,0,0
+CAN-00167,Male,55,3.7,71.8,61.4,LinkedIn,8,0
+CAN-00168,Male,43,9.1,57.4,89.4,Job Board,1,1
+CAN-00169,Male,24,6.7,52.5,35.9,,0,0
+CAN-00170,Female,33,2.6,70.1,72.2,LinkedIn,0,0
+CAN-00171,Female,49,9.9,41.0,79.6,Employee Referral,7,0
+CAN-00172,Male,51,1.0,59.9,77.8,Employee Referral,0,0
+CAN-00173,Male,47,3.7,100.0,79.0,Campus,2,1
+CAN-00174,Male,42,4.3,79.8,81.0,LinkedIn,0,1
+CAN-00175,Female,49,7.1,56.8,59.5,Job Board,1,0
+CAN-00176,Male,47,8.9,91.1,52.6,Internal,0,1
+CAN-00177,Female,54,8.7,55.1,39.5,Job Board,0,0
+CAN-00178,Male,42,5.8,61.7,62.9,LinkedIn,1,0
+CAN-00179,Female,56,4.0,52.8,57.1,Job Board,2,0
+CAN-00180,Male,55,0.0,73.8,84.3,LinkedIn,1,0
+CAN-00181,Male,39,0.4,90.5,64.0,Employee Referral,1,0
+CAN-00182,Male,32,11.2,55.0,53.6,Employee Referral,2,0
+CAN-00183,Female,44,0.0,39.1,51.4,,0,0
+CAN-00184,Female,43,2.3,86.4,95.8,Internal,0,0
+CAN-00185,Male,38,9.0,93.3,67.7,Employee Referral,0,1
+CAN-00186,Female,26,5.7,40.1,57.1,Employee Referral,1,0
+CAN-00187,Female,32,8.2,76.9,69.7,Internal,1,0
+CAN-00188,Female,51,6.9,73.4,94.6,Employee Referral,9,0
+CAN-00189,Female,36,10.1,58.2,62.5,Job Board,2,0
+CAN-00190,Male,48,6.0,49.1,77.6,LinkedIn,1,0
+CAN-00191,Male,56,7.3,84.9,84.6,Employee Referral,0,1
+CAN-00192,Female,54,2.5,72.7,41.5,Internal,0,0
+CAN-00193,Female,41,7.1,73.8,59.1,Employee Referral,2,0
+CAN-00194,Female,37,3.6,60.7,82.9,LinkedIn,0,0
+CAN-00195,Male,55,3.4,58.0,58.2,LinkedIn,0,0
+CAN-00196,Male,23,8.1,33.2,73.8,Employee Referral,0,0
+CAN-00197,Female,56,8.2,66.6,57.4,,0,0
+CAN-00198,Female,49,10.9,91.6,61.8,Employee Referral,1,1
+CAN-00199,Female,27,10.7,56.6,60.1,Employee Referral,0,0
+CAN-00200,Female,30,8.2,47.2,76.9,Job Board,2,0
+CAN-00201,Female,41,0.0,76.5,70.8,LinkedIn,0,0
+CAN-00202,Male,22,11.4,79.3,69.4,LinkedIn,1,1
+CAN-00203,Male,29,8.2,61.2,100.0,LinkedIn,1,1
+CAN-00204,Female,44,2.3,64.8,92.4,Internal,9,0
+CAN-00205,Female,24,7.6,74.0,40.3,Internal,2,0
+CAN-00206,Male,25,1.4,67.7,61.8,Campus,0,0
+CAN-00207,Male,46,7.2,85.0,100.0,Job Board,0,1
+CAN-00208,Female,36,0.4,100.0,60.0,LinkedIn,0,0
+CAN-00209,Male,42,2.2,44.4,97.2,LinkedIn,1,0
+CAN-00210,Male,56,7.5,88.4,62.0,Campus,2,1
+CAN-00211,Female,35,8.8,71.6,64.7,Campus,0,0
+CAN-00212,Female,57,6.1,90.8,80.1,LinkedIn,1,0
+CAN-00213,Female,33,4.0,80.9,66.7,LinkedIn,0,0
+CAN-00214,Male,38,0.0,70.9,74.9,Internal,0,0
+CAN-00215,Female,30,4.3,81.4,90.0,Job Board,1,0
+CAN-00216,Male,56,6.9,64.1,78.6,LinkedIn,0,0
+CAN-00217,Male,34,3.9,58.4,70.0,,0,0
+CAN-00218,Female,36,4.9,82.2,91.4,LinkedIn,1,0
+CAN-00219,Female,39,4.4,57.3,80.3,,1,0
+CAN-00220,Female,54,3.9,79.6,57.7,LinkedIn,0,0
+CAN-00221,Female,27,5.3,70.5,95.7,,1,0
+CAN-00222,Female,48,4.0,35.1,77.0,Employee Referral,0,0
+CAN-00223,Male,44,10.1,61.4,65.0,Job Board,0,1
+CAN-00224,Male,48,0.0,75.0,39.7,LinkedIn,1,0
+CAN-00225,Male,55,3.1,63.9,48.7,LinkedIn,0,0
+CAN-00226,Male,35,2.0,31.8,91.8,Employee Referral,0,0
+CAN-00227,Female,57,5.8,89.8,92.4,Employee Referral,0,0
+CAN-00228,Male,29,5.3,72.5,69.2,Job Board,1,0
+CAN-00229,Female,56,10.7,76.7,43.2,Campus,0,0
+CAN-00230,Female,40,11.8,62.9,52.8,Internal,0,0
+CAN-00231,Female,51,2.3,78.0,45.3,,0,0
+CAN-00232,Male,35,5.0,97.5,44.8,LinkedIn,0,0
+CAN-00233,Female,41,5.7,59.0,96.4,LinkedIn,0,0
+CAN-00234,Male,46,2.2,95.0,96.8,Job Board,0,1
+CAN-00235,Male,45,7.2,76.0,52.3,Internal,1,0
+CAN-00236,Female,35,4.2,57.0,67.9,,7,0
+CAN-00237,Male,47,1.3,100.0,50.0,Job Board,1,0
+CAN-00238,Male,44,4.0,75.9,67.8,Job Board,0,0
+CAN-00239,Female,43,1.5,80.1,91.0,LinkedIn,8,0
+CAN-00240,Male,40,8.6,66.0,83.1,LinkedIn,0,1
+CAN-00241,Female,24,11.7,58.1,79.3,,0,0
+CAN-00242,Female,40,5.9,72.5,65.3,Campus,0,0
+CAN-00243,Female,30,5.4,93.7,85.7,Employee Referral,1,0
+CAN-00244,Male,49,5.5,65.4,77.1,LinkedIn,0,0
+CAN-00245,Male,41,9.1,69.6,73.7,Employee Referral,0,1
+CAN-00246,Female,28,9.1,91.8,66.4,Employee Referral,0,0
+CAN-00247,Male,35,4.6,65.5,72.5,Internal,0,0
+CAN-00248,Female,30,5.9,77.7,72.0,Employee Referral,2,0
+CAN-00249,Female,40,7.3,83.2,60.4,Employee Referral,0,0
+CAN-00250,Female,35,1.0,67.0,57.2,,1,0
+CAN-00251,Male,57,9.2,74.6,54.0,Campus,0,1
+CAN-00252,Male,38,11.1,79.9,54.9,LinkedIn,1,1
+CAN-00253,Female,51,9.1,64.0,65.4,Employee Referral,0,0
+CAN-00254,Male,30,0.6,82.2,63.1,Employee Referral,2,0
+CAN-00255,Male,54,0.0,61.8,59.3,Employee Referral,0,0
+CAN-00256,Female,46,7.5,59.9,58.3,LinkedIn,0,0
+CAN-00257,Female,35,2.3,47.1,72.1,LinkedIn,0,0
+CAN-00258,Female,32,6.0,62.4,87.3,Internal,0,0
+CAN-00259,Female,56,10.4,57.8,67.8,LinkedIn,0,0
+CAN-00260,Male,35,2.7,64.0,66.9,Employee Referral,1,0
+CAN-00261,Female,51,3.7,79.2,54.9,Campus,0,0
+CAN-00262,Female,25,6.0,44.1,64.9,LinkedIn,0,0
+CAN-00263,Male,25,0.5,40.4,84.7,Campus,1,0
+CAN-00264,Male,49,2.3,58.8,82.5,LinkedIn,8,0
+CAN-00265,Female,29,5.1,76.9,81.6,LinkedIn,0,0
+CAN-00266,Female,23,3.9,74.3,81.1,Job Board,2,0
+CAN-00267,Female,43,7.1,58.5,74.1,Internal,2,0
+CAN-00268,Female,37,14.7,87.5,73.6,LinkedIn,1,1
+CAN-00269,Male,50,5.3,60.1,71.4,LinkedIn,1,0
+CAN-00270,Male,51,2.1,76.9,62.2,LinkedIn,0,0
+CAN-00271,Female,33,10.0,64.6,69.2,Internal,7,0
+CAN-00272,Female,56,0.0,57.0,71.0,Internal,0,0
+CAN-00273,Female,32,0.1,60.9,76.9,Employee Referral,7,0
+CAN-00274,Female,42,2.9,81.0,69.4,Employee Referral,1,0
+CAN-00275,Male,42,4.0,75.4,97.5,LinkedIn,0,1
+CAN-00276,Male,26,2.8,84.5,51.1,Employee Referral,0,0
+CAN-00277,Female,41,4.9,75.4,78.6,LinkedIn,0,0
+CAN-00278,Female,24,6.0,45.8,67.4,Employee Referral,9,0
+CAN-00279,Female,54,8.7,100.0,68.0,Campus,0,1
+CAN-00280,Female,30,5.3,75.6,56.6,Internal,0,0
+CAN-00281,Female,30,3.0,77.7,82.3,Internal,0,0
+CAN-00282,Male,25,8.6,64.3,77.1,LinkedIn,0,1
+CAN-00283,Male,56,2.1,86.7,79.7,LinkedIn,0,1
+CAN-00284,Male,38,0.0,53.6,70.4,Job Board,0,0
+CAN-00285,Female,55,9.2,79.1,63.5,,2,0
+CAN-00286,Male,45,9.0,38.8,67.1,Campus,7,0
+CAN-00287,Male,53,2.2,80.2,74.1,LinkedIn,1,0
+CAN-00288,Female,22,3.6,53.8,39.9,Employee Referral,0,0
+CAN-00289,Male,29,1.8,74.2,80.2,LinkedIn,0,0
+CAN-00290,Female,44,6.1,90.4,100.0,Employee Referral,0,1
+CAN-00291,Male,33,11.1,82.3,74.7,Campus,0,1
+CAN-00292,Male,33,7.5,88.4,64.1,LinkedIn,0,1
+CAN-00293,Female,36,8.6,86.8,65.7,LinkedIn,0,0
+CAN-00294,Male,40,7.9,62.1,77.9,Employee Referral,0,1
+CAN-00295,Male,47,5.0,79.0,64.4,Job Board,0,0
+CAN-00296,Female,50,8.8,44.1,80.2,LinkedIn,1,0
+CAN-00297,Female,43,7.6,59.7,65.6,LinkedIn,2,0
+CAN-00298,Male,42,10.0,90.9,92.0,,0,1
+CAN-00299,Female,41,3.4,64.2,91.6,LinkedIn,7,0
+CAN-00300,Male,50,0.0,42.0,63.4,Employee Referral,1,0
+CAN-00301,Male,25,8.7,100.0,66.9,Campus,0,1
+CAN-00302,Female,28,6.2,78.4,67.7,Employee Referral,1,0
+CAN-00303,Female,49,4.0,81.5,67.9,Employee Referral,2,0
+CAN-00304,Female,49,4.2,55.3,54.7,Campus,0,0
+CAN-00305,Female,25,13.9,74.3,52.8,Employee Referral,1,0
+CAN-00306,Female,43,2.8,73.9,85.5,LinkedIn,1,0
+CAN-00307,Male,33,2.0,57.7,83.3,LinkedIn,0,0
+CAN-00308,Male,24,5.3,67.5,83.0,LinkedIn,0,0
+CAN-00309,Female,43,9.1,47.5,67.0,Campus,2,0
+CAN-00310,Male,23,13.0,64.8,94.5,,1,1
+CAN-00311,Male,45,7.3,84.6,67.7,,7,1
+CAN-00312,Male,55,0.6,58.8,80.1,,0,0
+CAN-00313,Male,48,11.9,98.6,48.6,LinkedIn,2,1
+CAN-00314,Female,22,4.9,48.5,64.8,LinkedIn,6,0
+CAN-00315,Female,29,2.1,66.1,65.8,LinkedIn,1,0
+CAN-00316,Female,44,1.2,60.2,67.1,LinkedIn,0,0
+CAN-00317,Male,27,7.9,67.3,49.4,Internal,0,0
+CAN-00318,Male,43,5.8,90.6,77.9,Job Board,0,1
+CAN-00319,Male,46,6.2,55.2,82.4,Employee Referral,0,0
+CAN-00320,Male,39,9.5,63.2,57.6,Employee Referral,0,0
+CAN-00321,Female,38,2.2,79.8,51.9,Employee Referral,0,0
+CAN-00322,Female,33,9.8,71.4,57.2,Employee Referral,1,0
+CAN-00323,Female,27,3.2,72.6,74.9,Employee Referral,0,0
+CAN-00324,Male,47,12.6,55.5,59.6,LinkedIn,1,1
+CAN-00325,Female,48,7.1,68.9,66.1,Job Board,0,0
+CAN-00326,Female,29,1.8,87.0,53.0,,0,0
+CAN-00327,Female,40,0.0,45.9,95.7,Employee Referral,0,0
+CAN-00328,Female,22,7.8,59.5,69.0,LinkedIn,0,0
+CAN-00329,Male,50,3.7,42.8,84.1,LinkedIn,2,0
+CAN-00330,Male,56,4.5,78.1,74.9,Job Board,1,0
+CAN-00331,Male,35,7.7,88.4,67.4,Job Board,0,1
+CAN-00332,Female,56,8.5,67.2,66.7,Internal,1,0
+CAN-00333,Male,41,9.3,54.9,57.8,LinkedIn,9,0
+CAN-00334,Male,34,0.9,55.4,61.7,Campus,0,0
+CAN-00335,Male,29,10.0,65.5,53.9,Employee Referral,0,0
+CAN-00336,Male,41,3.0,65.5,52.4,LinkedIn,1,0
+CAN-00337,Female,54,0.0,83.7,97.2,Employee Referral,0,0
+CAN-00338,Female,47,0.9,60.0,71.9,,1,0
+CAN-00339,Male,42,5.8,76.5,88.5,Campus,0,1
+CAN-00340,Male,30,1.6,65.4,56.9,LinkedIn,0,0
+CAN-00341,Male,45,4.7,58.8,50.5,Employee Referral,2,0
+CAN-00342,Male,38,6.2,65.0,54.3,Employee Referral,0,0
+CAN-00343,Male,45,4.4,75.0,62.1,Employee Referral,1,0
+CAN-00344,Male,42,3.3,83.7,68.5,Employee Referral,1,0
+CAN-00345,Male,34,0.6,66.2,65.9,Employee Referral,2,0
+CAN-00346,Female,32,5.1,51.9,57.2,Employee Referral,0,0
+CAN-00347,Female,40,0.0,85.0,69.2,Employee Referral,0,0
+CAN-00348,Male,32,2.6,56.5,70.5,Internal,7,0
+CAN-00349,Male,34,1.8,73.9,77.8,LinkedIn,0,0
+CAN-00350,Female,22,4.2,69.6,88.6,,0,0
+CAN-00351,Male,40,4.3,67.6,62.9,LinkedIn,0,0
+CAN-00352,Female,33,8.4,62.7,85.0,Job Board,0,0
+CAN-00353,Female,29,10.5,79.3,68.9,Campus,0,0
+CAN-00354,Male,29,1.1,16.3,46.6,LinkedIn,0,0
+CAN-00355,Male,33,12.0,87.0,93.0,LinkedIn,0,1
+CAN-00356,Female,54,2.3,56.3,99.8,Campus,7,0
+CAN-00357,Male,47,5.6,76.1,76.7,Campus,0,1
+CAN-00358,Female,49,6.8,75.3,69.3,Campus,1,0
+CAN-00359,Female,26,13.6,89.1,64.2,Job Board,1,1
+CAN-00360,Female,29,3.1,73.0,61.5,,0,0
+CAN-00361,Male,46,0.0,57.6,84.9,LinkedIn,0,0
+CAN-00362,Female,48,10.2,45.9,67.8,LinkedIn,0,0
+CAN-00363,Male,44,2.1,64.8,91.4,Campus,0,0
+CAN-00364,Female,51,3.7,40.6,68.5,Job Board,1,0
+CAN-00365,Female,44,1.1,60.6,62.2,Employee Referral,1,0
+CAN-00366,Male,41,3.7,65.6,59.6,Internal,1,0
+CAN-00367,Female,39,2.1,59.7,57.6,Employee Referral,0,0
+CAN-00368,Female,39,7.4,70.6,75.2,LinkedIn,0,0
+CAN-00369,Male,23,5.3,66.5,49.9,Job Board,1,0
+CAN-00370,Male,25,2.6,65.1,56.5,,0,0
+CAN-00371,Male,51,8.5,33.6,86.5,LinkedIn,0,0
+CAN-00372,Male,54,5.9,50.6,54.6,Employee Referral,0,0
+CAN-00373,Male,57,0.0,79.6,80.1,,0,0
+CAN-00374,Female,39,8.2,82.1,39.1,Employee Referral,0,0
+CAN-00375,Male,40,5.6,42.4,88.3,LinkedIn,0,0
+CAN-00376,Male,49,9.9,57.8,50.2,LinkedIn,1,0
+CAN-00377,Female,41,5.4,86.1,55.7,Internal,2,0
+CAN-00378,Male,54,2.2,59.2,77.5,Internal,0,0
+CAN-00379,Female,33,4.3,68.3,71.8,Employee Referral,6,0
+CAN-00380,Male,36,7.8,91.6,80.5,Campus,0,1
+CAN-00381,Male,23,2.3,64.6,50.1,Employee Referral,2,0
+CAN-00382,Female,50,3.5,62.4,64.0,Employee Referral,0,0
+CAN-00383,Female,31,4.2,67.6,59.4,Employee Referral,1,0
+CAN-00384,Female,23,1.0,97.8,52.5,Internal,0,0
+CAN-00385,Female,32,2.4,76.7,76.3,Internal,1,0
+CAN-00386,Female,34,5.6,70.3,81.2,Employee Referral,0,0
+CAN-00387,Male,31,9.2,62.1,63.3,Employee Referral,0,0
+CAN-00388,Male,35,6.1,78.1,89.3,,0,1
+CAN-00389,Female,39,4.8,79.9,57.0,LinkedIn,0,0
+CAN-00390,Female,30,2.1,53.9,89.0,LinkedIn,1,0
+CAN-00391,Female,49,8.8,80.3,75.9,Employee Referral,1,0
+CAN-00392,Male,24,6.5,67.7,50.9,Job Board,0,0
+CAN-00393,Male,41,2.5,70.4,95.7,LinkedIn,2,0
+CAN-00394,Female,27,8.1,56.7,61.8,Internal,0,0
+CAN-00395,Male,48,7.0,64.0,84.9,Campus,2,1
+CAN-00396,Female,23,2.2,54.5,70.0,,0,0
+CAN-00397,Female,50,4.6,53.8,73.2,Job Board,2,0
+CAN-00398,Male,24,3.3,75.7,80.6,Job Board,8,0
+CAN-00399,Female,37,14.2,64.7,79.8,LinkedIn,0,1
+CAN-00400,Female,51,6.9,50.5,63.2,LinkedIn,0,0
+CAN-00401,Male,23,5.7,100.0,75.4,Internal,0,1
+CAN-00402,Female,38,6.7,53.1,74.4,Employee Referral,0,0
+CAN-00403,Male,33,9.8,86.4,71.0,Employee Referral,0,1
+CAN-00404,Female,56,4.7,47.9,65.2,LinkedIn,2,0
+CAN-00405,Male,22,2.9,76.8,71.0,Job Board,7,0
+CAN-00406,Female,36,8.0,66.2,95.5,Job Board,2,0
+CAN-00407,Male,47,4.4,60.6,63.9,Internal,2,0
+CAN-00408,Male,42,1.3,73.0,84.9,LinkedIn,1,0
+CAN-00409,Female,52,0.6,70.9,59.3,Employee Referral,2,0
+CAN-00410,Male,46,10.4,57.8,55.7,LinkedIn,1,0
+CAN-00411,Male,44,5.5,57.1,100.0,,0,1
+CAN-00412,Female,45,2.9,46.4,75.6,Employee Referral,1,0
+CAN-00413,Female,49,4.2,74.6,75.9,Employee Referral,9,0
+CAN-00414,Female,42,7.8,51.2,76.3,Employee Referral,1,0
+CAN-00415,Female,39,4.0,70.1,87.7,LinkedIn,0,0
+CAN-00416,Male,57,0.0,78.9,73.7,Job Board,0,0
+CAN-00417,Male,56,6.1,73.1,79.4,Campus,1,1
+CAN-00418,Male,30,9.2,59.2,53.2,Internal,2,0
+CAN-00419,Female,51,9.0,83.6,81.8,Employee Referral,0,0
+CAN-00420,Female,55,3.0,63.9,64.7,Internal,0,0
+CAN-00421,Female,53,9.4,50.0,77.4,Job Board,9,0
+CAN-00422,Female,24,5.7,65.7,44.0,LinkedIn,0,0
+CAN-00423,Male,24,9.3,78.8,76.8,Internal,0,1
+CAN-00424,Male,49,7.0,59.9,36.6,LinkedIn,1,0
+CAN-00425,Male,36,0.0,83.2,64.1,Job Board,7,0
+CAN-00426,Female,44,11.1,58.4,44.1,,1,0
+CAN-00427,Male,32,5.2,60.5,76.9,Job Board,0,0
+CAN-00428,Female,53,7.0,54.3,69.0,LinkedIn,2,0
+CAN-00429,Male,57,0.3,80.3,57.2,Employee Referral,0,0
+CAN-00430,Male,54,6.8,69.2,88.1,LinkedIn,0,1
+CAN-00431,Male,45,8.9,55.3,55.4,LinkedIn,0,0
+CAN-00432,Female,55,11.8,64.1,25.6,Job Board,1,0
+CAN-00433,Female,49,9.9,23.9,75.2,Job Board,1,0
+CAN-00434,Male,28,6.9,81.7,43.3,Internal,7,0
+CAN-00435,Male,25,0.0,67.4,55.9,Employee Referral,0,0
+CAN-00436,Female,22,5.5,33.9,60.8,Job Board,0,0
+CAN-00437,Male,22,2.9,48.1,48.1,Internal,0,0
+CAN-00438,Female,41,5.8,63.7,61.1,Job Board,1,0
+CAN-00439,Female,40,0.7,50.3,48.3,Employee Referral,1,0
+CAN-00440,Male,50,4.3,81.9,70.3,Employee Referral,0,0
+CAN-00441,Male,31,3.2,76.3,50.8,Employee Referral,0,0
+CAN-00442,Female,39,3.1,75.4,68.4,Campus,2,0
+CAN-00443,Male,49,3.1,30.9,84.3,Campus,6,0
+CAN-00444,Male,56,4.5,62.1,79.0,Internal,0,0
+CAN-00445,Female,52,6.0,59.5,66.9,,1,0
+CAN-00446,Female,48,0.0,55.7,54.2,LinkedIn,1,0
+CAN-00447,Female,32,0.0,63.8,70.2,Campus,0,0
+CAN-00448,Female,26,3.8,53.1,58.3,Job Board,0,0
+CAN-00449,Male,29,4.3,73.2,70.8,Internal,0,0
+CAN-00450,Male,55,5.7,81.5,44.0,Job Board,0,0
+CAN-00451,Female,33,2.5,80.2,79.3,LinkedIn,1,0
+CAN-00452,Female,22,5.0,67.9,68.5,,0,0
+CAN-00453,Male,52,5.4,100.0,98.9,Job Board,0,1
+CAN-00454,Female,25,2.4,87.1,86.3,LinkedIn,0,0
+CAN-00455,Male,26,8.5,68.5,75.9,Employee Referral,0,1
+CAN-00456,Male,51,5.6,62.8,66.3,Employee Referral,1,0
+CAN-00457,Male,45,6.9,90.1,57.8,Employee Referral,0,1
+CAN-00458,Male,24,5.2,85.1,81.2,Campus,0,1
+CAN-00459,Male,32,12.4,48.8,64.8,Employee Referral,2,0
+CAN-00460,Male,25,7.1,86.3,84.4,Employee Referral,0,1
+CAN-00461,Male,47,3.3,67.7,73.6,LinkedIn,1,0
+CAN-00462,Female,48,7.9,57.1,73.7,LinkedIn,0,0
+CAN-00463,Female,48,0.0,40.3,76.3,LinkedIn,1,0
+CAN-00464,Female,27,5.4,66.0,55.1,Campus,1,0
+CAN-00465,Female,36,6.1,69.8,53.7,Employee Referral,0,0
+CAN-00466,Male,51,5.5,93.8,53.2,Employee Referral,1,1
+CAN-00467,Male,56,3.8,84.4,82.7,LinkedIn,0,1
+CAN-00468,Female,44,1.5,61.3,54.8,LinkedIn,2,0
+CAN-00469,Male,27,2.2,75.8,56.5,LinkedIn,0,0
+CAN-00470,Female,25,5.4,82.4,75.5,Employee Referral,1,0
+CAN-00471,Male,39,1.1,71.3,64.5,Job Board,0,0
+CAN-00472,Female,30,11.2,61.2,62.7,Campus,1,0
+CAN-00473,Male,50,0.0,62.0,61.5,Employee Referral,2,0
+CAN-00474,Female,34,3.9,75.8,35.4,Employee Referral,1,0
+CAN-00475,Female,38,5.4,76.2,54.5,,0,0
+CAN-00476,Female,53,6.8,65.6,84.5,Campus,0,0
+CAN-00477,Male,43,1.8,30.7,60.4,LinkedIn,0,0
+CAN-00478,Female,25,9.0,50.6,41.4,Campus,9,0
+CAN-00479,Female,26,0.1,79.3,53.9,Job Board,0,0
+CAN-00480,Female,34,3.0,38.0,73.0,Job Board,0,0
+CAN-00481,Female,55,7.2,87.8,72.8,LinkedIn,0,0
+CAN-00482,Female,43,8.6,85.5,63.9,LinkedIn,0,0
+CAN-00483,Male,44,0.1,70.6,58.4,Employee Referral,0,0
+CAN-00484,Female,24,14.3,79.0,48.4,Internal,0,0
+CAN-00485,Female,55,1.9,77.9,73.2,Campus,0,0
+CAN-00486,Female,53,0.4,68.2,79.7,Employee Referral,1,0
+CAN-00487,Male,42,6.8,49.4,86.0,Internal,0,0
+CAN-00488,Male,42,3.8,84.5,52.5,Internal,0,0
+CAN-00489,Female,32,3.3,91.1,87.1,Internal,6,0
+CAN-00490,Female,25,7.1,51.9,67.2,,0,0
+CAN-00491,Male,22,0.0,48.8,68.4,Internal,1,0
+CAN-00492,Female,49,0.0,67.9,80.5,Employee Referral,0,0
+CAN-00493,Male,45,2.9,60.6,60.4,Job Board,0,0
+CAN-00494,Male,56,8.8,72.2,37.7,Job Board,1,0
+CAN-00495,Male,34,3.1,88.1,77.9,Employee Referral,2,1
+CAN-00496,Male,55,10.6,36.3,72.9,,0,0
+CAN-00497,Female,32,9.2,93.7,63.0,Internal,0,0
+CAN-00498,Male,57,6.0,63.9,76.7,LinkedIn,0,0
+CAN-00499,Female,38,6.2,77.7,79.6,Job Board,0,0
+CAN-00500,Female,56,6.0,79.3,46.8,Employee Referral,0,0
+CAN-00501,Female,39,5.6,81.0,68.3,Employee Referral,6,0
+CAN-00502,Female,43,3.7,70.9,36.1,LinkedIn,0,0
+CAN-00503,Male,45,4.1,74.4,66.3,Employee Referral,2,0
+CAN-00504,Female,40,1.3,74.3,62.8,Campus,0,0
+CAN-00505,Female,42,0.0,60.5,74.9,LinkedIn,0,0
+CAN-00506,Male,29,8.9,43.6,53.0,Employee Referral,1,0
+CAN-00507,Female,49,5.6,51.7,62.1,Employee Referral,6,0
+CAN-00508,Female,26,5.0,68.4,23.0,LinkedIn,0,0
+CAN-00509,Female,38,6.4,58.2,75.8,Employee Referral,0,0
+CAN-00510,Female,57,2.1,58.2,66.8,Job Board,0,0
+CAN-00511,Female,40,1.5,97.0,69.2,LinkedIn,0,0
+CAN-00512,Male,48,4.0,82.9,47.1,Employee Referral,0,0
+CAN-00513,Female,55,9.8,66.2,73.6,,0,0
+CAN-00514,Female,32,0.9,80.1,91.1,Employee Referral,0,0
+CAN-00515,Male,33,0.0,63.7,65.4,Employee Referral,2,0
+CAN-00516,Male,42,3.2,71.7,77.1,Employee Referral,0,0
+CAN-00517,Male,32,9.0,76.6,55.8,Job Board,0,1
+CAN-00518,Female,49,0.0,63.7,66.9,Internal,2,0
+CAN-00519,Female,26,0.9,59.7,46.6,Job Board,1,0
+CAN-00520,Male,38,5.9,88.4,79.0,LinkedIn,8,1
+CAN-00521,Female,41,14.0,79.2,70.2,LinkedIn,0,1
+CAN-00522,Male,33,0.2,36.2,50.9,LinkedIn,1,0
+CAN-00523,Female,27,0.1,60.0,56.8,Campus,0,0
+CAN-00524,Female,38,6.2,58.3,68.9,Internal,1,0
+CAN-00525,Female,40,9.2,60.7,80.9,Employee Referral,2,0
+CAN-00526,Male,47,2.8,82.9,88.7,,0,1
+CAN-00527,Male,53,0.0,70.3,66.1,Campus,0,0
+CAN-00528,Male,27,6.5,49.2,48.9,Job Board,1,0
+CAN-00529,Male,57,7.2,64.3,71.3,Job Board,0,0
+CAN-00530,Female,32,11.2,78.1,93.0,Campus,0,1
+CAN-00531,Female,54,7.3,66.7,45.3,Internal,0,0
+CAN-00532,Female,45,7.9,60.3,54.6,,1,0
+CAN-00533,Female,44,4.1,75.0,76.6,Internal,0,0
+CAN-00534,Female,36,13.5,94.3,70.2,Internal,2,1
+CAN-00535,Female,48,3.6,76.9,60.4,Job Board,1,0
+CAN-00536,Female,32,2.9,89.5,71.1,,0,0
+CAN-00537,Female,38,11.3,61.3,81.7,Employee Referral,1,0
+CAN-00538,Male,35,0.0,69.9,66.6,LinkedIn,0,0
+CAN-00539,Male,48,0.0,69.6,65.4,LinkedIn,1,0
+CAN-00540,Male,39,5.4,71.8,76.2,Job Board,0,0
+CAN-00541,Female,49,5.0,76.6,64.2,Employee Referral,0,0
+CAN-00542,Female,25,4.2,56.2,84.0,LinkedIn,1,0
+CAN-00543,Male,28,8.5,79.7,96.4,Job Board,0,1
+CAN-00544,Female,56,1.8,45.6,55.5,Employee Referral,1,0
+CAN-00545,Female,30,5.2,50.0,50.5,LinkedIn,1,0
+CAN-00546,Male,29,3.7,100.0,73.2,LinkedIn,0,1
+CAN-00547,Male,38,1.9,62.3,50.0,Campus,0,0
+CAN-00548,Female,38,4.8,80.9,49.8,Employee Referral,2,0
+CAN-00549,Female,54,8.0,95.5,39.3,Job Board,0,0
+CAN-00550,Female,53,12.4,35.3,62.6,LinkedIn,1,0
+CAN-00551,Female,29,7.0,86.9,67.5,Internal,1,0
+CAN-00552,Female,40,0.0,79.7,60.8,LinkedIn,2,0
+CAN-00553,Female,24,4.9,94.6,87.5,LinkedIn,1,0
+CAN-00554,Female,26,5.2,52.3,86.4,,0,0
+CAN-00555,Female,34,8.3,91.8,95.0,Employee Referral,2,1
+CAN-00556,Male,52,5.6,58.9,68.7,LinkedIn,9,0
+CAN-00557,Male,37,9.4,85.8,84.6,Employee Referral,1,1
+CAN-00558,Male,53,6.4,69.5,72.3,LinkedIn,0,0
+CAN-00559,Female,43,10.5,81.6,70.9,,0,0
+CAN-00560,Female,50,3.5,70.7,61.5,LinkedIn,1,0
+CAN-00561,Female,43,5.5,42.4,36.3,Employee Referral,0,0
+CAN-00562,Male,24,7.9,23.2,76.9,Job Board,0,0
+CAN-00563,Male,31,3.0,73.1,84.2,Internal,9,0
+CAN-00564,Male,42,2.2,66.0,46.6,Employee Referral,0,0
+CAN-00565,Male,37,2.8,76.0,67.9,Employee Referral,0,0
+CAN-00566,Female,33,2.4,66.2,81.9,Internal,0,0
+CAN-00567,Male,23,6.8,100.0,63.0,Employee Referral,0,1
+CAN-00568,Male,45,0.0,73.5,84.7,Internal,1,0
+CAN-00569,Female,56,0.0,63.3,66.0,Employee Referral,0,0
+CAN-00570,Male,51,11.5,75.1,60.6,Job Board,0,1
+CAN-00571,Male,51,2.5,63.6,85.5,LinkedIn,0,0
+CAN-00572,Female,56,5.7,71.4,54.9,Internal,0,0
+CAN-00573,Male,40,0.0,51.7,57.9,LinkedIn,1,0
+CAN-00574,Female,29,5.3,69.9,55.5,Campus,1,0
+CAN-00575,Female,47,2.5,62.8,52.0,Employee Referral,0,0
+CAN-00576,Female,28,0.0,53.2,70.1,Employee Referral,0,0
+CAN-00577,Male,51,9.7,99.6,60.8,Job Board,1,1
+CAN-00578,Female,28,9.1,53.7,74.8,,0,0
+CAN-00579,Male,24,4.6,70.1,43.7,Internal,0,0
+CAN-00580,Male,22,8.5,58.0,52.3,LinkedIn,0,0
+CAN-00581,Male,57,11.7,74.5,68.7,Job Board,0,1
+CAN-00582,Female,46,7.6,50.9,88.6,LinkedIn,0,0
+CAN-00583,Male,22,6.7,82.6,73.3,Internal,0,1
+CAN-00584,Male,36,5.7,100.0,59.7,Internal,0,1
+CAN-00585,Female,34,7.3,57.4,47.1,LinkedIn,0,0
+CAN-00586,Male,29,3.7,88.3,58.9,Job Board,0,0
+CAN-00587,Male,26,4.0,64.3,67.4,Job Board,0,0
+CAN-00588,Male,30,6.6,92.6,35.0,Employee Referral,0,0
+CAN-00589,Male,22,3.3,100.0,51.0,Campus,0,0
+CAN-00590,Male,57,3.7,66.5,57.7,Employee Referral,0,0
+CAN-00591,Male,56,5.0,47.2,64.4,Job Board,1,0
+CAN-00592,Female,23,9.0,84.2,67.2,Employee Referral,1,0
+CAN-00593,Male,44,1.0,73.4,59.4,Employee Referral,0,0
+CAN-00594,Male,30,7.7,77.5,75.1,LinkedIn,0,1
+CAN-00595,Female,55,7.8,64.9,69.7,LinkedIn,1,0
+CAN-00596,Male,35,7.8,56.7,62.8,,0,0
+CAN-00597,Female,25,2.2,87.4,77.0,Internal,0,0
+CAN-00598,Male,51,0.0,74.8,75.9,LinkedIn,1,0
+CAN-00599,Male,52,7.0,48.3,47.6,Employee Referral,2,0
+CAN-00600,Male,32,5.7,80.3,67.6,Campus,0,1
+CAN-00601,Male,56,8.5,77.3,80.5,LinkedIn,0,1
+CAN-00602,Male,29,2.5,65.1,82.8,LinkedIn,1,0
+CAN-00603,Male,24,7.7,94.3,73.2,LinkedIn,0,1
+CAN-00604,Male,35,8.7,60.7,64.7,LinkedIn,1,0
+CAN-00605,Male,34,4.7,67.5,73.9,LinkedIn,0,0
+CAN-00606,Male,53,6.5,81.5,79.3,Job Board,0,1
+CAN-00607,Male,55,6.3,71.2,69.6,LinkedIn,6,0
+CAN-00608,Male,40,2.1,49.2,71.2,Job Board,2,0
+CAN-00609,Male,37,6.9,72.8,64.5,LinkedIn,1,0
+CAN-00610,Female,23,10.7,63.8,49.3,Employee Referral,0,0
+CAN-00611,Male,38,5.1,82.9,65.6,Job Board,1,0
+CAN-00612,Female,55,0.0,72.3,58.5,LinkedIn,0,0
+CAN-00613,Female,37,2.6,71.4,58.6,Employee Referral,1,0
+CAN-00614,Male,23,0.0,54.3,88.1,Campus,1,0
+CAN-00615,Female,23,9.5,66.5,81.3,LinkedIn,0,0
+CAN-00616,Female,47,7.7,84.6,44.3,Job Board,0,0
+CAN-00617,Male,34,3.2,58.4,52.8,LinkedIn,2,0
+CAN-00618,Male,52,0.0,69.5,62.9,,2,0
+CAN-00619,Female,55,2.1,56.0,59.0,Employee Referral,0,0
+CAN-00620,Female,24,2.8,52.2,72.4,LinkedIn,0,0
+CAN-00621,Male,29,5.4,68.7,50.6,Internal,2,0
+CAN-00622,Male,44,5.3,72.6,81.4,Job Board,0,1
+CAN-00623,Male,35,9.7,99.9,67.4,Employee Referral,8,1
+CAN-00624,Male,48,2.6,63.2,63.2,LinkedIn,0,0
+CAN-00625,Female,50,0.0,69.2,67.8,LinkedIn,1,0
+CAN-00626,Male,22,1.0,51.2,62.2,Campus,0,0
+CAN-00627,Male,38,4.9,79.2,39.6,,7,0
+CAN-00628,Female,51,2.4,76.0,68.2,Campus,0,0
+CAN-00629,Male,34,4.0,92.3,63.5,LinkedIn,2,1
+CAN-00630,Male,42,3.4,86.7,54.6,Job Board,1,0
+CAN-00631,Female,40,8.5,75.3,83.4,LinkedIn,1,0
+CAN-00632,Female,40,2.9,62.9,77.4,Employee Referral,0,0
+CAN-00633,Male,46,3.7,73.1,100.0,LinkedIn,2,1
+CAN-00634,Female,43,7.5,68.3,79.7,Internal,1,0
+CAN-00635,Male,52,3.0,84.3,59.0,Job Board,1,0
+CAN-00636,Male,38,6.5,82.4,55.3,LinkedIn,2,0
+CAN-00637,Female,44,6.2,65.6,61.1,Campus,0,0
+CAN-00638,Male,53,5.5,48.1,58.7,Internal,1,0
+CAN-00639,Male,31,1.0,90.0,69.5,LinkedIn,2,0
+CAN-00640,Male,31,9.3,78.7,46.5,LinkedIn,1,0
+CAN-00641,Male,57,12.8,65.2,77.1,Internal,0,1
+CAN-00642,Male,29,5.0,78.1,69.3,Job Board,0,0
+CAN-00643,Male,41,1.3,71.1,75.5,LinkedIn,1,0
+CAN-00644,Male,53,5.1,89.8,52.0,LinkedIn,0,0
+CAN-00645,Male,35,8.5,41.1,71.5,LinkedIn,0,0
+CAN-00646,Female,49,2.8,64.0,86.2,Employee Referral,1,0
+CAN-00647,Female,45,4.5,94.0,56.0,Internal,0,0
+CAN-00648,Female,36,6.2,78.4,55.6,LinkedIn,0,0
+CAN-00649,Female,43,9.2,96.6,78.0,Job Board,1,1
+CAN-00650,Male,51,7.7,51.7,54.4,Employee Referral,0,0
+CAN-00651,Male,25,7.9,86.1,64.7,LinkedIn,0,1
+CAN-00652,Female,34,3.5,85.2,88.7,Employee Referral,0,0
+CAN-00653,Female,44,6.4,44.8,55.8,Job Board,0,0
+CAN-00654,Female,29,2.5,65.6,89.6,,7,0
+CAN-00655,Male,39,8.0,68.4,63.3,Campus,0,0
+CAN-00656,Male,33,9.0,45.7,52.3,Employee Referral,0,0
+CAN-00657,Male,52,6.9,65.9,76.5,Employee Referral,0,0
+CAN-00658,Male,35,3.7,83.1,69.5,Employee Referral,0,0
+CAN-00659,Female,55,4.3,64.1,68.2,LinkedIn,2,0
+CAN-00660,Female,39,11.3,73.6,57.2,Campus,0,0
+CAN-00661,Male,55,3.8,73.7,69.4,LinkedIn,8,0
+CAN-00662,Female,32,8.7,69.8,39.1,Campus,0,0
+CAN-00663,Female,33,6.2,59.4,71.1,LinkedIn,1,0
+CAN-00664,Male,36,3.8,79.9,86.2,LinkedIn,1,1
+CAN-00665,Male,52,0.3,46.2,43.3,Employee Referral,0,0
+CAN-00666,Male,50,5.7,70.1,62.3,Employee Referral,0,0
+CAN-00667,Male,47,5.3,90.8,55.8,Job Board,7,1
+CAN-00668,Male,39,11.3,63.3,46.8,,1,0
+CAN-00669,Male,53,2.0,59.1,39.3,Employee Referral,0,0
+CAN-00670,Male,43,13.0,80.9,51.5,Employee Referral,1,1
+CAN-00671,Male,38,6.3,72.5,64.6,Job Board,0,0
+CAN-00672,Female,44,6.3,81.2,84.1,Campus,0,0
+CAN-00673,Male,45,2.9,70.6,46.7,Campus,0,0
+CAN-00674,Female,29,6.1,34.2,72.1,LinkedIn,1,0
+CAN-00675,Male,27,6.7,87.7,71.1,LinkedIn,0,1
+CAN-00676,Female,26,8.3,100.0,91.4,Internal,1,1
+CAN-00677,Male,50,1.6,89.3,76.0,Job Board,0,0
+CAN-00678,Male,49,9.9,16.9,76.8,LinkedIn,0,0
+CAN-00679,Female,32,6.3,76.8,77.8,Job Board,1,0
+CAN-00680,Female,22,7.1,63.0,55.1,Job Board,1,0
+CAN-00681,Female,40,4.2,53.7,60.0,LinkedIn,0,0
+CAN-00682,Male,30,1.8,71.8,83.6,LinkedIn,0,0
+CAN-00683,Male,48,5.3,67.8,39.3,Employee Referral,1,0
+CAN-00684,Female,55,5.7,77.6,58.4,Employee Referral,0,0
+CAN-00685,Female,25,0.2,70.8,49.4,Campus,1,0
+CAN-00686,Female,57,7.8,53.2,71.3,LinkedIn,0,0
+CAN-00687,Female,39,8.5,61.4,62.1,Job Board,0,0
+CAN-00688,Male,36,2.4,58.9,76.8,Internal,7,0
+CAN-00689,Female,34,1.4,44.3,66.5,Employee Referral,0,0
+CAN-00690,Male,40,3.9,49.4,46.4,LinkedIn,2,0
+CAN-00691,Male,27,5.1,66.8,47.0,Job Board,1,0
+CAN-00692,Male,33,4.1,91.4,67.9,Job Board,1,1
+CAN-00693,Male,38,4.8,62.0,57.2,Job Board,0,0
+CAN-00694,Male,44,5.8,58.6,60.5,LinkedIn,2,0
+CAN-00695,Male,47,0.2,52.3,81.1,LinkedIn,1,0
+CAN-00696,Female,50,0.6,70.5,78.6,LinkedIn,8,0
+CAN-00697,Male,54,0.0,87.7,93.2,Internal,0,1
+CAN-00698,Female,48,8.3,100.0,63.6,LinkedIn,0,0
+CAN-00699,Male,46,5.1,74.3,59.0,Internal,2,0
+CAN-00700,Male,31,8.7,72.1,73.9,LinkedIn,1,1
+CAN-00701,Female,44,1.0,61.8,60.1,Internal,2,0
+CAN-00702,Male,42,5.1,64.4,60.6,Campus,1,0
+CAN-00703,Male,42,5.8,79.4,65.2,LinkedIn,0,0
+CAN-00704,Male,34,3.0,65.3,91.1,Campus,0,0
+CAN-00705,Male,54,0.0,67.6,77.9,LinkedIn,0,0
+CAN-00706,Female,45,11.1,69.6,79.3,LinkedIn,0,0
+CAN-00707,Male,32,9.9,61.1,90.5,Employee Referral,0,1
+CAN-00708,Female,38,3.7,68.9,80.6,Employee Referral,2,0
+CAN-00709,Male,25,6.8,39.7,52.2,LinkedIn,2,0
+CAN-00710,Female,46,3.3,78.2,80.4,Job Board,0,0
+CAN-00711,Female,51,1.5,100.0,82.2,Campus,1,0
+CAN-00712,Female,30,11.4,61.7,77.1,Employee Referral,0,0
+CAN-00713,Male,42,0.0,75.6,65.3,,0,0
+CAN-00714,Male,41,4.0,82.8,75.6,Campus,1,1
+CAN-00715,Male,40,5.3,89.2,67.7,Internal,0,1
+CAN-00716,Female,40,10.8,66.0,54.3,Campus,2,0
+CAN-00717,Female,33,8.1,43.0,57.8,Employee Referral,1,0
+CAN-00718,Female,38,0.0,74.0,77.9,LinkedIn,1,0
+CAN-00719,Male,49,5.0,71.9,55.3,Campus,0,0
+CAN-00720,Female,56,5.1,64.8,56.6,Employee Referral,0,0
+CAN-00721,Female,39,4.2,68.0,78.5,Employee Referral,0,0
+CAN-00722,Male,35,7.2,72.2,69.9,Employee Referral,1,1
+CAN-00723,Male,56,0.1,75.4,76.1,LinkedIn,2,0
+CAN-00724,Female,28,3.6,74.8,50.8,LinkedIn,0,0
+CAN-00725,Female,34,6.7,66.7,75.7,LinkedIn,7,0
+CAN-00726,Female,39,7.4,75.8,58.8,Employee Referral,0,0
+CAN-00727,Male,34,5.5,65.7,53.8,Campus,0,0
+CAN-00728,Female,57,4.0,79.6,60.9,LinkedIn,1,0
+CAN-00729,Male,52,4.6,60.6,87.1,LinkedIn,1,0
+CAN-00730,Male,23,7.6,71.1,62.9,Employee Referral,0,0
+CAN-00731,Male,37,5.1,45.6,98.8,Employee Referral,0,0
+CAN-00732,Female,30,1.4,64.5,39.1,LinkedIn,0,0
+CAN-00733,Female,30,0.7,78.5,46.4,Employee Referral,0,0
+CAN-00734,Female,32,0.0,54.5,86.5,LinkedIn,8,0
+CAN-00735,Male,43,10.1,65.2,90.1,Campus,0,1
+CAN-00736,Female,54,7.8,33.9,55.9,LinkedIn,0,0
+CAN-00737,Male,57,4.6,49.5,69.0,Employee Referral,0,0
+CAN-00738,Female,44,3.4,53.4,78.0,LinkedIn,2,0
+CAN-00739,Male,55,3.0,71.5,64.8,Campus,1,0
+CAN-00740,Male,30,8.8,75.0,70.1,Job Board,1,1
+CAN-00741,Male,45,11.7,69.2,68.2,Job Board,0,1
+CAN-00742,Male,29,2.9,64.3,47.3,LinkedIn,1,0
+CAN-00743,Female,28,9.0,64.3,63.2,LinkedIn,0,0
+CAN-00744,Male,57,5.1,80.7,68.2,,1,0
+CAN-00745,Male,39,4.3,73.2,69.4,Job Board,2,0
+CAN-00746,Female,24,10.3,65.0,43.8,Employee Referral,7,0
+CAN-00747,Male,49,5.0,89.4,78.6,Internal,0,1
+CAN-00748,Female,27,6.0,99.2,69.8,Campus,0,0
+CAN-00749,Female,42,5.9,51.3,53.2,Campus,0,0
+CAN-00750,Female,49,0.0,77.8,93.2,Employee Referral,0,0
+CAN-00751,Male,22,6.0,100.0,63.1,Campus,2,1
+CAN-00752,Female,57,3.0,74.2,64.1,LinkedIn,9,0
+CAN-00753,Female,42,0.0,71.7,77.0,Employee Referral,1,0
+CAN-00754,Male,56,3.2,69.2,94.4,LinkedIn,1,1
+CAN-00755,Male,34,3.2,77.4,77.5,Job Board,2,0
+CAN-00756,Female,31,8.6,81.3,79.6,LinkedIn,0,0
+CAN-00757,Female,31,1.3,51.3,54.0,LinkedIn,0,0
+CAN-00758,Female,34,2.2,69.6,69.2,Employee Referral,0,0
+CAN-00759,Female,45,5.8,36.0,60.5,Campus,0,0
+CAN-00760,Female,23,0.4,66.9,77.9,Campus,1,0
+CAN-00761,Male,43,2.7,56.5,79.2,Campus,0,0
+CAN-00762,Male,38,0.0,75.1,90.9,LinkedIn,0,0
+CAN-00763,Male,57,8.2,45.2,37.8,LinkedIn,0,0
+CAN-00764,Female,35,3.9,62.3,59.2,LinkedIn,1,0
+CAN-00765,Male,31,4.9,84.5,86.2,Employee Referral,0,1
+CAN-00766,Female,56,8.2,59.9,48.4,Internal,0,0
+CAN-00767,Female,46,2.5,41.4,79.3,,0,0
+CAN-00768,Female,24,3.9,73.9,83.9,LinkedIn,0,0
+CAN-00769,Male,38,1.3,61.2,67.6,LinkedIn,1,0
+CAN-00770,Female,33,1.3,67.2,48.1,Job Board,0,0
+CAN-00771,Male,45,1.8,59.1,66.3,Employee Referral,1,0
+CAN-00772,Female,50,3.3,99.6,88.4,LinkedIn,0,0
+CAN-00773,Male,46,3.7,46.6,89.5,Campus,0,0
+CAN-00774,Male,57,6.0,100.0,70.9,LinkedIn,0,1
+CAN-00775,Female,47,1.9,64.1,54.3,Job Board,0,0
+CAN-00776,Male,22,6.1,72.8,92.3,Employee Referral,1,1
+CAN-00777,Male,41,6.7,61.4,79.5,Job Board,0,0
+CAN-00778,Female,49,3.4,60.8,55.2,Employee Referral,1,0
+CAN-00779,Female,37,2.2,58.2,72.8,Employee Referral,0,0
+CAN-00780,Female,38,5.3,79.0,72.2,Job Board,2,0
+CAN-00781,Female,49,4.3,48.8,59.1,LinkedIn,1,0
+CAN-00782,Female,33,5.8,75.5,72.9,LinkedIn,1,0
+CAN-00783,Male,48,10.5,37.2,83.5,Employee Referral,0,0
+CAN-00784,Male,51,5.2,74.1,63.9,Campus,2,0
+CAN-00785,Male,55,2.8,82.7,84.9,LinkedIn,2,1
+CAN-00786,Female,27,1.9,50.9,43.4,Internal,0,0
+CAN-00787,Female,28,2.0,80.2,99.1,Internal,0,0
+CAN-00788,Male,53,0.0,70.8,68.8,Campus,0,0
+CAN-00789,Male,53,8.3,94.0,83.0,LinkedIn,0,1
+CAN-00790,Female,46,0.0,57.2,71.1,LinkedIn,0,0
+CAN-00791,Male,54,6.7,100.0,56.5,Campus,0,1
+CAN-00792,Female,28,2.0,34.1,67.5,Employee Referral,2,0
+CAN-00793,Male,33,3.2,65.1,41.3,LinkedIn,0,0
+CAN-00794,Female,37,1.9,44.5,77.6,Employee Referral,1,0
+CAN-00795,Male,37,10.1,97.8,70.7,Employee Referral,0,1
+CAN-00796,Female,57,5.1,66.1,65.3,Employee Referral,1,0
+CAN-00797,Female,34,7.8,67.4,78.5,,0,0
+CAN-00798,Female,28,9.6,76.6,68.5,Job Board,1,0
+CAN-00799,Female,57,5.6,69.9,76.5,LinkedIn,7,0
+CAN-00800,Female,30,0.8,61.1,81.5,LinkedIn,8,0
+CAN-00801,Female,53,4.2,51.2,60.3,Employee Referral,1,0
+CAN-00802,Male,32,2.4,72.5,56.3,LinkedIn,0,0
+CAN-00803,Female,29,3.2,75.7,43.9,LinkedIn,0,0
+CAN-00804,Female,54,4.7,80.4,69.7,Campus,0,0
+CAN-00805,Male,44,4.5,98.7,74.3,Internal,1,1
+CAN-00806,Female,46,6.4,37.4,49.5,Employee Referral,0,0
+CAN-00807,Female,29,7.0,69.0,87.9,Employee Referral,1,0
+CAN-00808,Female,43,4.5,87.9,56.5,,0,0
+CAN-00809,Male,25,6.4,68.1,38.6,Internal,0,0
+CAN-00810,Male,24,3.1,34.9,88.9,Job Board,1,0
+CAN-00811,Female,50,9.6,50.6,40.4,Job Board,0,0
+CAN-00812,Female,50,3.0,74.9,81.5,LinkedIn,1,0
+CAN-00813,Male,55,9.2,74.4,78.1,Internal,0,1
+CAN-00814,Female,55,0.0,80.1,72.5,Employee Referral,0,0
+CAN-00815,Female,49,3.7,58.3,60.7,Employee Referral,0,0
+CAN-00816,Male,34,3.8,73.9,75.0,Job Board,0,0
+CAN-00817,Female,36,6.0,55.8,82.7,,1,0
+CAN-00818,Male,44,8.0,73.9,54.2,Employee Referral,7,0
+CAN-00819,Male,47,0.6,70.8,81.7,Employee Referral,0,0
+CAN-00820,Male,25,1.1,57.7,81.0,Employee Referral,0,0
+CAN-00821,Female,47,0.1,93.4,72.1,Employee Referral,9,0
+CAN-00822,Male,30,9.6,44.4,60.5,Employee Referral,1,0
+CAN-00823,Male,26,6.0,67.9,81.1,Internal,1,1
+CAN-00824,Male,53,1.2,57.4,75.1,Campus,0,0
+CAN-00825,Female,41,3.4,97.5,53.8,Job Board,0,0
+CAN-00826,Female,32,9.1,79.0,62.9,Job Board,0,0
+CAN-00827,Male,36,4.0,60.3,79.5,LinkedIn,2,0
+CAN-00828,Male,53,3.8,65.8,69.6,Job Board,1,0
+CAN-00829,Female,49,2.3,97.9,83.2,LinkedIn,0,0
+CAN-00830,Male,43,1.4,55.8,63.2,LinkedIn,0,0
+CAN-00831,Male,38,9.1,43.5,54.0,LinkedIn,0,0
+CAN-00832,Male,47,10.9,74.4,98.7,LinkedIn,6,1
+CAN-00833,Male,28,1.6,74.7,44.5,Job Board,1,0
+CAN-00834,Male,47,9.9,80.0,61.0,Internal,0,1
+CAN-00835,Male,46,3.3,80.1,71.9,LinkedIn,1,0
+CAN-00836,Male,31,6.9,96.6,81.8,Job Board,0,1
+CAN-00837,Female,40,9.9,44.2,77.1,Employee Referral,0,0
+CAN-00838,Male,32,4.5,52.0,100.0,Job Board,1,0
+CAN-00839,Female,34,3.9,79.9,66.4,LinkedIn,0,0
+CAN-00840,Female,29,7.8,53.4,55.8,Employee Referral,2,0
+CAN-00841,Male,25,1.1,48.2,64.9,LinkedIn,0,0
+CAN-00842,Female,52,9.0,98.0,63.5,Campus,0,0
+CAN-00843,Male,49,5.5,45.7,67.0,Employee Referral,1,0
+CAN-00844,Female,32,3.0,64.7,54.2,Internal,0,0
+CAN-00845,Male,22,2.9,69.1,79.0,Employee Referral,0,0
+CAN-00846,Male,45,0.2,89.6,73.2,Internal,2,0
+CAN-00847,Male,52,3.1,42.0,50.3,Campus,0,0
+CAN-00848,Female,47,4.1,76.2,81.6,LinkedIn,0,0
+CAN-00849,Male,26,1.3,56.6,56.6,LinkedIn,1,0
+CAN-00850,Female,41,4.8,79.4,51.4,Campus,0,0
+CAN-00851,Male,32,6.7,56.4,69.2,Campus,0,0
+CAN-00852,Female,54,4.3,93.6,43.4,Campus,0,0
+CAN-00853,Male,48,7.3,56.5,76.3,LinkedIn,0,0
+CAN-00854,Female,55,2.2,33.1,28.3,LinkedIn,2,0
+CAN-00855,Male,36,8.5,58.2,53.6,Internal,0,0
+CAN-00856,Male,53,5.4,66.1,90.1,Employee Referral,0,1
+CAN-00857,Male,42,10.4,86.2,58.4,LinkedIn,0,1
+CAN-00858,Male,26,13.4,51.1,60.8,LinkedIn,0,1
+CAN-00859,Female,27,3.4,51.4,85.8,Job Board,1,0
+CAN-00860,Male,43,3.5,84.4,56.9,Job Board,0,0
+CAN-00861,Female,39,4.1,49.4,78.7,LinkedIn,8,0
+CAN-00862,Male,35,7.1,67.3,84.4,Employee Referral,0,1
+CAN-00863,Female,31,9.6,67.6,74.7,Employee Referral,1,0
+CAN-00864,Male,34,2.7,73.3,47.8,LinkedIn,0,0
+CAN-00865,Male,52,6.3,58.8,59.5,LinkedIn,0,0
+CAN-00866,Female,51,4.5,56.1,100.0,Internal,1,0
+CAN-00867,Male,24,7.2,75.0,61.1,LinkedIn,0,0
+CAN-00868,Male,51,10.3,56.6,100.0,LinkedIn,0,1
+CAN-00869,Female,27,4.2,49.6,91.9,,0,0
+CAN-00870,Female,50,0.0,88.4,75.3,LinkedIn,0,0
+CAN-00871,Male,29,7.6,77.3,72.2,LinkedIn,1,1
+CAN-00872,Male,54,2.1,96.5,61.5,Employee Referral,0,0
+CAN-00873,Female,38,4.5,81.8,66.8,,2,0
+CAN-00874,Male,32,7.8,51.0,58.4,Internal,0,0
+CAN-00875,Male,34,6.0,71.4,67.1,LinkedIn,2,0
+CAN-00876,Male,32,4.6,54.8,48.9,,7,0
+CAN-00877,Female,52,3.0,45.2,48.2,Campus,2,0
+CAN-00878,Female,49,0.0,63.3,86.2,Internal,0,0
+CAN-00879,Male,27,7.4,84.7,45.4,LinkedIn,0,0
+CAN-00880,Male,37,4.1,74.1,80.4,,2,0
+CAN-00881,Male,25,10.3,49.1,41.5,,0,0
+CAN-00882,Female,56,6.4,62.8,76.8,Employee Referral,0,0
+CAN-00883,Male,47,3.1,67.9,65.1,Campus,1,0
+CAN-00884,Male,33,8.7,44.7,86.5,Campus,0,0
+CAN-00885,Female,32,9.0,80.7,63.4,Campus,0,0
+CAN-00886,Male,46,4.2,66.6,39.9,LinkedIn,0,0
+CAN-00887,Female,39,9.2,49.1,65.4,LinkedIn,1,0
+CAN-00888,Male,40,3.1,48.3,70.2,Campus,0,0
+CAN-00889,Male,44,5.6,86.5,66.2,Employee Referral,2,1
+CAN-00890,Male,39,7.0,64.3,76.1,LinkedIn,6,0
+CAN-00891,Female,47,7.7,87.9,60.1,Employee Referral,1,0
+CAN-00892,Female,27,7.2,93.6,50.3,Employee Referral,0,0
+CAN-00893,Female,25,3.8,85.3,54.0,Internal,1,0
+CAN-00894,Male,50,8.8,62.0,60.8,LinkedIn,0,0
+CAN-00895,Female,55,4.6,32.5,60.7,Internal,1,0
+CAN-00896,Male,38,3.0,74.7,100.0,Employee Referral,0,1
+CAN-00897,Male,37,3.1,100.0,85.6,LinkedIn,1,1
+CAN-00898,Female,23,11.8,69.5,77.6,Employee Referral,0,0
+CAN-00899,Male,55,2.4,40.2,74.2,Job Board,0,0
+CAN-00900,Male,29,9.5,59.9,72.2,Job Board,0,1
+CAN-00901,Male,34,1.0,67.2,72.3,Employee Referral,0,0
+CAN-00902,Male,29,6.7,53.5,70.3,Internal,0,0
+CAN-00903,Male,51,6.0,31.5,68.6,Employee Referral,0,0
+CAN-00904,Female,53,10.7,68.5,38.7,Campus,0,0
+CAN-00905,Male,57,2.7,58.2,62.8,Internal,8,0
+CAN-00906,Female,51,1.7,96.6,64.6,Job Board,0,0
+CAN-00907,Female,22,4.6,71.5,57.5,Internal,0,0
+CAN-00908,Male,38,10.8,77.0,60.2,LinkedIn,1,1
+CAN-00909,Male,41,1.9,68.2,72.2,Employee Referral,2,0
+CAN-00910,Male,45,0.0,71.4,78.7,Employee Referral,9,0
+CAN-00911,Female,43,5.2,45.2,72.2,LinkedIn,0,0
+CAN-00912,Male,50,8.3,54.4,78.4,Job Board,0,0
+CAN-00913,Female,43,1.5,86.3,78.6,Employee Referral,1,0
+CAN-00914,Male,30,8.0,73.1,63.8,Campus,1,1
+CAN-00915,Female,31,1.4,64.0,75.4,LinkedIn,1,0
+CAN-00916,Male,57,4.5,77.3,43.6,LinkedIn,0,0
+CAN-00917,Male,49,7.6,77.6,62.6,Campus,1,1
+CAN-00918,Female,49,0.8,99.9,61.0,LinkedIn,0,0
+CAN-00919,Female,42,5.6,72.4,89.4,Job Board,0,0
+CAN-00920,Male,45,9.3,54.1,72.7,Employee Referral,0,0
+CAN-00921,Female,23,6.7,68.3,49.3,,0,0
+CAN-00922,Male,29,2.5,79.1,76.3,Employee Referral,1,0
+CAN-00923,Female,48,10.3,84.9,80.7,Employee Referral,1,1
+CAN-00924,Female,43,7.3,45.8,66.7,Campus,2,0
+CAN-00925,Male,48,0.0,73.8,77.7,Job Board,0,0
+CAN-00926,Male,50,8.0,56.5,33.1,LinkedIn,2,0
+CAN-00927,Male,24,3.0,61.5,30.2,LinkedIn,1,0
+CAN-00928,Female,34,5.7,82.7,51.5,LinkedIn,0,0
+CAN-00929,Female,31,8.5,81.2,70.1,,1,0
+CAN-00930,Male,57,3.1,59.8,89.5,Job Board,1,0
+CAN-00931,Male,30,0.0,67.6,52.2,Job Board,0,0
+CAN-00932,Female,48,10.3,62.0,56.0,Employee Referral,6,0
+CAN-00933,Female,55,9.1,100.0,69.2,LinkedIn,1,1
+CAN-00934,Female,22,4.7,74.2,61.1,Job Board,1,0
+CAN-00935,Male,53,8.0,57.4,60.3,LinkedIn,1,0
+CAN-00936,Male,46,3.7,89.8,62.1,Campus,0,0
+CAN-00937,Male,50,5.3,90.4,86.4,Employee Referral,1,1
+CAN-00938,Female,28,4.5,96.9,83.6,Campus,1,0
+CAN-00939,Male,24,3.8,100.0,68.3,Employee Referral,0,1
+CAN-00940,Female,41,6.3,80.6,91.2,Job Board,0,0
+CAN-00941,Male,41,0.8,64.8,75.1,LinkedIn,9,0
+CAN-00942,Female,51,4.1,67.0,84.2,LinkedIn,0,0
+CAN-00943,Female,56,6.1,65.6,56.0,Job Board,1,0
+CAN-00944,Female,56,11.4,63.9,58.8,Employee Referral,2,0
+CAN-00945,Male,48,0.9,88.6,58.7,LinkedIn,9,0
+CAN-00946,Male,47,6.8,70.0,66.8,LinkedIn,0,0
+CAN-00947,Male,35,7.2,84.6,68.8,LinkedIn,0,1
+CAN-00948,Female,38,0.0,80.1,72.5,Internal,0,0
+CAN-00949,Female,39,6.4,53.5,95.6,Job Board,2,0
+CAN-00950,Female,50,8.1,44.2,78.1,Employee Referral,0,0
+CAN-00951,Female,41,7.1,51.5,60.8,Campus,0,0
+CAN-00952,Female,48,4.7,63.6,68.0,LinkedIn,1,0
+CAN-00953,Male,39,6.2,72.0,89.1,Internal,1,1
+CAN-00954,Female,25,5.6,60.3,78.9,LinkedIn,0,0
+CAN-00955,Male,22,0.0,80.5,88.9,,1,0
+CAN-00956,Male,22,5.7,62.1,61.2,LinkedIn,0,0
+CAN-00957,Male,47,3.7,73.9,58.0,LinkedIn,1,0
+CAN-00958,Male,41,2.5,71.8,58.2,LinkedIn,0,0
+CAN-00959,Male,44,13.7,96.0,62.4,,0,1
+CAN-00960,Female,31,9.4,55.4,53.1,Job Board,1,0
+CAN-00961,Male,32,1.0,100.0,72.1,LinkedIn,0,1
+CAN-00962,Female,26,6.2,61.1,72.4,Internal,0,0
+CAN-00963,Male,22,10.1,49.9,86.7,LinkedIn,2,1
+CAN-00964,Male,38,0.0,66.7,43.4,Campus,1,0
+CAN-00965,Male,43,5.3,100.0,54.8,Internal,0,1
+CAN-00966,Male,55,5.4,83.4,79.3,Campus,1,1
+CAN-00967,Female,50,0.5,79.0,70.6,,1,0
+CAN-00968,Male,25,6.3,81.9,68.6,Job Board,1,1
+CAN-00969,Female,26,8.9,58.5,85.7,LinkedIn,0,0
+CAN-00970,Male,32,10.3,74.9,53.9,Campus,1,1
+CAN-00971,Female,42,4.1,70.0,57.8,Employee Referral,1,0
+CAN-00972,Female,56,13.8,97.1,56.1,,9,1
+CAN-00973,Female,33,0.0,68.4,39.8,,0,0
+CAN-00974,Male,47,6.2,64.3,69.9,Campus,1,0
+CAN-00975,Male,40,0.1,52.5,60.7,LinkedIn,0,0
+CAN-00976,Male,28,5.3,72.1,57.7,LinkedIn,1,0
+CAN-00977,Female,28,3.2,74.4,55.2,LinkedIn,2,0
+CAN-00978,Male,47,6.8,52.0,67.8,Internal,0,0
+CAN-00979,Male,26,4.6,76.8,56.8,Employee Referral,6,0
+CAN-00980,Female,42,2.1,73.5,71.1,Employee Referral,8,0
+CAN-00981,Male,35,2.3,85.2,74.4,Employee Referral,1,0
+CAN-00982,Female,25,11.8,88.2,63.9,Internal,0,1
+CAN-00983,Male,44,6.6,71.4,62.9,Internal,1,0
+CAN-00984,Male,41,0.0,54.5,70.6,Campus,1,0
+CAN-00985,Female,36,6.9,57.5,67.6,Job Board,1,0
+CAN-00986,Male,50,4.3,96.4,86.6,Employee Referral,1,1
+CAN-00987,Female,29,5.0,72.5,72.5,Internal,0,0
+CAN-00988,Male,40,7.9,96.2,83.3,Employee Referral,2,1
+CAN-00989,Male,49,9.1,77.5,76.5,Employee Referral,0,1
+CAN-00990,Female,48,2.0,81.3,49.5,Employee Referral,0,0
+CAN-00991,Female,25,4.9,84.1,60.2,LinkedIn,0,0
+CAN-00992,Female,36,3.1,51.7,67.3,Job Board,1,0
+CAN-00993,Male,56,7.1,74.6,80.2,LinkedIn,1,1
+CAN-00994,Female,22,4.2,51.4,95.0,,0,0
+CAN-00995,Male,24,5.1,65.7,61.2,LinkedIn,1,0
+CAN-00996,Male,45,4.1,79.6,68.8,Employee Referral,1,0
+CAN-00997,Female,48,4.6,54.6,79.2,LinkedIn,0,0
+CAN-00998,Male,57,11.0,78.4,67.2,Campus,1,1
+CAN-00999,Female,55,13.4,47.5,91.0,,8,0
+CAN-01000,Male,50,6.3,87.1,49.1,LinkedIn,0,0
+CAN-01001,Male,45,4.7,60.0,77.5,LinkedIn,1,0
+CAN-01002,Female,45,0.0,54.6,77.4,LinkedIn,0,0
+CAN-01003,Female,25,2.3,48.5,84.1,Campus,0,0
+CAN-01004,Female,24,4.6,61.3,68.9,Internal,1,0
+CAN-01005,Female,55,2.5,41.4,80.5,Employee Referral,1,0
+CAN-01006,Female,44,2.9,61.8,64.5,Job Board,1,0
+CAN-01007,Female,44,10.5,86.5,56.8,LinkedIn,0,0
+CAN-01008,Female,26,5.1,67.2,54.7,,0,0
+CAN-01009,Male,52,5.4,52.3,47.8,Internal,1,0
+CAN-01010,Male,27,2.6,73.4,61.8,LinkedIn,0,0
+CAN-01011,Male,31,9.1,72.1,72.4,LinkedIn,0,1
+CAN-01012,Female,28,4.3,99.3,65.1,Employee Referral,0,0
+CAN-01013,Female,42,3.2,81.9,70.8,Employee Referral,1,0
+CAN-01014,Male,41,0.0,74.6,85.3,,0,0
+CAN-01015,Female,24,4.8,83.6,60.8,Campus,0,0
+CAN-01016,Female,43,3.1,68.0,100.0,Internal,0,0
+CAN-01017,Male,25,10.9,68.9,78.6,Employee Referral,0,1
+CAN-01018,Female,49,11.5,94.9,65.2,Employee Referral,0,1
+CAN-01019,Female,33,0.7,45.5,64.9,Employee Referral,0,0
+CAN-01020,Male,57,1.1,84.5,53.9,LinkedIn,0,0
+CAN-01021,Female,26,4.0,68.3,67.6,Internal,0,0
+CAN-01022,Male,34,2.1,65.6,37.7,,0,0
+CAN-01023,Female,44,5.8,61.7,85.6,LinkedIn,0,0
+CAN-01024,Female,51,3.9,72.3,28.6,Job Board,0,0
+CAN-01025,Female,46,6.0,69.3,68.6,Job Board,0,0
+CAN-01026,Male,48,8.6,63.8,52.0,Employee Referral,0,0
+CAN-01027,Female,35,1.3,59.5,58.2,Job Board,0,0
+CAN-01028,Female,57,8.5,41.4,60.0,LinkedIn,2,0
+CAN-01029,Male,37,2.4,59.1,95.0,Employee Referral,0,0
+CAN-01030,Female,43,12.5,62.3,52.6,Employee Referral,2,0
+CAN-01031,Male,42,10.7,72.3,80.8,LinkedIn,0,1
+CAN-01032,Female,42,4.6,99.4,84.2,LinkedIn,0,0
+CAN-01033,Male,29,1.6,60.8,35.3,,1,0
+CAN-01034,Male,37,1.0,54.6,59.4,Employee Referral,0,0
+CAN-01035,Male,52,8.1,59.3,88.8,Job Board,0,1
+CAN-01036,Female,31,4.9,72.3,49.6,Internal,2,0
+CAN-01037,Male,53,8.2,78.8,84.8,Job Board,0,1
+CAN-01038,Female,55,12.7,80.9,67.7,LinkedIn,0,1
+CAN-01039,Male,30,2.3,82.4,67.1,Employee Referral,0,0
+CAN-01040,Male,38,0.7,84.5,69.0,Employee Referral,2,0
+CAN-01041,Female,32,5.7,65.8,72.8,Employee Referral,1,0
+CAN-01042,Female,53,9.0,100.0,54.6,LinkedIn,0,0
+CAN-01043,Male,31,1.7,64.7,64.4,Campus,0,0
+CAN-01044,Female,43,5.1,71.6,73.2,Campus,9,0
+CAN-01045,Female,38,9.8,89.4,70.5,Campus,0,0
+CAN-01046,Female,25,0.0,78.5,72.9,,0,0
+CAN-01047,Male,46,5.8,36.4,57.9,LinkedIn,1,0
+CAN-01048,Male,42,3.1,70.1,76.9,Campus,0,0
+CAN-01049,Female,22,5.4,82.9,69.8,LinkedIn,1,0
+CAN-01050,Male,46,7.5,49.8,45.9,Employee Referral,1,0
+CAN-01051,Female,57,5.8,81.3,60.6,LinkedIn,7,0
+CAN-01052,Female,38,1.5,75.9,55.5,LinkedIn,0,0
+CAN-01053,Female,45,3.2,87.8,55.3,Employee Referral,0,0
+CAN-01054,Female,23,10.0,59.6,61.3,Job Board,0,0
+CAN-01055,Female,36,6.2,84.9,76.6,Job Board,0,0
+CAN-01056,Male,53,7.9,72.4,59.2,Employee Referral,0,0
+CAN-01057,Female,27,5.9,96.5,71.2,,0,0
+CAN-01058,Male,22,7.8,100.0,68.9,Campus,0,1
+CAN-01059,Male,44,3.6,93.1,57.1,Employee Referral,0,0
+CAN-01060,Female,38,2.3,77.2,63.2,LinkedIn,7,0
+CAN-01061,Female,55,7.7,100.0,80.1,Employee Referral,0,1
+CAN-01062,Female,50,8.9,79.1,70.1,Employee Referral,0,0
+CAN-01063,Female,30,1.8,56.4,75.7,Job Board,0,0
+CAN-01064,Male,34,3.0,69.4,85.8,Job Board,1,0
+CAN-01065,Male,27,4.4,81.4,74.1,Employee Referral,1,1
+CAN-01066,Female,27,10.7,82.4,41.1,LinkedIn,0,0
+CAN-01067,Male,41,7.0,53.1,71.8,Employee Referral,0,0
+CAN-01068,Male,24,0.4,53.6,59.3,Employee Referral,0,0
+CAN-01069,Male,38,4.7,64.9,93.3,Internal,0,1
+CAN-01070,Male,33,4.1,78.0,73.6,Campus,0,0
+CAN-01071,Male,22,0.9,79.9,59.6,LinkedIn,2,0
+CAN-01072,Male,38,4.6,72.1,75.9,Job Board,0,0
+CAN-01073,Male,24,4.0,57.5,69.3,Job Board,1,0
+CAN-01074,Male,47,3.7,96.1,43.9,Job Board,0,0
+CAN-01075,Female,36,3.6,53.9,80.1,Employee Referral,0,0
+CAN-01076,Male,57,10.1,89.5,62.3,Employee Referral,0,1
+CAN-01077,Male,53,3.7,81.1,87.9,Campus,1,1
+CAN-01078,Female,53,5.2,89.2,66.3,,0,0
+CAN-01079,Male,25,4.8,63.3,88.2,Internal,0,0
+CAN-01080,Female,39,3.2,67.9,73.9,Campus,2,0
+CAN-01081,Female,40,5.3,70.8,81.6,Internal,6,0
+CAN-01082,Male,56,5.2,62.9,61.1,Employee Referral,0,0
+CAN-01083,Male,35,5.3,73.4,72.9,Job Board,0,0
+CAN-01084,Female,54,2.0,93.7,43.8,LinkedIn,0,0
+CAN-01085,Female,35,4.3,50.5,66.2,Internal,0,0
+CAN-01086,Male,55,7.7,60.1,47.2,Employee Referral,0,0
+CAN-01087,Female,25,4.4,58.5,52.0,LinkedIn,0,0
+CAN-01088,Male,45,5.6,68.6,55.5,Job Board,0,0
+CAN-01089,Female,50,5.6,68.0,77.2,LinkedIn,1,0
+CAN-01090,Male,40,6.5,81.6,65.9,LinkedIn,1,1
+CAN-01091,Female,27,7.0,70.5,68.4,Internal,7,0
+CAN-01092,Female,54,4.4,74.5,65.6,LinkedIn,0,0
+CAN-01093,Female,40,1.8,76.0,83.1,Campus,0,0
+CAN-01094,Male,22,0.7,73.7,68.1,Employee Referral,0,0
+CAN-01095,Male,26,8.6,80.5,71.5,Job Board,0,1
+CAN-01096,Male,48,7.7,68.2,60.0,Campus,0,0
+CAN-01097,Male,37,7.3,94.7,84.1,LinkedIn,2,1
+CAN-01098,Male,27,7.8,100.0,85.1,Employee Referral,0,1
+CAN-01099,Female,34,4.4,80.6,67.5,,2,0
+CAN-01100,Male,56,2.8,73.4,59.8,,0,0
+CAN-01101,Male,40,1.6,79.4,45.4,Employee Referral,7,0
+CAN-01102,Female,33,1.2,53.5,55.8,Campus,0,0
+CAN-01103,Female,37,9.2,72.7,37.7,,0,0
+CAN-01104,Female,31,3.3,59.0,55.3,Employee Referral,0,0
+CAN-01105,Female,46,8.7,77.6,73.0,Campus,0,0
+CAN-01106,Male,41,4.3,59.1,67.3,Employee Referral,2,0
+CAN-01107,Male,52,2.6,64.8,100.0,LinkedIn,0,0
+CAN-01108,Female,25,1.2,41.9,62.8,,0,0
+CAN-01109,Female,44,2.9,52.4,61.7,,1,0
+CAN-01110,Male,23,10.0,75.3,82.9,Campus,1,1
+CAN-01111,Female,43,1.2,57.0,41.0,Campus,6,0
+CAN-01112,Male,29,12.4,86.0,47.3,LinkedIn,0,1
+CAN-01113,Male,28,2.1,55.7,77.3,Employee Referral,0,0
+CAN-01114,Female,35,7.6,76.8,65.3,Employee Referral,0,0
+CAN-01115,Female,24,4.5,58.6,65.6,LinkedIn,0,0
+CAN-01116,Female,37,3.9,75.8,54.9,Internal,0,0
+CAN-01117,Male,40,0.6,47.0,71.4,Employee Referral,0,0
+CAN-01118,Female,39,4.7,63.2,56.7,,2,0
+CAN-01119,Male,37,0.9,57.3,69.0,Employee Referral,2,0
+CAN-01120,Male,29,0.0,83.2,51.8,Campus,0,0
+CAN-01121,Female,54,5.4,76.9,65.4,Campus,0,0
+CAN-01122,Female,33,2.8,51.5,96.3,,0,0
+CAN-01123,Female,32,10.9,67.0,62.1,Job Board,0,0
+CAN-01124,Female,26,8.5,58.4,66.2,LinkedIn,0,0
+CAN-01125,Female,48,10.9,84.3,65.2,Employee Referral,7,0
+CAN-01126,Female,33,2.6,89.1,70.4,LinkedIn,8,0
+CAN-01127,Male,38,5.5,48.4,74.6,Campus,0,0
+CAN-01128,Male,27,0.0,82.4,71.6,,0,0
+CAN-01129,Male,54,4.0,57.7,71.9,LinkedIn,2,0
+CAN-01130,Male,26,5.3,66.2,65.5,Campus,2,0
+CAN-01131,Female,49,5.5,70.5,69.4,Campus,1,0
+CAN-01132,Male,35,4.9,97.2,65.0,,0,1
+CAN-01133,Male,26,5.2,54.9,42.6,LinkedIn,0,0
+CAN-01134,Male,54,0.0,82.5,100.0,Job Board,0,1
+CAN-01135,Female,40,5.9,52.4,78.2,Employee Referral,0,0
+CAN-01136,Male,43,6.7,51.4,54.3,Campus,1,0
+CAN-01137,Female,26,9.7,70.4,71.2,Internal,0,0
+CAN-01138,Male,23,6.3,70.3,49.2,LinkedIn,0,0
+CAN-01139,Male,51,4.5,27.5,61.1,Job Board,0,0
+CAN-01140,Female,25,8.9,87.4,47.3,Campus,0,0
+CAN-01141,Female,54,0.0,37.9,67.3,Employee Referral,0,0
+CAN-01142,Male,34,3.2,67.8,45.9,LinkedIn,0,0
+CAN-01143,Female,41,2.3,89.9,73.4,Employee Referral,0,0
+CAN-01144,Female,28,4.9,100.0,77.6,Internal,0,0
+CAN-01145,Male,36,0.0,64.6,56.4,Job Board,2,0
+CAN-01146,Female,44,9.6,48.5,70.3,Employee Referral,0,0
+CAN-01147,Female,35,4.1,89.4,55.7,Employee Referral,6,0
+CAN-01148,Female,44,6.1,83.0,75.2,,0,0
+CAN-01149,Female,40,5.8,62.7,58.4,LinkedIn,1,0
+CAN-01150,Female,50,9.4,60.8,79.0,Employee Referral,1,0
+CAN-01151,Female,41,0.0,59.2,42.6,LinkedIn,0,0
+CAN-01152,Female,50,5.4,64.8,53.9,LinkedIn,0,0
+CAN-01153,Female,45,9.0,74.7,52.5,,2,0
+CAN-01154,Female,39,4.7,61.5,70.8,Job Board,1,0
+CAN-01155,Female,31,1.7,63.4,75.8,Internal,0,0
+CAN-01156,Female,29,2.9,79.6,71.9,Job Board,0,0
+CAN-01157,Male,47,3.6,47.8,60.9,Job Board,0,0
+CAN-01158,Female,50,2.5,64.4,28.9,Employee Referral,1,0
+CAN-01159,Female,31,4.5,44.9,68.5,,0,0
+CAN-01160,Male,38,10.3,71.6,79.0,Employee Referral,0,1
+CAN-01161,Female,23,2.9,40.9,100.0,Job Board,0,0
+CAN-01162,Male,27,3.3,83.4,62.1,Internal,0,0
+CAN-01163,Male,26,6.6,50.3,58.7,Campus,1,0
+CAN-01164,Female,49,4.4,43.4,72.5,Job Board,2,0
+CAN-01165,Male,26,0.3,64.5,64.4,Campus,0,0
+CAN-01166,Female,39,4.8,95.7,85.9,LinkedIn,1,0
+CAN-01167,Female,47,4.7,80.7,56.7,LinkedIn,0,0
+CAN-01168,Male,41,8.4,41.2,64.5,,1,0
+CAN-01169,Male,48,1.6,49.9,80.3,,1,0
+CAN-01170,Male,33,8.4,64.1,72.3,Campus,2,1
+CAN-01171,Female,28,4.7,100.0,84.3,,2,0
+CAN-01172,Female,24,1.1,55.9,61.9,,0,0
+CAN-01173,Female,31,0.4,56.0,85.7,LinkedIn,1,0
+CAN-01174,Male,55,11.8,92.9,44.7,LinkedIn,0,1
+CAN-01175,Female,46,4.4,72.9,45.3,LinkedIn,0,0
+CAN-01176,Female,56,8.3,85.8,85.9,LinkedIn,8,1
+CAN-01177,Female,37,0.0,59.1,68.1,LinkedIn,0,0
+CAN-01178,Male,23,14.2,68.5,80.9,Job Board,1,1
+CAN-01179,Female,45,8.1,89.7,69.4,LinkedIn,0,0
+CAN-01180,Female,31,4.1,67.8,67.9,Campus,1,0
+CAN-01181,Female,43,3.9,86.8,49.4,Job Board,1,0
+CAN-01182,Male,47,7.6,75.8,67.6,Job Board,1,1
+CAN-01183,Female,48,7.4,54.4,87.1,Job Board,0,0
+CAN-01184,Female,50,5.6,69.8,68.8,,0,0
+CAN-01185,Male,41,5.0,84.7,77.5,Employee Referral,0,1
+CAN-01186,Female,48,7.0,80.0,77.2,LinkedIn,0,0
+CAN-01187,Female,41,0.0,69.4,53.8,LinkedIn,1,0
+CAN-01188,Male,40,3.7,41.6,80.0,Internal,1,0
+CAN-01189,Male,41,0.0,43.1,63.6,Campus,0,0
+CAN-01190,Female,56,7.1,46.3,64.4,Employee Referral,1,0
+CAN-01191,Male,23,2.6,62.3,97.4,Employee Referral,0,0
+CAN-01192,Female,51,0.0,64.3,76.4,,0,0
+CAN-01193,Male,55,2.2,47.9,59.1,Campus,0,0
+CAN-01194,Female,43,5.5,85.3,68.9,Campus,0,0
+CAN-01195,Male,24,4.3,51.0,68.5,Job Board,1,0
+CAN-01196,Female,27,0.9,49.4,91.6,Internal,1,0
+CAN-01197,Female,36,0.0,71.3,68.6,Employee Referral,1,0
+CAN-01198,Female,48,5.3,84.6,98.9,LinkedIn,0,0
+CAN-01199,Female,31,3.0,100.0,49.8,,0,0
+CAN-01200,Male,30,4.1,78.7,67.5,LinkedIn,0,0
+CAN-01201,Female,54,4.4,93.7,57.3,Internal,2,0
+CAN-01202,Male,53,6.5,51.8,61.1,LinkedIn,0,0
+CAN-01203,Male,27,8.0,100.0,61.4,Campus,0,1
+CAN-01204,Male,57,5.5,42.1,58.0,LinkedIn,1,0
+CAN-01205,Male,23,3.9,62.4,92.2,Employee Referral,1,0
+CAN-01206,Female,50,5.1,78.4,87.9,Employee Referral,1,0
+CAN-01207,Female,25,3.8,45.9,73.6,LinkedIn,2,0
+CAN-01208,Male,22,0.0,56.1,61.4,Campus,0,0
+CAN-01209,Male,40,8.8,53.7,58.4,Employee Referral,0,0
+CAN-01210,Female,47,8.2,65.3,78.4,Campus,0,0
+CAN-01211,Male,46,12.0,91.3,72.2,Job Board,0,1
+CAN-01212,Male,31,13.0,70.3,66.0,,0,1
+CAN-01213,Male,36,0.9,63.1,75.6,Campus,0,0
+CAN-01214,Female,43,3.8,26.7,80.5,LinkedIn,1,0
+CAN-01215,Female,42,13.8,77.0,65.8,Campus,0,1
+CAN-01216,Male,43,4.9,81.9,57.0,Job Board,0,0
+CAN-01217,Male,57,5.9,44.5,49.5,Internal,1,0
+CAN-01218,Female,55,0.0,69.0,71.5,LinkedIn,0,0
+CAN-01219,Female,51,5.5,72.9,98.3,LinkedIn,1,0
+CAN-01220,Male,46,11.8,84.5,52.5,Employee Referral,2,1
+CAN-01221,Female,49,9.5,59.1,83.4,Employee Referral,1,0
+CAN-01222,Male,22,2.9,56.9,58.5,Campus,0,0
+CAN-01223,Male,25,3.6,63.2,61.4,Internal,2,0
+CAN-01224,Female,28,1.0,89.3,80.8,LinkedIn,0,0
+CAN-01225,Male,30,2.0,85.7,64.4,Employee Referral,1,0
+CAN-01226,Female,57,0.0,69.7,71.5,LinkedIn,0,0
+CAN-01227,Male,40,4.7,85.3,71.2,LinkedIn,0,1
+CAN-01228,Male,22,10.3,34.5,58.6,LinkedIn,2,0
+CAN-01229,Female,31,6.2,81.9,80.5,Employee Referral,0,0
+CAN-01230,Male,57,9.8,53.2,67.1,Campus,1,0
+CAN-01231,Female,30,8.8,96.5,48.6,Employee Referral,0,0
+CAN-01232,Male,53,3.1,54.0,55.5,LinkedIn,1,0
+CAN-01233,Male,53,2.3,57.2,24.4,,2,0
+CAN-01234,Male,27,2.5,78.4,68.7,LinkedIn,0,0
+CAN-01235,Female,38,0.0,79.9,86.3,Campus,6,0
+CAN-01236,Male,31,5.1,63.3,53.3,Campus,1,0
+CAN-01237,Female,48,0.0,75.6,76.2,Campus,2,0
+CAN-01238,Male,56,7.1,77.4,74.0,LinkedIn,0,1
+CAN-01239,Female,42,5.3,75.9,57.5,LinkedIn,1,0
+CAN-01240,Male,46,6.7,63.9,89.5,Job Board,0,1
+CAN-01241,Female,49,8.7,77.6,64.2,Job Board,0,0
+CAN-01242,Female,36,5.7,91.1,96.1,LinkedIn,0,1
+CAN-01243,Female,25,10.7,51.6,45.1,Employee Referral,1,0
+CAN-01244,Female,50,7.2,57.4,64.2,Employee Referral,1,0
+CAN-01245,Female,30,2.4,70.4,65.9,Employee Referral,0,0
+CAN-01246,Female,48,4.2,54.2,67.4,LinkedIn,0,0
+CAN-01247,Male,47,0.0,42.9,78.0,Employee Referral,1,0
+CAN-01248,Male,40,1.8,86.4,100.0,LinkedIn,0,1
+CAN-01249,Female,49,3.7,36.6,74.4,Job Board,2,0
+CAN-01250,Female,38,6.9,64.0,68.3,,0,0
+CAN-01251,Female,41,2.4,81.4,52.7,Job Board,0,0
+CAN-01252,Male,44,0.6,74.0,41.5,Campus,0,0
+CAN-01253,Male,53,0.0,64.2,84.4,,1,0
+CAN-01254,Male,54,2.9,53.5,60.3,Campus,2,0
+CAN-01255,Female,26,11.8,75.2,100.0,Campus,0,1
+CAN-01256,Male,55,5.9,55.2,80.2,LinkedIn,0,0
+CAN-01257,Male,32,8.3,74.0,72.8,Employee Referral,0,1
+CAN-01258,Male,24,1.8,72.1,73.5,LinkedIn,1,0
+CAN-01259,Male,54,0.0,72.3,73.7,Internal,1,0
+CAN-01260,Female,32,0.7,60.4,58.3,Campus,2,0
+CAN-01261,Male,37,4.7,100.0,43.5,Employee Referral,1,0
+CAN-01262,Female,39,0.0,75.4,60.3,Campus,1,0
+CAN-01263,Male,51,1.5,65.8,67.7,LinkedIn,0,0
+CAN-01264,Male,31,2.9,74.0,58.9,,0,0
+CAN-01265,Male,39,0.4,58.4,50.0,Campus,1,0
+CAN-01266,Male,40,0.0,64.2,57.5,LinkedIn,0,0
+CAN-01267,Male,57,6.0,100.0,82.5,,0,1
+CAN-01268,Male,34,5.2,58.5,78.5,,0,0
+CAN-01269,Female,24,7.7,68.8,70.4,Campus,0,0
+CAN-01270,Male,31,1.1,63.2,76.2,Employee Referral,0,0
+CAN-01271,Female,22,7.7,54.4,52.2,Job Board,0,0
+CAN-01272,Female,48,10.4,76.3,56.9,,9,0
+CAN-01273,Female,29,5.9,70.5,72.4,Employee Referral,0,0
+CAN-01274,Male,38,2.9,83.7,53.9,LinkedIn,0,0
+CAN-01275,Male,30,5.5,82.2,69.5,LinkedIn,1,1
+CAN-01276,Male,27,2.7,83.5,50.3,Job Board,0,0
+CAN-01277,Male,46,2.1,56.2,44.9,Campus,1,0
+CAN-01278,Female,49,7.4,79.6,78.3,Employee Referral,1,0
+CAN-01279,Male,54,4.5,80.0,82.4,Job Board,1,1
+CAN-01280,Male,30,9.2,54.7,59.2,,1,0
+CAN-01281,Female,39,3.5,65.2,46.7,Job Board,0,0
+CAN-01282,Female,42,3.8,48.2,37.1,LinkedIn,0,0
+CAN-01283,Female,23,3.0,80.0,93.8,LinkedIn,1,0
+CAN-01284,Male,57,1.1,80.0,69.6,Employee Referral,0,0
+CAN-01285,Male,36,7.9,91.5,59.5,Employee Referral,0,1
+CAN-01286,Male,49,12.6,66.6,62.9,Campus,0,1
+CAN-01287,Male,39,3.7,76.8,41.2,LinkedIn,7,0
+CAN-01288,Male,55,2.6,84.8,76.7,Employee Referral,0,0
+CAN-01289,Male,43,2.4,58.7,96.0,Employee Referral,0,0
+CAN-01290,Male,32,2.6,56.4,57.0,,9,0
+CAN-01291,Male,34,10.8,59.2,100.0,Campus,1,1
+CAN-01292,Male,25,2.5,64.8,66.4,Campus,0,0
+CAN-01293,Female,43,3.0,56.9,91.3,Employee Referral,2,0
+CAN-01294,Female,28,0.7,59.8,72.3,,0,0
+CAN-01295,Female,45,6.0,83.2,72.3,,1,0
+CAN-01296,Male,25,4.8,68.6,93.8,Internal,0,1
+CAN-01297,Male,49,1.0,74.6,79.0,Internal,0,0
+CAN-01298,Male,36,1.9,61.7,73.2,Campus,1,0
+CAN-01299,Female,22,10.4,60.8,40.8,Internal,0,0
+CAN-01300,Female,24,5.1,74.3,46.9,Job Board,7,0
+CAN-01301,Male,35,5.4,71.9,74.4,Job Board,1,0
+CAN-01302,Female,22,5.4,81.7,88.5,LinkedIn,0,0
+CAN-01303,Male,42,9.9,89.5,69.8,,2,1
+CAN-01304,Female,50,1.3,59.6,59.7,Employee Referral,0,0
+CAN-01305,Female,26,3.6,82.9,42.3,LinkedIn,0,0
+CAN-01306,Female,31,4.4,53.8,57.0,Campus,1,0
+CAN-01307,Female,49,0.0,100.0,69.8,Employee Referral,0,0
+CAN-01308,Female,42,1.8,58.2,56.0,LinkedIn,0,0
+CAN-01309,Male,28,8.7,80.4,54.5,LinkedIn,0,1
+CAN-01310,Female,24,7.7,53.7,67.3,Employee Referral,2,0
+CAN-01311,Male,41,8.3,67.7,88.3,LinkedIn,0,1
+CAN-01312,Female,40,2.9,93.2,77.6,,0,0
+CAN-01313,Female,56,3.4,57.7,72.0,,0,0
+CAN-01314,Female,25,0.0,100.0,70.6,Campus,0,0
+CAN-01315,Male,26,8.3,69.9,75.7,LinkedIn,0,1
+CAN-01316,Female,22,8.8,84.6,66.5,LinkedIn,1,0
+CAN-01317,Female,25,8.8,76.0,62.2,Employee Referral,2,0
+CAN-01318,Female,33,10.6,76.9,78.3,,8,0
+CAN-01319,Male,48,6.5,48.6,64.8,Employee Referral,0,0
+CAN-01320,Male,44,10.4,62.9,51.4,Employee Referral,2,0
+CAN-01321,Male,46,4.3,87.9,88.2,Job Board,0,1
+CAN-01322,Male,42,0.0,64.8,41.8,Employee Referral,0,0
+CAN-01323,Female,45,8.0,72.1,89.3,LinkedIn,2,0
+CAN-01324,Male,46,0.0,46.8,75.1,Employee Referral,1,0
+CAN-01325,Female,53,5.6,61.9,54.4,Employee Referral,0,0
+CAN-01326,Male,53,8.3,86.8,68.3,Employee Referral,0,1
+CAN-01327,Male,26,6.1,50.8,62.0,Employee Referral,0,0
+CAN-01328,Female,57,13.0,80.8,79.3,Campus,0,1
+CAN-01329,Female,37,0.0,72.7,79.0,,1,0
+CAN-01330,Male,54,4.7,66.5,74.5,LinkedIn,7,0
+CAN-01331,Female,42,5.1,65.8,78.4,Job Board,1,0
+CAN-01332,Female,30,0.3,62.6,66.4,Employee Referral,0,0
+CAN-01333,Male,27,1.0,64.0,92.7,LinkedIn,0,0
+CAN-01334,Female,56,2.0,83.9,85.1,Employee Referral,0,0
+CAN-01335,Female,43,1.2,63.5,61.3,Campus,1,0
+CAN-01336,Female,26,4.6,97.1,79.4,LinkedIn,1,0
+CAN-01337,Male,44,2.9,74.5,78.1,Campus,0,0
+CAN-01338,Female,38,6.1,61.4,64.4,Job Board,0,0
+CAN-01339,Male,33,7.3,84.6,63.3,LinkedIn,1,1
+CAN-01340,Male,44,7.0,79.4,85.0,Campus,0,1
+CAN-01341,Male,37,3.6,45.2,67.8,Internal,6,0
+CAN-01342,Male,24,6.0,54.5,71.6,LinkedIn,0,0
+CAN-01343,Female,51,8.6,68.3,87.6,LinkedIn,0,0
+CAN-01344,Female,43,6.6,46.2,100.0,Campus,1,0
+CAN-01345,Female,30,11.5,100.0,60.6,Campus,0,1
+CAN-01346,Male,50,8.4,82.3,64.9,Employee Referral,1,1
+CAN-01347,Male,44,11.0,69.8,69.0,LinkedIn,1,1
+CAN-01348,Male,34,0.0,64.9,69.4,LinkedIn,2,0
+CAN-01349,Female,53,5.3,61.0,73.3,LinkedIn,8,0
+CAN-01350,Male,44,3.9,40.5,61.1,Employee Referral,0,0
+CAN-01351,Female,38,4.6,44.0,50.3,Internal,0,0
+CAN-01352,Female,42,2.2,98.5,92.6,Job Board,0,0
+CAN-01353,Male,23,6.4,93.6,76.6,LinkedIn,1,1
+CAN-01354,Female,27,0.0,61.4,62.1,Campus,1,0
+CAN-01355,Male,39,6.4,83.6,74.1,Job Board,9,1
+CAN-01356,Female,51,2.3,77.6,93.7,Employee Referral,6,0
+CAN-01357,Female,43,3.2,79.4,57.0,LinkedIn,0,0
+CAN-01358,Male,54,6.5,48.6,71.0,LinkedIn,0,0
+CAN-01359,Male,51,5.3,42.9,48.5,Job Board,1,0
+CAN-01360,Female,38,8.7,87.7,66.3,Employee Referral,0,0
+CAN-01361,Female,53,1.6,40.3,76.6,Internal,0,0
+CAN-01362,Male,35,4.7,67.8,52.4,LinkedIn,0,0
+CAN-01363,Female,31,8.1,64.5,65.4,LinkedIn,2,0
+CAN-01364,Female,57,6.3,63.1,79.2,LinkedIn,1,0
+CAN-01365,Female,55,6.5,74.7,76.2,Employee Referral,2,0
+CAN-01366,Male,30,8.9,59.8,51.8,Job Board,9,0
+CAN-01367,Female,49,3.6,75.9,73.2,Internal,7,0
+CAN-01368,Female,32,2.8,72.1,75.8,,0,0
+CAN-01369,Male,35,7.0,100.0,69.5,,0,1
+CAN-01370,Male,40,4.5,49.2,83.3,Job Board,0,0
+CAN-01371,Female,36,8.9,70.4,59.7,LinkedIn,1,0
+CAN-01372,Male,49,6.3,76.5,73.8,Campus,0,1
+CAN-01373,Female,45,2.8,66.2,51.7,LinkedIn,0,0
+CAN-01374,Male,29,6.2,49.9,45.6,LinkedIn,0,0
+CAN-01375,Male,30,1.8,88.9,78.9,Employee Referral,0,1
+CAN-01376,Female,54,8.3,75.1,68.3,Campus,1,0
+CAN-01377,Male,54,0.1,51.0,61.5,Employee Referral,0,0
+CAN-01378,Male,40,9.3,76.6,53.1,Job Board,0,1
+CAN-01379,Male,24,6.1,95.5,79.6,Job Board,0,1
+CAN-01380,Female,31,4.4,69.5,46.9,Employee Referral,0,0
+CAN-01381,Male,22,7.7,70.0,81.9,LinkedIn,0,1
+CAN-01382,Male,50,6.8,93.5,74.3,LinkedIn,0,1
+CAN-01383,Female,55,9.7,55.4,47.6,LinkedIn,1,0
+CAN-01384,Male,34,9.6,95.9,69.8,LinkedIn,0,1
+CAN-01385,Female,22,6.2,84.6,100.0,LinkedIn,0,1
+CAN-01386,Male,55,1.9,56.1,84.7,LinkedIn,6,0
+CAN-01387,Female,50,3.1,60.0,56.4,Employee Referral,0,0
+CAN-01388,Male,34,4.7,62.1,78.0,Employee Referral,0,0
+CAN-01389,Female,50,8.8,42.5,48.2,Employee Referral,2,0
+CAN-01390,Male,45,3.4,73.9,48.8,Job Board,1,0
+CAN-01391,Male,47,3.7,56.8,67.1,Internal,1,0
+CAN-01392,Male,38,11.5,74.4,75.7,LinkedIn,0,1
+CAN-01393,Male,28,4.6,50.6,79.4,LinkedIn,0,0
+CAN-01394,Male,34,2.8,83.8,79.6,Employee Referral,0,1
+CAN-01395,Male,26,7.7,81.1,74.9,LinkedIn,0,1
+CAN-01396,Female,47,4.8,59.4,45.4,Employee Referral,2,0
+CAN-01397,Male,24,0.1,75.4,67.1,Campus,0,0
+CAN-01398,Male,28,8.6,71.2,81.6,Internal,0,1
+CAN-01399,Female,22,2.4,92.2,74.2,Employee Referral,2,0
+CAN-01400,Female,38,5.2,54.5,70.5,Job Board,1,0
+CAN-01401,Male,46,4.8,67.7,72.6,Employee Referral,2,0
+CAN-01402,Male,24,5.8,60.4,72.4,LinkedIn,1,0
+CAN-01403,Male,36,0.0,70.7,40.5,Employee Referral,0,0
+CAN-01404,Female,50,3.8,78.0,84.2,LinkedIn,1,0
+CAN-01405,Female,53,8.9,60.2,66.5,Employee Referral,0,0
+CAN-01406,Male,47,9.4,64.5,77.9,LinkedIn,0,1
+CAN-01407,Female,37,1.5,84.5,35.7,LinkedIn,1,0
+CAN-01408,Female,46,8.2,90.4,91.3,LinkedIn,1,1
+CAN-01409,Female,49,2.3,77.4,51.8,Campus,1,0
+CAN-01410,Female,30,3.7,67.9,100.0,Internal,2,0
+CAN-01411,Male,22,3.9,66.5,97.7,LinkedIn,1,1
+CAN-01412,Male,50,5.4,78.2,49.5,Employee Referral,0,0
+CAN-01413,Male,43,8.5,73.4,79.4,LinkedIn,1,1
+CAN-01414,Male,37,5.9,45.3,53.8,Job Board,1,0
+CAN-01415,Female,28,4.6,78.6,59.0,LinkedIn,2,0
+CAN-01416,Female,35,8.4,57.1,59.4,LinkedIn,0,0
+CAN-01417,Male,50,2.2,48.7,74.3,Employee Referral,0,0
+CAN-01418,Male,40,4.7,45.0,72.5,LinkedIn,1,0
+CAN-01419,Male,40,8.5,66.8,51.2,LinkedIn,0,0
+CAN-01420,Female,23,6.9,54.8,74.2,Internal,0,0
+CAN-01421,Male,36,3.4,35.1,65.1,Job Board,0,0
+CAN-01422,Male,24,0.0,64.6,42.5,Employee Referral,0,0
+CAN-01423,Male,32,6.1,62.6,61.9,LinkedIn,1,0
+CAN-01424,Male,51,0.0,67.8,91.2,Employee Referral,0,0
+CAN-01425,Female,39,4.3,60.6,62.4,LinkedIn,1,0
+CAN-01426,Female,23,9.1,97.4,42.3,Job Board,6,0
+CAN-01427,Male,53,7.1,77.8,79.4,LinkedIn,0,1
+CAN-01428,Female,29,0.0,62.5,55.0,LinkedIn,0,0
+CAN-01429,Female,43,5.7,69.0,71.0,,1,0
+CAN-01430,Female,27,3.9,91.2,65.6,Job Board,0,0
+CAN-01431,Male,33,0.5,84.3,92.7,Campus,1,1
+CAN-01432,Male,57,6.2,49.1,65.6,LinkedIn,1,0
+CAN-01433,Male,36,3.3,55.4,52.0,Employee Referral,1,0
+CAN-01434,Female,49,3.3,58.3,61.4,LinkedIn,1,0
+CAN-01435,Male,39,5.4,63.4,50.8,Internal,0,0
+CAN-01436,Male,23,2.8,61.1,65.1,LinkedIn,0,0
+CAN-01437,Male,34,5.3,70.5,92.8,LinkedIn,0,1
+CAN-01438,Female,36,2.9,81.0,85.5,LinkedIn,0,0
+CAN-01439,Male,41,3.1,83.5,96.6,Job Board,1,1
+CAN-01440,Female,50,8.5,65.1,74.7,LinkedIn,1,0
+CAN-01441,Female,50,8.8,45.5,70.0,Employee Referral,0,0
+CAN-01442,Male,24,0.0,54.4,54.0,LinkedIn,0,0
+CAN-01443,Female,40,7.6,62.2,71.8,Campus,2,0
+CAN-01444,Male,24,9.9,51.3,66.2,Campus,0,0
+CAN-01445,Female,35,10.5,87.1,78.9,Job Board,1,1
+CAN-01446,Male,25,6.8,52.3,52.3,LinkedIn,0,0
+CAN-01447,Female,32,1.3,79.3,68.7,Employee Referral,0,0
+CAN-01448,Female,52,7.2,44.8,46.0,,1,0
+CAN-01449,Female,53,2.0,79.9,72.7,LinkedIn,0,0
+CAN-01450,Female,48,3.8,67.9,77.5,Campus,1,0
+CAN-01451,Male,51,6.3,92.7,45.3,Campus,2,0
+CAN-01452,Female,23,2.2,53.0,49.2,LinkedIn,1,0
+CAN-01453,Female,30,1.0,61.5,49.9,Employee Referral,1,0
+CAN-01454,Female,49,6.6,64.4,65.5,Job Board,0,0
+CAN-01455,Male,52,11.5,67.7,48.4,Job Board,1,0
+CAN-01456,Female,55,9.4,64.8,87.3,LinkedIn,1,0
+CAN-01457,Female,36,7.5,65.1,74.1,LinkedIn,2,0
+CAN-01458,Female,46,8.4,64.9,76.4,Employee Referral,1,0
+CAN-01459,Male,57,7.2,38.9,45.8,Employee Referral,1,0
+CAN-01460,Female,29,6.6,84.9,86.1,LinkedIn,0,0
+CAN-01461,Male,30,8.1,100.0,77.1,LinkedIn,1,1
+CAN-01462,Female,53,0.2,74.5,58.4,Internal,1,0
+CAN-01463,Male,38,5.7,53.0,46.4,Job Board,1,0
+CAN-01464,Female,56,4.7,54.5,66.9,Campus,0,0
+CAN-01465,Female,40,5.3,79.2,61.5,LinkedIn,2,0
+CAN-01466,Male,50,3.4,75.8,62.1,Employee Referral,0,0
+CAN-01467,Female,28,6.8,65.7,58.1,Internal,0,0
+CAN-01468,Male,49,2.1,81.3,78.1,LinkedIn,1,0
+CAN-01469,Female,30,3.1,39.0,31.6,Employee Referral,1,0
+CAN-01470,Female,49,2.7,81.3,88.0,LinkedIn,0,0
+CAN-01471,Female,27,8.0,73.6,82.0,Job Board,1,0
+CAN-01472,Female,50,5.0,55.1,70.9,Job Board,0,0
+CAN-01473,Female,38,3.4,48.5,66.0,Employee Referral,0,0
+CAN-01474,Male,37,3.7,71.8,83.2,Job Board,0,0
+CAN-01475,Male,44,5.0,91.1,67.4,,1,1
+CAN-01476,Female,52,10.7,66.6,64.1,Employee Referral,0,0
+CAN-01477,Female,24,0.7,57.2,83.9,Job Board,0,0
+CAN-01478,Female,42,7.4,72.9,97.3,Job Board,1,0
+CAN-01479,Female,47,6.7,97.3,54.4,LinkedIn,0,0
+CAN-01480,Male,57,1.9,76.5,73.9,LinkedIn,1,0
+CAN-01481,Female,43,10.1,78.1,52.8,Job Board,1,0
+CAN-01482,Male,33,6.9,88.3,75.0,Job Board,1,1
+CAN-01483,Female,34,3.2,77.1,57.1,Job Board,0,0
+CAN-01484,Male,32,0.0,58.3,85.0,LinkedIn,0,0
+CAN-01485,Male,37,5.8,43.8,66.6,Internal,8,0
+CAN-01486,Male,29,4.8,56.2,68.7,Internal,0,0
+CAN-01487,Male,23,1.4,53.4,90.8,Employee Referral,0,0
+CAN-01488,Female,51,1.3,79.9,57.7,Job Board,0,0
+CAN-01489,Male,51,8.0,82.0,77.6,LinkedIn,0,1
+CAN-01490,Male,33,0.0,72.6,59.1,LinkedIn,2,0
+CAN-01491,Male,31,6.1,51.0,84.7,Campus,1,0
+CAN-01492,Male,32,4.3,96.8,93.0,Employee Referral,0,1
+CAN-01493,Male,36,6.7,63.8,64.3,LinkedIn,0,0
+CAN-01494,Male,37,4.0,79.1,37.3,Job Board,2,0
+CAN-01495,Female,38,6.0,70.7,58.4,Employee Referral,0,0
+CAN-01496,Female,47,2.4,73.1,100.0,LinkedIn,1,0
+CAN-01497,Female,23,4.8,78.5,59.7,Internal,0,0
+CAN-01498,Male,33,6.7,59.6,92.8,,1,1
+CAN-01499,Male,47,5.5,89.6,59.5,LinkedIn,1,1
+CAN-01500,Female,44,6.3,46.3,59.2,,0,0
+CAN-01501,Male,39,1.8,54.4,78.9,LinkedIn,0,0
+CAN-01502,Male,53,2.9,89.4,77.2,Campus,0,1
+CAN-01503,Male,24,3.0,78.9,79.9,Job Board,2,0
+CAN-01504,Male,24,4.0,100.0,68.1,LinkedIn,0,1
+CAN-01505,Male,51,9.8,71.0,82.5,Job Board,1,1
+CAN-01506,Male,22,3.8,95.5,81.5,LinkedIn,0,1
+CAN-01507,Female,51,1.0,42.1,84.1,LinkedIn,1,0
+CAN-01508,Female,53,6.9,48.8,59.3,Campus,1,0
+CAN-01509,Female,49,9.7,83.4,82.5,,0,1
+CAN-01510,Female,42,0.6,43.9,60.7,LinkedIn,0,0
+CAN-01511,Female,34,11.9,67.0,65.8,,0,0
+CAN-01512,Female,48,6.5,87.5,65.5,Employee Referral,1,0
+CAN-01513,Female,57,8.6,77.5,54.0,LinkedIn,0,0
+CAN-01514,Male,28,10.1,70.2,43.7,LinkedIn,0,0
+CAN-01515,Male,43,8.4,63.3,85.1,Campus,2,1
+CAN-01516,Male,31,4.6,73.0,58.2,Employee Referral,0,0
+CAN-01517,Female,36,9.3,78.7,64.2,Job Board,1,0
+CAN-01518,Female,36,5.9,60.1,57.8,LinkedIn,0,0
+CAN-01519,Male,25,8.8,75.6,64.4,LinkedIn,0,1
+CAN-01520,Female,53,9.2,86.2,60.9,,0,0
+CAN-01521,Male,44,1.2,66.7,85.9,Employee Referral,1,0
+CAN-01522,Female,27,7.8,71.0,59.7,Job Board,0,0
+CAN-01523,Male,45,4.4,77.3,92.0,Employee Referral,1,1
+CAN-01524,Male,41,5.5,78.3,83.9,LinkedIn,0,1
+CAN-01525,Male,41,5.4,83.2,61.4,Job Board,0,0
+CAN-01526,Male,33,5.3,54.8,72.5,Campus,2,0
+CAN-01527,Male,54,10.3,62.1,75.3,LinkedIn,7,1
+CAN-01528,Male,49,0.2,62.6,79.8,LinkedIn,6,0
+CAN-01529,Female,29,0.0,56.4,81.2,Campus,0,0
+CAN-01530,Female,22,0.0,43.0,70.6,Internal,1,0
+CAN-01531,Male,43,8.7,21.2,54.6,,1,0
+CAN-01532,Female,27,2.3,87.9,77.0,LinkedIn,0,0
+CAN-01533,Female,42,5.5,46.7,64.7,Internal,0,0
+CAN-01534,Male,53,4.6,93.5,29.0,Employee Referral,1,0
+CAN-01535,Male,56,1.9,81.1,73.5,Employee Referral,2,0
+CAN-01536,Male,36,8.0,63.9,57.7,Job Board,0,0
+CAN-01537,Male,26,4.6,79.2,61.6,Employee Referral,1,0
+CAN-01538,Female,27,4.2,76.4,68.1,Employee Referral,0,0
+CAN-01539,Male,46,5.8,53.5,46.2,Employee Referral,0,0
+CAN-01540,Female,50,7.5,69.8,69.9,LinkedIn,0,0
+CAN-01541,Female,28,1.6,55.3,63.6,,0,0
+CAN-01542,Male,34,8.1,79.8,55.7,Campus,0,1
+CAN-01543,Female,39,10.1,59.3,68.6,Employee Referral,2,0
+CAN-01544,Male,23,0.0,68.6,44.3,LinkedIn,0,0
+CAN-01545,Female,29,6.0,67.9,69.1,Internal,0,0
+CAN-01546,Male,32,3.9,71.8,74.6,Job Board,0,0
+CAN-01547,Female,54,7.4,94.9,72.3,LinkedIn,1,0
+CAN-01548,Female,48,0.7,66.4,79.0,Internal,2,0
+CAN-01549,Male,41,10.7,88.3,84.3,Campus,0,1
+CAN-01550,Female,33,0.0,77.2,66.9,Employee Referral,0,0
+CAN-01551,Female,52,4.1,91.3,83.3,Employee Referral,0,0
+CAN-01552,Female,48,6.5,64.9,66.8,Employee Referral,0,0
+CAN-01553,Female,53,2.6,80.4,58.2,Campus,0,0
+CAN-01554,Female,31,2.0,69.1,62.5,Employee Referral,0,0
+CAN-01555,Male,24,5.8,25.2,71.7,LinkedIn,1,0
+CAN-01556,Male,48,5.3,53.7,83.2,Employee Referral,0,0
+CAN-01557,Female,56,5.0,78.7,68.0,Internal,0,0
+CAN-01558,Male,52,8.0,77.7,58.6,LinkedIn,0,1
+CAN-01559,Female,36,3.6,50.6,88.2,Internal,1,0
+CAN-01560,Female,37,6.1,73.3,47.9,Internal,0,0
+CAN-01561,Male,34,3.2,77.5,58.7,Employee Referral,0,0
+CAN-01562,Male,56,2.0,69.5,80.5,LinkedIn,1,0
+CAN-01563,Female,32,4.0,80.9,92.7,Employee Referral,0,0
+CAN-01564,Male,42,3.3,78.9,74.7,Internal,0,0
+CAN-01565,Female,32,3.4,69.5,71.5,LinkedIn,0,0
+CAN-01566,Male,51,9.1,62.3,63.9,Employee Referral,2,0
+CAN-01567,Female,56,4.1,85.6,75.7,Employee Referral,0,0
+CAN-01568,Male,43,2.7,76.9,69.8,,2,0
+CAN-01569,Female,52,5.1,49.3,57.4,Internal,6,0
+CAN-01570,Male,35,5.4,73.3,63.7,Campus,0,0
+CAN-01571,Female,45,0.8,52.7,55.9,Job Board,1,0
+CAN-01572,Male,53,4.0,55.5,68.2,LinkedIn,0,0
+CAN-01573,Female,57,3.8,60.2,70.3,Employee Referral,0,0
+CAN-01574,Female,53,4.4,70.7,90.9,Internal,0,0
+CAN-01575,Male,36,7.5,75.6,59.6,Employee Referral,1,0
+CAN-01576,Male,56,5.5,63.9,65.5,Internal,0,0
+CAN-01577,Male,24,9.3,64.5,85.6,LinkedIn,0,1
+CAN-01578,Female,37,5.0,62.5,93.3,Employee Referral,0,0
+CAN-01579,Female,26,11.2,85.7,74.6,Campus,8,1
+CAN-01580,Female,42,3.4,27.2,64.5,Internal,0,0
+CAN-01581,Male,31,2.3,65.4,61.4,Internal,0,0
+CAN-01582,Male,40,6.9,93.2,42.2,Employee Referral,0,1
+CAN-01583,Female,46,9.8,77.8,55.0,Employee Referral,1,0
+CAN-01584,Male,25,0.2,89.0,69.4,LinkedIn,0,0
+CAN-01585,Female,50,4.3,39.5,65.5,Campus,0,0
+CAN-01586,Male,40,2.9,51.4,76.7,Campus,1,0
+CAN-01587,Female,23,5.5,77.7,65.3,Employee Referral,2,0
+CAN-01588,Male,31,5.0,93.3,57.8,Internal,1,1
+CAN-01589,Male,46,9.7,52.9,72.8,Campus,0,0
+CAN-01590,Female,41,4.6,64.2,100.0,Job Board,6,0
+CAN-01591,Female,40,9.8,76.0,63.6,LinkedIn,2,0
+CAN-01592,Female,44,3.9,48.2,69.9,LinkedIn,0,0
+CAN-01593,Male,45,8.2,77.8,79.9,Internal,0,1
+CAN-01594,Male,32,5.8,29.9,60.0,LinkedIn,0,0
+CAN-01595,Female,55,11.1,77.4,85.8,Job Board,1,1
+CAN-01596,Female,49,0.0,55.1,45.9,,0,0
+CAN-01597,Male,26,0.9,63.3,62.3,Campus,0,0
+CAN-01598,Male,26,11.4,79.8,63.6,LinkedIn,0,1
+CAN-01599,Male,42,2.4,76.7,70.1,Employee Referral,1,0
+CAN-01600,Female,33,2.7,69.9,40.4,Employee Referral,0,0
+CAN-01601,Male,25,1.9,84.5,86.9,Employee Referral,1,1
+CAN-01602,Male,41,9.0,44.5,73.8,Employee Referral,1,0
+CAN-01603,Male,46,0.6,73.1,83.7,LinkedIn,8,0
+CAN-01604,Male,35,5.1,58.1,90.6,LinkedIn,0,0
+CAN-01605,Male,32,4.1,83.8,57.6,LinkedIn,0,0
+CAN-01606,Male,53,8.6,80.3,33.1,LinkedIn,2,0
+CAN-01607,Male,32,3.0,80.9,84.0,Employee Referral,1,1
+CAN-01608,Female,39,6.5,94.7,64.0,Employee Referral,2,0
+CAN-01609,Male,48,0.9,86.9,52.1,Campus,0,0
+CAN-01610,Female,39,13.0,67.6,76.1,LinkedIn,0,0
+CAN-01611,Female,44,4.2,70.0,100.0,LinkedIn,0,0
+CAN-01612,Female,32,5.0,79.0,66.5,Campus,0,0
+CAN-01613,Female,42,10.8,72.0,81.3,Job Board,1,0
+CAN-01614,Male,26,2.9,80.6,54.2,,0,0
+CAN-01615,Male,44,10.8,36.5,44.4,,0,0
+CAN-01616,Female,46,3.6,98.2,80.8,Internal,0,0
+CAN-01617,Female,31,7.4,70.9,75.6,Job Board,0,0
+CAN-01618,Female,43,3.0,45.7,61.5,LinkedIn,0,0
+CAN-01619,Female,40,0.3,56.3,91.9,Campus,0,0
+CAN-01620,Female,22,6.5,38.1,43.3,Employee Referral,1,0
+CAN-01621,Male,28,7.2,53.6,50.8,LinkedIn,0,0
+CAN-01622,Male,25,0.4,67.9,60.4,Internal,1,0
+CAN-01623,Female,22,3.9,92.7,63.0,LinkedIn,0,0
+CAN-01624,Female,36,9.2,76.2,88.5,Internal,1,0
+CAN-01625,Male,33,7.1,73.5,68.7,LinkedIn,0,1
+CAN-01626,Female,43,3.6,53.0,65.3,Internal,2,0
+CAN-01627,Male,43,2.9,57.6,50.2,LinkedIn,1,0
+CAN-01628,Female,38,11.8,58.8,83.2,Employee Referral,0,0
+CAN-01629,Male,50,0.0,59.4,52.1,LinkedIn,0,0
+CAN-01630,Male,35,4.8,64.7,50.2,LinkedIn,0,0
+CAN-01631,Female,41,0.0,65.9,62.4,Employee Referral,1,0
+CAN-01632,Male,54,9.6,64.9,70.3,Job Board,0,1
+CAN-01633,Female,36,5.0,59.9,57.9,LinkedIn,0,0
+CAN-01634,Female,33,5.6,72.0,77.9,Job Board,0,0
+CAN-01635,Female,41,14.7,65.3,64.0,LinkedIn,1,0
+CAN-01636,Male,51,2.9,46.1,82.7,Employee Referral,1,0
+CAN-01637,Male,24,11.1,70.5,75.1,Internal,0,1
+CAN-01638,Male,49,3.6,68.2,93.1,LinkedIn,0,0
+CAN-01639,Female,47,4.2,46.3,61.8,Campus,1,0
+CAN-01640,Female,51,14.2,61.1,79.8,Campus,1,0
+CAN-01641,Female,34,4.4,79.0,43.0,LinkedIn,0,0
+CAN-01642,Female,34,0.2,53.0,100.0,Internal,0,0
+CAN-01643,Female,23,6.0,51.4,79.1,Campus,1,0
+CAN-01644,Female,23,4.4,65.1,63.9,LinkedIn,0,0
+CAN-01645,Male,57,6.3,79.3,64.4,Job Board,9,1
+CAN-01646,Female,47,4.5,97.2,64.5,Employee Referral,1,0
+CAN-01647,Male,32,12.8,79.9,93.8,LinkedIn,0,1
+CAN-01648,Female,29,6.9,86.3,80.6,Internal,1,0
+CAN-01649,Female,43,1.2,75.2,61.8,Campus,0,0
+CAN-01650,Female,41,5.4,59.7,50.7,Job Board,6,0
+CAN-01651,Male,29,2.2,79.8,84.7,Campus,0,0
+CAN-01652,Male,50,4.1,68.7,79.7,Job Board,1,0
+CAN-01653,Male,47,1.8,75.7,77.9,Internal,0,0
+CAN-01654,Male,51,12.4,55.8,66.8,LinkedIn,0,1
+CAN-01655,Male,38,2.6,77.0,63.8,Employee Referral,0,0
+CAN-01656,Female,41,7.4,68.2,91.6,LinkedIn,1,0
+CAN-01657,Female,37,3.9,73.5,92.9,Campus,0,0
+CAN-01658,Male,28,0.9,68.7,77.0,Employee Referral,0,0
+CAN-01659,Male,37,5.7,65.8,81.6,Employee Referral,0,0
+CAN-01660,Male,48,6.4,77.3,71.3,,0,1
+CAN-01661,Female,44,7.0,63.9,48.8,,6,0
+CAN-01662,Male,45,0.0,46.2,54.3,Campus,2,0
+CAN-01663,Female,30,0.7,41.9,84.0,LinkedIn,0,0
+CAN-01664,Male,56,8.4,72.8,85.8,Employee Referral,0,1
+CAN-01665,Female,41,1.8,63.3,82.8,LinkedIn,2,0
+CAN-01666,Female,38,5.7,44.1,72.8,Employee Referral,1,0
+CAN-01667,Male,52,0.6,71.6,83.3,Employee Referral,1,0
+CAN-01668,Female,29,7.6,68.6,67.2,Internal,0,0
+CAN-01669,Male,36,8.3,62.5,76.7,Internal,0,1
+CAN-01670,Female,52,7.6,73.7,65.1,Employee Referral,8,0
+CAN-01671,Male,51,8.6,89.7,53.2,Employee Referral,0,1
+CAN-01672,Female,41,10.5,89.3,80.1,LinkedIn,1,1
+CAN-01673,Female,33,0.9,72.2,85.9,LinkedIn,0,0
+CAN-01674,Female,38,2.2,68.7,100.0,Employee Referral,0,0
+CAN-01675,Female,51,8.1,72.4,71.7,LinkedIn,2,0
+CAN-01676,Male,50,9.0,74.6,53.3,Employee Referral,0,0
+CAN-01677,Male,40,2.6,66.0,63.4,Job Board,2,0
+CAN-01678,Male,32,2.4,72.6,66.1,,0,0
+CAN-01679,Male,55,2.7,46.4,70.1,Campus,0,0
+CAN-01680,Female,28,0.0,71.2,74.6,LinkedIn,8,0
+CAN-01681,Male,55,0.6,77.2,73.1,Internal,0,0
+CAN-01682,Female,41,0.6,62.7,78.9,Internal,0,0
+CAN-01683,Female,45,4.0,68.6,70.8,Employee Referral,0,0
+CAN-01684,Female,31,5.9,53.3,36.8,Employee Referral,0,0
+CAN-01685,Male,53,6.5,51.2,71.2,LinkedIn,7,0
+CAN-01686,Female,36,3.2,73.2,69.2,Employee Referral,0,0
+CAN-01687,Female,41,3.3,59.1,75.7,,0,0
+CAN-01688,Male,24,5.4,43.3,62.9,LinkedIn,0,0
+CAN-01689,Female,29,0.0,53.3,71.1,LinkedIn,9,0
+CAN-01690,Female,44,8.4,55.5,75.8,LinkedIn,0,0
+CAN-01691,Male,32,9.5,81.6,65.8,LinkedIn,0,1
+CAN-01692,Male,29,2.8,72.7,77.5,Internal,0,0
+CAN-01693,Male,50,3.6,56.9,69.0,,0,0
+CAN-01694,Male,51,9.4,61.2,70.2,Campus,0,1
+CAN-01695,Male,31,4.6,89.7,27.1,Employee Referral,8,0
+CAN-01696,Male,49,7.1,84.0,52.0,Employee Referral,0,0
+CAN-01697,Male,57,4.7,53.2,52.0,LinkedIn,0,0
+CAN-01698,Male,34,10.4,87.5,71.0,Employee Referral,2,1
+CAN-01699,Female,53,6.7,68.8,85.8,,2,0
+CAN-01700,Female,57,6.9,82.0,66.3,Employee Referral,1,0
+CAN-01701,Female,47,7.0,67.6,79.9,LinkedIn,0,0
+CAN-01702,Male,43,3.1,87.8,77.1,Campus,7,1
+CAN-01703,Male,25,3.4,52.6,70.0,Employee Referral,1,0
+CAN-01704,Male,52,7.7,66.2,76.0,Campus,1,1
+CAN-01705,Male,39,5.4,88.2,71.4,Employee Referral,0,1
+CAN-01706,Male,45,0.9,34.1,66.0,Campus,0,0
+CAN-01707,Female,44,11.6,69.3,73.5,LinkedIn,2,0
+CAN-01708,Male,43,8.4,64.1,88.3,Campus,0,1
+CAN-01709,Female,23,5.1,80.3,74.6,Internal,0,0
+CAN-01710,Female,52,4.0,86.0,71.1,Internal,0,0
+CAN-01711,Male,32,5.7,81.0,55.7,Employee Referral,0,0
+CAN-01712,Male,49,6.8,73.6,87.8,Job Board,0,1
+CAN-01713,Female,53,0.0,70.6,48.3,Employee Referral,0,0
+CAN-01714,Male,26,12.4,64.9,44.1,Internal,2,0
+CAN-01715,Male,31,2.2,73.1,73.2,LinkedIn,0,0
+CAN-01716,Female,45,5.0,91.9,55.7,,0,0
+CAN-01717,Male,56,5.1,57.5,83.2,Employee Referral,1,0
+CAN-01718,Female,44,12.0,64.0,44.4,Employee Referral,0,0
+CAN-01719,Female,38,4.7,68.9,81.5,Campus,0,0
+CAN-01720,Male,22,10.6,85.0,79.5,Internal,0,1
+CAN-01721,Male,52,6.4,73.3,69.7,Campus,0,0
+CAN-01722,Male,52,1.6,84.8,38.6,Campus,6,0
+CAN-01723,Male,55,5.5,85.5,43.9,Job Board,1,0
+CAN-01724,Male,30,4.6,78.9,71.4,LinkedIn,2,0
+CAN-01725,Female,43,1.2,54.0,64.7,Employee Referral,1,0
+CAN-01726,Male,34,6.3,94.9,78.2,Employee Referral,0,1
+CAN-01727,Male,46,5.1,91.2,67.0,,0,1
+CAN-01728,Female,39,6.9,71.0,65.8,Employee Referral,0,0
+CAN-01729,Female,33,5.7,49.3,34.0,Employee Referral,0,0
+CAN-01730,Female,38,2.7,46.6,79.5,Employee Referral,9,0
+CAN-01731,Male,36,7.7,73.8,58.9,Employee Referral,1,0
+CAN-01732,Female,36,2.8,59.5,62.4,Internal,0,0
+CAN-01733,Female,36,0.0,44.2,53.0,,0,0
+CAN-01734,Male,34,5.5,46.3,46.4,LinkedIn,0,0
+CAN-01735,Male,38,3.1,63.0,88.6,LinkedIn,0,0
+CAN-01736,Female,53,6.3,72.9,79.1,LinkedIn,1,0
+CAN-01737,Male,30,12.0,91.1,79.4,Employee Referral,2,1
+CAN-01738,Male,41,12.1,77.3,65.0,LinkedIn,0,1
+CAN-01739,Male,47,4.4,64.3,43.7,Employee Referral,0,0
+CAN-01740,Male,48,2.1,75.7,97.4,,8,1
+CAN-01741,Female,42,7.0,74.4,73.9,Employee Referral,1,0
+CAN-01742,Female,39,3.7,81.1,69.9,LinkedIn,2,0
+CAN-01743,Female,34,6.4,69.4,63.0,Campus,0,0
+CAN-01744,Male,37,2.7,85.5,39.4,LinkedIn,0,0
+CAN-01745,Male,30,5.9,82.4,84.0,LinkedIn,6,1
+CAN-01746,Male,33,2.2,71.2,53.2,LinkedIn,9,0
+CAN-01747,Male,40,9.1,68.2,75.7,,1,1
+CAN-01748,Male,28,2.9,83.8,78.8,Employee Referral,0,1
+CAN-01749,Female,56,7.3,59.3,72.7,Campus,0,0
+CAN-01750,Male,39,0.6,47.4,74.6,Job Board,0,0
+CAN-01751,Female,37,7.7,47.3,86.8,LinkedIn,1,0
+CAN-01752,Male,25,1.6,58.1,56.9,LinkedIn,0,0
+CAN-01753,Male,46,5.9,79.9,70.3,LinkedIn,0,1
+CAN-01754,Male,53,8.6,63.7,64.8,Employee Referral,1,0
+CAN-01755,Female,34,4.3,73.1,42.2,Employee Referral,0,0
+CAN-01756,Female,38,1.4,62.6,72.0,Employee Referral,0,0
+CAN-01757,Female,27,6.7,62.7,85.5,Employee Referral,0,0
+CAN-01758,Male,40,2.1,54.6,87.3,LinkedIn,1,0
+CAN-01759,Male,34,3.6,68.6,94.0,Job Board,1,1
+CAN-01760,Female,47,5.9,67.4,43.2,Employee Referral,1,0
+CAN-01761,Male,35,9.8,76.2,90.8,Internal,2,1
+CAN-01762,Female,52,5.1,74.3,70.6,Internal,2,0
+CAN-01763,Male,25,5.1,67.0,90.4,Internal,1,1
+CAN-01764,Male,29,7.6,47.4,62.5,Job Board,0,0
+CAN-01765,Male,46,5.2,86.1,60.6,LinkedIn,1,0
+CAN-01766,Male,34,7.2,68.7,51.0,,0,0
+CAN-01767,Female,53,8.8,71.2,78.9,LinkedIn,2,0
+CAN-01768,Male,49,3.9,94.0,75.2,LinkedIn,1,1
+CAN-01769,Male,51,0.0,83.6,52.4,Job Board,0,0
+CAN-01770,Male,24,2.1,76.7,37.7,Internal,0,0
+CAN-01771,Male,49,9.2,70.0,73.8,LinkedIn,0,1
+CAN-01772,Female,24,4.9,69.8,75.4,LinkedIn,0,0
+CAN-01773,Female,55,3.8,73.6,54.2,Employee Referral,0,0
+CAN-01774,Female,37,9.1,76.1,51.4,Employee Referral,0,0
+CAN-01775,Female,43,4.6,95.7,77.2,LinkedIn,0,0
+CAN-01776,Male,53,0.0,100.0,94.0,LinkedIn,1,1
+CAN-01777,Female,29,0.0,74.4,61.1,Job Board,0,0
+CAN-01778,Male,29,6.5,37.7,55.7,LinkedIn,0,0
+CAN-01779,Male,27,4.8,55.7,72.2,Internal,8,0
+CAN-01780,Female,35,10.1,97.2,76.9,Campus,1,1
+CAN-01781,Male,53,2.4,80.8,62.9,Job Board,0,0
+CAN-01782,Female,56,3.9,76.4,96.4,Employee Referral,6,0
+CAN-01783,Male,31,1.9,67.5,80.6,Job Board,0,0
+CAN-01784,Female,24,3.2,52.2,62.7,Campus,0,0
+CAN-01785,Female,33,0.0,95.2,45.7,Employee Referral,0,0
+CAN-01786,Female,52,3.7,57.7,86.5,Employee Referral,0,0
+CAN-01787,Female,50,4.8,80.9,84.7,Internal,0,0
+CAN-01788,Female,26,4.5,50.5,63.8,Employee Referral,1,0
+CAN-01789,Male,46,12.5,66.8,72.9,LinkedIn,1,1
+CAN-01790,Male,52,11.4,84.9,65.9,LinkedIn,0,1
+CAN-01791,Male,42,2.4,66.3,75.3,Campus,1,0
+CAN-01792,Female,41,0.0,64.5,53.7,Job Board,0,0
+CAN-01793,Male,43,4.7,70.2,51.7,LinkedIn,0,0
+CAN-01794,Female,25,6.3,50.0,79.4,LinkedIn,0,0
+CAN-01795,Male,34,2.0,47.1,81.1,Internal,0,0
+CAN-01796,Male,41,2.2,80.7,61.1,Job Board,0,0
+CAN-01797,Female,34,10.5,63.7,57.5,Job Board,1,0
+CAN-01798,Male,38,4.1,80.6,84.1,,1,1
+CAN-01799,Male,57,7.3,86.8,58.0,Employee Referral,0,1
+CAN-01800,Male,54,1.7,88.0,68.8,LinkedIn,0,0
+CAN-01801,Female,22,4.8,45.7,67.0,Campus,0,0
+CAN-01802,Female,36,3.8,59.5,47.5,Employee Referral,0,0
+CAN-01803,Male,34,2.6,78.1,70.7,LinkedIn,0,0
+CAN-01804,Male,38,9.0,78.3,69.3,Employee Referral,2,1
+CAN-01805,Male,45,0.1,100.0,73.0,LinkedIn,0,1
+CAN-01806,Female,29,6.1,56.4,70.2,Job Board,1,0
+CAN-01807,Female,48,3.8,87.5,97.9,Employee Referral,0,0
+CAN-01808,Male,44,6.5,75.6,84.3,Campus,1,1
+CAN-01809,Male,29,3.8,45.4,68.5,Internal,1,0
+CAN-01810,Male,29,8.0,61.8,69.8,,1,0
+CAN-01811,Female,47,1.7,73.9,92.7,Campus,2,0
+CAN-01812,Female,34,9.1,44.4,80.1,Internal,0,0
+CAN-01813,Male,49,4.9,38.9,50.8,Internal,0,0
+CAN-01814,Male,46,0.4,43.6,81.3,Employee Referral,1,0
+CAN-01815,Male,37,7.4,73.9,85.4,Employee Referral,0,1
+CAN-01816,Female,23,4.3,62.7,90.6,Employee Referral,1,0
+CAN-01817,Male,39,0.0,60.7,62.4,Campus,9,0
+CAN-01818,Female,38,6.2,61.2,61.4,Campus,0,0
+CAN-01819,Female,51,8.5,48.6,54.8,Campus,0,0
+CAN-01820,Male,34,9.5,63.2,72.3,,1,1
+CAN-01821,Male,53,3.7,42.7,78.3,Employee Referral,2,0
+CAN-01822,Male,50,5.5,87.8,60.8,LinkedIn,0,1
+CAN-01823,Female,51,5.2,95.4,66.0,LinkedIn,0,0
+CAN-01824,Female,39,10.2,35.1,39.2,,1,0
+CAN-01825,Female,34,2.2,63.0,89.1,LinkedIn,1,0
+CAN-01826,Female,42,3.4,63.9,46.1,LinkedIn,0,0
+CAN-01827,Male,51,2.1,67.4,73.2,LinkedIn,1,0
+CAN-01828,Female,42,0.0,85.0,71.3,Employee Referral,0,0
+CAN-01829,Female,38,5.9,63.0,68.6,LinkedIn,9,0
+CAN-01830,Male,40,10.6,68.7,69.0,Employee Referral,0,1
+CAN-01831,Female,36,4.3,100.0,53.8,LinkedIn,1,0
+CAN-01832,Female,30,1.9,68.3,63.4,Employee Referral,6,0
+CAN-01833,Female,31,5.7,96.5,81.6,Employee Referral,1,0
+CAN-01834,Female,52,7.1,77.5,85.7,Campus,1,0
+CAN-01835,Female,44,4.5,61.7,62.1,LinkedIn,0,0
+CAN-01836,Female,51,9.9,59.2,46.2,Campus,1,0
+CAN-01837,Male,54,2.2,69.9,57.1,Campus,0,0
+CAN-01838,Male,30,4.0,53.1,93.9,LinkedIn,1,0
+CAN-01839,Female,22,6.0,57.0,57.9,,0,0
+CAN-01840,Male,56,6.4,63.7,66.6,Employee Referral,1,0
+CAN-01841,Male,32,5.2,74.4,87.8,,1,1
+CAN-01842,Male,55,0.5,97.4,60.6,Internal,1,0
+CAN-01843,Male,37,13.2,62.7,65.7,,1,1
+CAN-01844,Female,30,4.2,76.9,79.1,Employee Referral,0,0
+CAN-01845,Female,53,5.4,45.6,92.0,LinkedIn,1,0
+CAN-01846,Male,36,7.2,85.9,59.0,Employee Referral,0,1
+CAN-01847,Male,33,2.8,44.2,87.5,Campus,2,0
+CAN-01848,Male,54,5.2,82.0,64.1,Campus,1,0
+CAN-01849,Female,35,2.6,68.8,55.6,LinkedIn,0,0
+CAN-01850,Female,29,6.5,68.2,71.5,LinkedIn,1,0
+CAN-01851,Male,29,4.0,65.5,51.8,Campus,0,0
+CAN-01852,Female,48,5.9,50.5,74.6,LinkedIn,2,0
+CAN-01853,Female,33,1.3,51.3,100.0,,1,0
+CAN-01854,Female,22,2.1,82.5,83.5,Job Board,0,0
+CAN-01855,Female,32,0.2,70.2,66.5,Employee Referral,0,0
+CAN-01856,Male,52,2.5,65.4,82.7,Campus,0,0
+CAN-01857,Female,38,0.0,76.7,55.0,Employee Referral,1,0
+CAN-01858,Male,54,3.9,71.5,57.3,LinkedIn,1,0
+CAN-01859,Female,53,3.1,58.1,66.9,Internal,0,0
+CAN-01860,Female,50,5.5,100.0,69.2,Job Board,1,0
+CAN-01861,Female,42,5.2,81.1,49.9,LinkedIn,0,0
+CAN-01862,Female,42,9.4,71.9,63.7,LinkedIn,0,0
+CAN-01863,Male,44,14.1,62.3,66.0,Employee Referral,0,1
+CAN-01864,Female,27,9.0,84.3,89.6,LinkedIn,0,1
+CAN-01865,Female,43,3.4,58.2,49.9,,0,0
+CAN-01866,Female,29,3.3,56.9,48.6,LinkedIn,0,0
+CAN-01867,Male,56,8.0,95.4,70.5,Employee Referral,0,1
+CAN-01868,Male,32,0.0,70.5,84.1,LinkedIn,1,0
+CAN-01869,Male,45,3.9,58.5,75.7,Employee Referral,0,0
+CAN-01870,Female,42,4.2,70.1,72.2,Internal,0,0
+CAN-01871,Female,23,7.0,82.8,64.0,Campus,0,0
+CAN-01872,Male,40,7.1,79.3,77.5,LinkedIn,0,1
+CAN-01873,Male,49,2.4,84.6,79.6,Employee Referral,0,1
+CAN-01874,Female,38,3.5,51.3,64.4,LinkedIn,0,0
+CAN-01875,Female,27,6.6,84.2,54.7,Employee Referral,1,0
+CAN-01876,Female,40,2.2,67.3,54.8,,1,0
+CAN-01877,Female,49,9.2,71.3,80.3,Job Board,0,0
+CAN-01878,Male,23,7.1,88.1,46.4,Campus,0,0
+CAN-01879,Male,25,5.6,80.5,91.5,,0,1
+CAN-01880,Female,43,6.4,75.3,61.6,LinkedIn,0,0
+CAN-01881,Female,47,3.4,40.2,72.3,Internal,1,0
+CAN-01882,Female,57,2.8,69.3,77.8,Internal,1,0
+CAN-01883,Female,34,3.5,58.2,58.4,LinkedIn,1,0
+CAN-01884,Female,53,6.7,80.7,61.6,LinkedIn,6,0
+CAN-01885,Male,38,5.7,84.9,69.8,LinkedIn,2,1
+CAN-01886,Male,57,3.5,65.5,56.0,Employee Referral,0,0
+CAN-01887,Male,40,7.6,60.0,53.1,Campus,0,0
+CAN-01888,Male,56,4.4,93.3,54.3,LinkedIn,0,0
+CAN-01889,Female,49,2.6,61.0,84.9,Employee Referral,1,0
+CAN-01890,Female,22,5.9,52.1,73.6,Employee Referral,1,0
+CAN-01891,Male,39,1.5,57.5,56.9,LinkedIn,0,0
+CAN-01892,Male,54,0.0,61.7,80.2,Job Board,0,0
+CAN-01893,Female,33,5.0,57.1,57.7,LinkedIn,1,0
+CAN-01894,Male,29,2.7,82.7,40.7,Campus,2,0
+CAN-01895,Female,45,4.1,37.0,77.8,LinkedIn,0,0
+CAN-01896,Female,37,1.6,56.8,91.0,LinkedIn,1,0
+CAN-01897,Female,25,9.2,69.3,75.8,LinkedIn,6,0
+CAN-01898,Male,48,2.7,73.2,41.6,Campus,1,0
+CAN-01899,Male,30,3.5,95.4,67.7,Employee Referral,0,1
+CAN-01900,Female,37,6.3,93.2,64.2,LinkedIn,0,0
+CAN-01901,Female,33,0.2,46.0,73.3,LinkedIn,1,0
+CAN-01902,Male,52,0.0,41.4,56.1,LinkedIn,2,0
+CAN-01903,Female,45,6.3,70.4,63.3,Internal,0,0
+CAN-01904,Male,35,3.4,59.9,48.1,Employee Referral,0,0
+CAN-01905,Female,46,1.8,52.1,71.1,,0,0
+CAN-01906,Male,55,7.1,70.2,48.6,LinkedIn,0,0
+CAN-01907,Female,24,2.2,73.5,74.1,Job Board,1,0
+CAN-01908,Male,45,4.0,57.4,57.5,LinkedIn,0,0
+CAN-01909,Male,30,1.9,60.6,24.0,Campus,1,0
+CAN-01910,Male,47,6.1,58.6,79.1,,0,0
+CAN-01911,Male,41,9.7,63.8,74.9,,2,1
+CAN-01912,Female,31,0.0,78.1,86.9,LinkedIn,7,0
+CAN-01913,Female,40,5.4,53.8,38.7,LinkedIn,0,0
+CAN-01914,Male,24,8.0,60.4,58.8,Job Board,0,0
+CAN-01915,Male,45,3.5,64.0,69.8,Employee Referral,1,0
+CAN-01916,Female,26,1.0,69.9,76.0,LinkedIn,0,0
+CAN-01917,Female,24,6.5,74.1,47.5,Campus,0,0
+CAN-01918,Female,48,8.5,100.0,74.0,LinkedIn,1,1
+CAN-01919,Male,37,8.1,78.6,60.0,LinkedIn,1,1
+CAN-01920,Male,36,6.3,78.9,42.0,LinkedIn,1,0
+CAN-01921,Female,56,5.3,66.0,57.5,Employee Referral,0,0
+CAN-01922,Male,33,1.9,55.3,75.2,LinkedIn,0,0
+CAN-01923,Female,47,8.0,62.1,42.6,LinkedIn,1,0
+CAN-01924,Male,55,7.8,59.3,76.9,Internal,0,0
+CAN-01925,Female,44,1.0,75.9,72.0,LinkedIn,0,0
+CAN-01926,Male,52,6.3,45.2,64.4,,6,0
+CAN-01927,Female,41,7.3,78.9,45.1,Campus,2,0
+CAN-01928,Male,33,8.1,68.2,46.2,Employee Referral,0,0
+CAN-01929,Female,44,4.7,81.0,62.4,Campus,1,0
+CAN-01930,Male,25,2.0,59.1,52.3,Employee Referral,0,0
+CAN-01931,Female,44,3.2,56.5,63.3,,1,0
+CAN-01932,Female,22,1.5,63.9,80.7,Job Board,1,0
+CAN-01933,Female,46,4.8,63.5,64.2,LinkedIn,0,0
+CAN-01934,Female,23,4.1,82.1,63.8,LinkedIn,0,0
+CAN-01935,Female,51,12.5,82.0,63.8,LinkedIn,1,0
+CAN-01936,Female,24,8.1,98.6,82.2,LinkedIn,0,1
+CAN-01937,Male,42,8.4,62.6,86.1,LinkedIn,1,1
+CAN-01938,Female,46,6.6,19.8,73.9,LinkedIn,1,0
+CAN-01939,Male,41,3.7,63.9,69.9,Campus,0,0
+CAN-01940,Male,43,4.0,73.5,71.2,Employee Referral,0,0
+CAN-01941,Male,42,4.4,80.7,88.0,Job Board,0,1
+CAN-01942,Male,54,5.7,74.6,74.7,Job Board,1,1
+CAN-01943,Female,36,6.4,62.6,89.3,,0,0
+CAN-01944,Female,36,5.0,95.7,62.1,Job Board,2,0
+CAN-01945,Female,46,4.0,54.5,49.3,Employee Referral,2,0
+CAN-01946,Male,42,2.9,65.9,58.6,,0,0
+CAN-01947,Male,45,0.1,53.8,60.1,Campus,0,0
+CAN-01948,Male,26,9.5,70.3,90.5,LinkedIn,0,1
+CAN-01949,Male,27,12.7,93.8,78.3,LinkedIn,2,1
+CAN-01950,Male,44,9.2,67.9,59.1,Job Board,0,0
+CAN-01951,Male,25,0.6,68.0,79.3,Internal,0,0
+CAN-01952,Male,48,7.8,44.6,66.2,Campus,1,0
+CAN-01953,Female,39,8.6,65.7,90.9,Job Board,0,0
+CAN-01954,Female,42,3.6,87.3,63.3,Employee Referral,0,0
+CAN-01955,Female,49,6.7,66.2,46.5,Employee Referral,0,0
+CAN-01956,Female,56,3.4,65.2,65.4,Campus,1,0
+CAN-01957,Female,43,10.4,86.6,63.3,LinkedIn,0,0
+CAN-01958,Male,44,6.3,65.3,49.2,LinkedIn,0,0
+CAN-01959,Female,24,1.8,89.4,76.2,LinkedIn,1,0
+CAN-01960,Female,31,7.3,50.7,87.9,Campus,0,0
+CAN-01961,Male,46,8.7,80.2,52.3,Employee Referral,1,1
+CAN-01962,Male,29,5.7,94.7,81.6,Campus,0,1
+CAN-01963,Female,32,6.7,85.1,59.5,Employee Referral,0,0
+CAN-01964,Male,26,4.8,42.0,67.7,Employee Referral,0,0
+CAN-01965,Female,50,1.0,60.4,66.2,LinkedIn,0,0
+CAN-01966,Female,26,4.5,66.4,67.7,Employee Referral,0,0
+CAN-01967,Male,30,6.8,85.1,74.6,Job Board,0,1
+CAN-01968,Male,23,4.6,50.0,53.7,Employee Referral,0,0
+CAN-01969,Male,22,7.8,54.7,86.1,Employee Referral,0,0
+CAN-01970,Male,51,3.6,45.9,75.0,LinkedIn,0,0
+CAN-01971,Male,32,3.9,57.6,79.7,LinkedIn,0,0
+CAN-01972,Female,49,7.9,51.2,57.1,Employee Referral,0,0
+CAN-01973,Male,33,5.8,94.0,52.4,Employee Referral,1,1
+CAN-01974,Male,47,3.6,60.3,84.6,Internal,0,0
+CAN-01975,Male,34,8.6,80.4,51.8,Campus,0,1
+CAN-01976,Female,29,2.6,70.3,70.1,LinkedIn,1,0
+CAN-01977,Male,49,2.5,70.1,82.3,LinkedIn,0,0
+CAN-01978,Male,51,0.0,61.1,66.2,LinkedIn,0,0
+CAN-01979,Female,30,3.1,81.6,84.4,LinkedIn,0,0
+CAN-01980,Female,52,9.6,72.3,64.2,Campus,2,0
+CAN-01981,Male,42,0.0,71.5,50.1,Job Board,0,0
+CAN-01982,Female,55,1.7,61.1,73.2,Employee Referral,1,0
+CAN-01983,Male,52,6.5,63.6,70.8,Job Board,1,0
+CAN-01984,Male,46,0.0,78.8,100.0,,0,0
+CAN-01985,Male,33,3.2,73.5,54.8,Employee Referral,8,0
+CAN-01986,Male,22,9.0,71.9,64.5,,9,1
+CAN-01987,Female,43,12.2,58.7,57.8,Employee Referral,0,0
+CAN-01988,Male,22,6.0,99.2,66.0,Internal,0,1
+CAN-01989,Male,22,1.8,62.8,65.4,LinkedIn,1,0
+CAN-01990,Female,42,1.6,69.5,55.8,Employee Referral,0,0
+CAN-01991,Female,36,5.5,67.2,74.6,Internal,0,0
+CAN-01992,Male,38,6.0,99.3,65.0,Job Board,1,1
+CAN-01993,Female,43,11.5,65.6,86.8,Job Board,1,0
+CAN-01994,Male,56,8.4,64.3,58.9,Internal,2,0
+CAN-01995,Female,37,5.3,71.8,94.1,,0,0
+CAN-01996,Female,29,3.8,59.6,71.9,Job Board,0,0
+CAN-01997,Female,38,15.6,71.7,85.8,Campus,0,1
+CAN-01998,Male,38,7.2,100.0,69.6,Job Board,1,1
+CAN-01999,Male,47,2.7,74.5,57.1,Job Board,0,0
+CAN-02000,Male,34,4.2,73.9,64.3,LinkedIn,2,0
