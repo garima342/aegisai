@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --sidebar-bg: #380914;
+  --sidebar-active: #F7F2EB;
+  --sidebar-active-text: #380914;
+  --sidebar-text: #E5CBD2;
+  --maroon-dark: #380914;
+  --maroon-btn: #4A101D;
+  --maroon-btn-hover: #5F1525;
+  --background: #F7F2EB;
+  --card-bg: #FFFFFF;
+  --card-border: #E8DFD5;
+  --foreground: #221216;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-serif), 'Newsreader', 'Playfair Display', Georgia, Cambria, serif;
+}

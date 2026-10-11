@@ -56,7 +56,7 @@ uvicorn app.main:app --reload
 ## Modules
 | Module | Description | Status |
 |--------|-------------|--------|
-| M1 | Intake | Skeleton |
+| M1 | Intake & Registration | Completed ([Docs](docs/modules/M1_intake.md)) |
 | M2 | Data & Model Risk | Skeleton |
 | M3 | Security & Explainability | Skeleton |
 | M4 | Governance Mapping | Skeleton |

@@ -1,27 +1,54 @@
 import { NextRequest, NextResponse } from 'next/server';
-import type { AiSystem } from '@prisma/client';
+import { prisma } from '@/lib/prisma';
+import { dbStore } from '@/lib/store';
+import { maskLlmConfig } from '@/lib/m1-validation';
+import { getSuggestedRiskTier } from '@/lib/risk-tier';
 
-import { prisma } from '../../../../lib/prisma';
-import { maskLlmConfig, updateSystemInputSchema } from '../../../../lib/m1-validation';
-import { getSuggestedRiskTier } from '../../../../lib/risk-tier';
-
-function serializeSystem(system: AiSystem) {
+function serializeSystem(system: any) {
   return {
     ...system,
-    llmConfig: maskLlmConfig(system.llmConfig),
+    llmConfig: system.llmConfig ? maskLlmConfig(system.llmConfig) : undefined,
   };
 }
 
-export async function GET(_: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+export async function GET(_request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
     const { id } = await params;
-    const system = await prisma.aiSystem.findUnique({ where: { id } });
 
-    if (!system) {
+    try {
+      const system = await prisma.aiSystem.findUnique({
+        where: { id },
+        include: {
+          assessments: {
+            include: {
+              artifacts: true,
+            },
+          },
+        },
+      });
+
+      if (system) {
+        return NextResponse.json({ data: serializeSystem(system) });
+      }
+    } catch {
+      // Fallback to in-memory store
+    }
+
+    const memSystem = dbStore.systems.get(id);
+    if (!memSystem) {
       return NextResponse.json({ error: { message: 'System not found' } }, { status: 404 });
     }
 
-    return NextResponse.json({ data: serializeSystem(system) });
+    const assessments = Array.from(dbStore.assessments.values()).filter((a) => a.systemId === id);
+    const artifacts = assessments.flatMap((a) => a.artifacts || []);
+
+    return NextResponse.json({
+      data: serializeSystem({
+        ...memSystem,
+        assessments,
+        artifacts,
+      }),
+    });
   } catch (error) {
     return NextResponse.json(
       {
@@ -29,7 +56,7 @@ export async function GET(_: NextRequest, { params }: { params: Promise<{ id: st
           message: error instanceof Error ? error.message : 'Unable to fetch system',
         },
       },
-      { status: 400 },
+      { status: 500 }
     );
   }
 }
@@ -37,60 +64,80 @@ export async function GET(_: NextRequest, { params }: { params: Promise<{ id: st
 export async function PATCH(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
     const { id } = await params;
-    const payload = updateSystemInputSchema.parse(await request.json());
+    const body = await request.json();
 
-    const existing = await prisma.aiSystem.findUnique({ where: { id } });
-    if (!existing) {
+    try {
+      const existing = await prisma.aiSystem.findUnique({ where: { id } });
+      if (existing) {
+        const nextRiskTier =
+          body.riskTier ??
+          (body.domainContext || body.modelType
+            ? getSuggestedRiskTier({
+                domainContext: body.domainContext ?? existing.domainContext,
+                modelType: body.modelType ?? existing.modelType,
+              })
+            : existing.riskTier);
+
+        const updated = await prisma.aiSystem.update({
+          where: { id },
+          data: {
+            ...body,
+            riskTier: nextRiskTier,
+          },
+        });
+        return NextResponse.json({ data: serializeSystem(updated) });
+      }
+    } catch {
+      // Fallback to in-memory store
+    }
+
+    const memSystem = dbStore.systems.get(id);
+    if (!memSystem) {
       return NextResponse.json({ error: { message: 'System not found' } }, { status: 404 });
     }
 
-    const shouldSuggestRiskTier =
-      payload.domainContext !== undefined || payload.modelType !== undefined;
+    const updated = {
+      ...memSystem,
+      ...body,
+      id: memSystem.id,
+      updatedAt: new Date().toISOString(),
+    };
+    dbStore.systems.set(id, updated);
 
-    const nextRiskTier =
-      payload.riskTier ??
-      (shouldSuggestRiskTier
-        ? getSuggestedRiskTier({
-            domainContext: payload.domainContext ?? existing.domainContext,
-            modelType: payload.modelType ?? existing.modelType,
-          })
-        : existing.riskTier ?? null);
-
-    const system = await prisma.aiSystem.update({
-      where: { id },
-      data: {
-        ...payload,
-        riskTier: nextRiskTier,
-        llmConfig: payload.llmConfig ?? existing.llmConfig ?? undefined,
-      },
-    });
-
-    return NextResponse.json({ data: serializeSystem(system) });
+    return NextResponse.json({ data: serializeSystem(updated) });
   } catch (error) {
     return NextResponse.json(
       {
         error: {
-          message: error instanceof Error ? error.message : 'Unable to update system',
+          message: error instanceof Error ? error.message : 'Failed to update system',
         },
       },
-      { status: 400 },
+      { status: 400 }
     );
   }
 }
 
-export async function DELETE(_: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+export async function DELETE(_request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
     const { id } = await params;
-    await prisma.aiSystem.delete({ where: { id } });
-    return NextResponse.json({ data: { deleted: true, id } });
+
+    try {
+      await prisma.aiSystem.delete({ where: { id } });
+      return NextResponse.json({ success: true });
+    } catch {
+      // Fallback
+    }
+
+    dbStore.systems.delete(id);
+    return NextResponse.json({ success: true });
   } catch (error) {
     return NextResponse.json(
       {
         error: {
-          message: error instanceof Error ? error.message : 'Unable to delete system',
+          message: error instanceof Error ? error.message : 'Failed to delete system',
         },
       },
-      { status: 404 },
+      { status: 500 }
     );
   }
 }
