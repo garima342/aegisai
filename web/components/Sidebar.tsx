@@ -31,9 +31,9 @@ export function Sidebar() {
     },
     {
       label: 'Results',
-      href: '/systems/sys-hr-recruitment-01',
+      href: '/results',
       icon: Shield,
-      isActive: pathname.includes('/results') || (pathname.startsWith('/systems/sys-hr') && !pathname.includes('/new')),
+      isActive: pathname.startsWith('/results') || (pathname.startsWith('/systems/sys-hr') && !pathname.includes('/new')),
     },
     {
       label: 'Reports',
