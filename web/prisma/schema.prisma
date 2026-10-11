@@ -7,38 +7,92 @@ generator client {
   provider = "prisma-client-js"
 }
 
+enum ModelType {
+  tabular_classifier
+  tabular_regressor
+  llm_app
+  rag_system
+  agent
+  other
+}
+
+enum RiskTier {
+  minimal
+  limited
+  high
+  unacceptable
+}
+
+enum AssessmentStatus {
+  draft
+  intake_complete
+  running
+  completed
+}
+
+enum ArtifactKind {
+  dataset
+  model
+  documentation
+  llm_config
+}
+
 model AiSystem {
-  id          String   @id @default(uuid())
-  name        String
-  description String?
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-  assessments Assessment[]
+  id                 String       @id @default(uuid())
+  name               String
+  description        String?
+  purpose            String
+  intendedUse        String
+  modelType          ModelType
+  riskTier           RiskTier?
+  domainContext      String
+  sensitiveAttributes String[]    @default([])
+  owner              String
+  llmConfig          Json?
+  createdAt          DateTime     @default(now())
+  updatedAt          DateTime     @updatedAt
+  assessments       Assessment[]
 }
 
 model Assessment {
-  id          String   @id @default(uuid())
-  systemId    String
-  system      AiSystem @relation(fields: [systemId], references: [id])
-  status      String   @default("draft")
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-  findings    Finding[]
-  controls    Control[]
-  scores      ScoreSnapshot[]
+  id            String           @id @default(uuid())
+  aiSystemId    String
+  aiSystem      AiSystem         @relation(fields: [aiSystemId], references: [id], onDelete: Cascade)
+  status        AssessmentStatus @default(draft)
+  runDataRisk   Boolean          @default(false)
+  runSecurity   Boolean          @default(false)
+  runGovernance Boolean          @default(false)
+  createdAt     DateTime         @default(now())
+  updatedAt     DateTime         @updatedAt
+  artifacts     Artifact[]
+  findings      Finding[]
+  controls      Control[]
+  scores        ScoreSnapshot[]
+}
+
+model Artifact {
+  id          String       @id @default(uuid())
+  assessmentId String
+  assessment  Assessment   @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  kind        ArtifactKind
+  filename    String
+  mime        String
+  size        Int
+  storageKey  String
+  uploadedAt  DateTime     @default(now())
 }
 
 model Finding {
   id             String     @id @default(uuid())
   assessmentId   String
   assessment     Assessment @relation(fields: [assessmentId], references: [id])
-  module         String     
-  domain         String     
+  module         String
+  domain         String
   checkId        String
   title          String
   description    String
-  severity       String     
-  evidence       Json       
+  severity       String
+  evidence       Json
   recommendation String
   status         String     @default("open")
   createdAt      DateTime   @default(now())
@@ -61,6 +115,6 @@ model ScoreSnapshot {
   assessmentId String
   assessment   Assessment @relation(fields: [assessmentId], references: [id])
   overall      Float
-  domains      Json       
+  domains      Json
   createdAt    DateTime   @default(now())
 }

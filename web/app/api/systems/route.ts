@@ -1,7 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { prisma } from '@/lib/prisma';
 import { dbStore } from '@/lib/store';
 import { AiSystem, Assessment, Artifact } from '@/lib/types/system';
 import { suggestRiskTier } from '@/lib/riskHelper';
+import { maskLlmConfig } from '@/lib/m1-validation';
 import { z } from 'zod';
 
 const createSystemApiSchema = z.object({
@@ -9,17 +11,10 @@ const createSystemApiSchema = z.object({
   description: z.string().optional(),
   purpose: z.string().min(10),
   intendedUse: z.string().min(10),
-  modelType: z.enum([
-    'tabular_classifier',
-    'tabular_regressor',
-    'llm_app',
-    'rag_system',
-    'agent',
-    'other',
-  ]),
+  modelType: z.string(),
   domainContext: z.string().min(2),
   sensitiveAttributes: z.array(z.string()).default([]),
-  riskTier: z.enum(['minimal', 'limited', 'high', 'unacceptable']),
+  riskTier: z.string().optional(),
   owner: z.string().min(2),
   llmConfig: z
     .object({
@@ -30,7 +25,6 @@ const createSystemApiSchema = z.object({
       description: z.string().optional(),
     })
     .optional(),
-  // Initial assessment scope if created from wizard
   assessmentScope: z
     .object({
       runDataRisk: z.boolean().default(true),
@@ -41,7 +35,7 @@ const createSystemApiSchema = z.object({
   artifacts: z
     .array(
       z.object({
-        kind: z.enum(['dataset', 'model', 'documentation', 'llm_config']),
+        kind: z.string(),
         filename: z.string(),
         mime: z.string(),
         size: z.number(),
@@ -51,18 +45,11 @@ const createSystemApiSchema = z.object({
     .optional(),
 });
 
-function sanitizeSystem(system: AiSystem): AiSystem {
-  // Never expose raw auth secret in responses
-  if (system.llmConfig?.authHeaderValue) {
-    return {
-      ...system,
-      llmConfig: {
-        ...system.llmConfig,
-        authHeaderValue: '********',
-      },
-    };
-  }
-  return system;
+function sanitizeSystem(system: any) {
+  return {
+    ...system,
+    llmConfig: system.llmConfig ? maskLlmConfig(system.llmConfig) : undefined,
+  };
 }
 
 export async function GET(request: NextRequest) {
@@ -72,8 +59,35 @@ export async function GET(request: NextRequest) {
     const riskTier = searchParams.get('riskTier') || '';
     const modelType = searchParams.get('modelType') || '';
 
-    let list = Array.from(dbStore.systems.values());
+    // Attempt Prisma first
+    try {
+      const dbSystems = await prisma.aiSystem.findMany({
+        orderBy: { createdAt: 'desc' },
+      });
+      if (dbSystems && dbSystems.length > 0) {
+        let list = dbSystems as any[];
+        if (search) {
+          list = list.filter(
+            (s) =>
+              s.name.toLowerCase().includes(search) ||
+              s.description?.toLowerCase().includes(search) ||
+              s.domainContext.toLowerCase().includes(search) ||
+              s.owner.toLowerCase().includes(search)
+          );
+        }
+        if (riskTier && riskTier !== 'all') {
+          list = list.filter((s) => s.riskTier === riskTier);
+        }
+        if (modelType && modelType !== 'all') {
+          list = list.filter((s) => s.modelType === modelType);
+        }
+        return NextResponse.json({ data: list.map(sanitizeSystem) });
+      }
+    } catch {
+      // Fallback to in-memory store
+    }
 
+    let list = Array.from(dbStore.systems.values());
     if (search) {
       list = list.filter(
         (s) =>
@@ -83,16 +97,12 @@ export async function GET(request: NextRequest) {
           s.owner.toLowerCase().includes(search)
       );
     }
-
     if (riskTier && riskTier !== 'all') {
       list = list.filter((s) => s.riskTier === riskTier);
     }
-
     if (modelType && modelType !== 'all') {
       list = list.filter((s) => s.modelType === modelType);
     }
-
-    // Sort by most recently updated
     list.sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime());
 
     return NextResponse.json({
@@ -127,6 +137,31 @@ export async function POST(request: NextRequest) {
     const now = new Date().toISOString();
 
     const suggestion = suggestRiskTier(data.domainContext, data.modelType);
+    const riskTier = data.riskTier || suggestion.suggestedTier;
+
+    // Attempt Prisma persistence
+    try {
+      const createdDbSystem = await prisma.aiSystem.create({
+        data: {
+          name: data.name,
+          description: data.description || '',
+          purpose: data.purpose,
+          intendedUse: data.intendedUse,
+          modelType: data.modelType,
+          domainContext: data.domainContext,
+          sensitiveAttributes: data.sensitiveAttributes,
+          riskTier,
+          owner: data.owner,
+          llmConfig: data.llmConfig ? (data.llmConfig as any) : undefined,
+        },
+      });
+      return NextResponse.json(
+        { data: sanitizeSystem(createdDbSystem) },
+        { status: 201 }
+      );
+    } catch {
+      // Fallback to in-memory store
+    }
 
     const newSystem: AiSystem = {
       id: systemId,
@@ -137,7 +172,7 @@ export async function POST(request: NextRequest) {
       modelType: data.modelType,
       domainContext: data.domainContext,
       sensitiveAttributes: data.sensitiveAttributes,
-      riskTier: data.riskTier,
+      riskTier,
       suggestedRiskTier: suggestion.suggestedTier,
       riskRationale: suggestion.rationale,
       owner: data.owner,
@@ -148,7 +183,6 @@ export async function POST(request: NextRequest) {
       artifacts: [],
     };
 
-    // If initial assessment was requested
     if (data.assessmentScope) {
       const assessmentId = `asmt-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`;
       const assessmentArtifacts: Artifact[] = [];
@@ -158,7 +192,7 @@ export async function POST(request: NextRequest) {
           const artifactRecord: Artifact = {
             id: `art-${Date.now()}-${index}`,
             assessmentId,
-            kind: art.kind,
+            kind: art.kind as any,
             filename: art.filename,
             mime: art.mime,
             size: art.size,

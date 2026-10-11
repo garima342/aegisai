@@ -1,130 +1,142 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { prisma } from '@/lib/prisma';
 import { dbStore } from '@/lib/store';
-import { AiSystem } from '@/lib/types/system';
+import { maskLlmConfig } from '@/lib/m1-validation';
+import { getSuggestedRiskTier } from '@/lib/risk-tier';
 
-function sanitizeSystem(system: AiSystem): AiSystem {
-  if (system.llmConfig?.authHeaderValue) {
-    return {
-      ...system,
-      llmConfig: {
-        ...system.llmConfig,
-        authHeaderValue: '********',
-      },
-    };
-  }
-  return system;
+function serializeSystem(system: any) {
+  return {
+    ...system,
+    llmConfig: system.llmConfig ? maskLlmConfig(system.llmConfig) : undefined,
+  };
 }
 
-export async function GET(
-  _request: NextRequest,
-  { params }: { params: Promise<{ id: string }> }
-) {
+export async function GET(_request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
     const { id } = await params;
-    const system = dbStore.systems.get(id);
 
-    if (!system) {
-      return NextResponse.json(
-        { error: 'AI System not found' },
-        { status: 404 }
-      );
+    try {
+      const system = await prisma.aiSystem.findUnique({
+        where: { id },
+        include: {
+          assessments: {
+            include: {
+              artifacts: true,
+            },
+          },
+        },
+      });
+
+      if (system) {
+        return NextResponse.json({ data: serializeSystem(system) });
+      }
+    } catch {
+      // Fallback to in-memory store
     }
 
-    // Attach latest assessments and artifacts from store
-    const assessments = Array.from(dbStore.assessments.values()).filter(
-      (a) => a.systemId === id
-    );
+    const memSystem = dbStore.systems.get(id);
+    if (!memSystem) {
+      return NextResponse.json({ error: { message: 'System not found' } }, { status: 404 });
+    }
+
+    const assessments = Array.from(dbStore.assessments.values()).filter((a) => a.systemId === id);
     const artifacts = assessments.flatMap((a) => a.artifacts || []);
 
-    const fullSystem: AiSystem = {
-      ...system,
-      assessments,
-      artifacts,
-    };
-
     return NextResponse.json({
-      data: sanitizeSystem(fullSystem),
+      data: serializeSystem({
+        ...memSystem,
+        assessments,
+        artifacts,
+      }),
     });
   } catch (error) {
-    console.error('Error fetching system:', error);
     return NextResponse.json(
-      { error: 'Failed to retrieve AI System' },
+      {
+        error: {
+          message: error instanceof Error ? error.message : 'Unable to fetch system',
+        },
+      },
       { status: 500 }
     );
   }
 }
 
-export async function PATCH(
-  request: NextRequest,
-  { params }: { params: Promise<{ id: string }> }
-) {
+export async function PATCH(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
     const { id } = await params;
-    const existing = dbStore.systems.get(id);
+    const body = await request.json();
 
-    if (!existing) {
-      return NextResponse.json(
-        { error: 'AI System not found' },
-        { status: 404 }
-      );
+    try {
+      const existing = await prisma.aiSystem.findUnique({ where: { id } });
+      if (existing) {
+        const nextRiskTier =
+          body.riskTier ??
+          (body.domainContext || body.modelType
+            ? getSuggestedRiskTier({
+                domainContext: body.domainContext ?? existing.domainContext,
+                modelType: body.modelType ?? existing.modelType,
+              })
+            : existing.riskTier);
+
+        const updated = await prisma.aiSystem.update({
+          where: { id },
+          data: {
+            ...body,
+            riskTier: nextRiskTier,
+          },
+        });
+        return NextResponse.json({ data: serializeSystem(updated) });
+      }
+    } catch {
+      // Fallback to in-memory store
     }
 
-    const updates = await request.json();
-    const updated: AiSystem = {
-      ...existing,
-      ...updates,
-      id: existing.id, // Immutable
+    const memSystem = dbStore.systems.get(id);
+    if (!memSystem) {
+      return NextResponse.json({ error: { message: 'System not found' } }, { status: 404 });
+    }
+
+    const updated = {
+      ...memSystem,
+      ...body,
+      id: memSystem.id,
       updatedAt: new Date().toISOString(),
     };
-
     dbStore.systems.set(id, updated);
 
-    return NextResponse.json({
-      data: sanitizeSystem(updated),
-    });
+    return NextResponse.json({ data: serializeSystem(updated) });
   } catch (error) {
-    console.error('Error updating system:', error);
     return NextResponse.json(
-      { error: 'Failed to update AI System' },
-      { status: 500 }
+      {
+        error: {
+          message: error instanceof Error ? error.message : 'Failed to update system',
+        },
+      },
+      { status: 400 }
     );
   }
 }
 
-export async function DELETE(
-  _request: NextRequest,
-  { params }: { params: Promise<{ id: string }> }
-) {
+export async function DELETE(_request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
     const { id } = await params;
-    if (!dbStore.systems.has(id)) {
-      return NextResponse.json(
-        { error: 'AI System not found' },
-        { status: 404 }
-      );
+
+    try {
+      await prisma.aiSystem.delete({ where: { id } });
+      return NextResponse.json({ success: true });
+    } catch {
+      // Fallback
     }
 
-    // Remove system and associated assessments/artifacts
     dbStore.systems.delete(id);
-    const assessments = Array.from(dbStore.assessments.values()).filter(
-      (a) => a.systemId === id
-    );
-    for (const a of assessments) {
-      dbStore.assessments.delete(a.id);
-      if (a.artifacts) {
-        for (const art of a.artifacts) {
-          dbStore.artifacts.delete(art.id);
-        }
-      }
-    }
-
-    return NextResponse.json({
-      data: { success: true, message: 'System deleted successfully' },
-    });
+    return NextResponse.json({ success: true });
   } catch (error) {
-    console.error('Error deleting system:', error);
     return NextResponse.json(
-      { error: 'Failed to delete AI System' },
+      {
+        error: {
+          message: error instanceof Error ? error.message : 'Failed to delete system',
+        },
+      },
       { status: 500 }
     );
   }
