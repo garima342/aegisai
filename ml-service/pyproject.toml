@@ -8,3 +8,6 @@ addopts = "-ra -q"
 testpaths = [
     "tests",
 ]
+pythonpath = [
+    ".",
+]
