@@ -33,7 +33,7 @@ from app.models import Finding, FindingEvidence
 
 def is_model_loading_allowed() -> bool:
     """Check if model loading is explicitly enabled via environment variable."""
-    return os.getenv("ALLOW_MODEL_LOAD", "false").lower() in ("true", "1", "yes")
+    return os.getenv("ALLOW_MODEL_LOAD", "false").strip().lower() in ("true", "1", "yes")
 
 
 def safe_load_model(

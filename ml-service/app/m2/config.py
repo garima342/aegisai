@@ -32,7 +32,7 @@ def resolve_file_path(path_input: str | Path) -> Path:
 # ---------------------------------------------------------------------------
 # Unpickling Python objects can execute arbitrary code.
 # Model loading is strictly disabled by default in production.
-ALLOW_MODEL_LOAD: Final[bool] = os.getenv("ALLOW_MODEL_LOAD", "false").lower() in (
+ALLOW_MODEL_LOAD: Final[bool] = os.getenv("ALLOW_MODEL_LOAD", "false").strip().lower() in (
     "true",
     "1",
     "yes",
