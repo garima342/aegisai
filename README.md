@@ -58,6 +58,6 @@ uvicorn app.main:app --reload
 |--------|-------------|--------|
 | M1 | Intake & Registration | Completed ([Docs](docs/modules/M1_intake.md)) |
 | M2 | Data & Model Risk | Completed (Engine) |
-| M3 | Security & Explainability | In Progress (Security Runner Completed) |
+| M3 | Security & Explainability | In Progress (Security & Explainability Engines Completed) |
 | M4 | Governance Mapping | Skeleton |
 | M5 | Scoring/Dashboard/Reporting | Skeleton |

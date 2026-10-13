@@ -187,3 +187,50 @@ curl -X POST http://localhost:8000/m3/security-scan \
 ```bash
 curl http://localhost:8000/m3/testcases
 ```
+
+---
+
+## Module M3: Explainability Assessment Engine (SHAP)
+
+Module M3 assesses tabular model explainability, computes global feature importances and local waterfall prediction contributions, and evaluates model interpretability risks.
+
+### Architecture (`app/m3/explain.py`)
+
+- `explain_global`: Computes global feature importances with `shap.TreeExplainer`, `LinearExplainer`, or `permutation_importance` fallback.
+- `explain_local`: Generates chart-ready row-level feature contributions (`topPositive`, `topNegative`) with expected base values and predicted probabilities.
+- **Explainability Risk Checks**:
+  - `EXP-001`: Sensitive attribute or proxy in top feature importances (Severity: High).
+  - `EXP-002`: Single feature concentration dominates model predictions (>50% importance) (Severity: Medium).
+  - `EXP-003`: Model is non-explainable or explainer failed (Severity: Critical).
+  - `EXP-004`: Feature importance ranking instability across bootstrap subsamples (Spearman correlation < 0.70) (Severity: Medium).
+  - `EXP-005`: Incomplete or missing model card documentation (Severity: Low).
+
+### Example API Calls (curl)
+
+#### 1. Global Feature Importance Analysis
+```bash
+# Requires ALLOW_MODEL_LOAD=true
+curl -X POST http://localhost:8000/m3/explainability/global \
+  -H "Content-Type: application/json" \
+  -d '{
+    "dataset_path": "../sample_data/hr_recruitment.csv",
+    "model_path": "../sample_data/hr_model.joblib",
+    "target_column": "hired",
+    "sensitive_attributes": ["gender", "age"],
+    "top_n": 5
+  }'
+```
+
+#### 2. Local Prediction Explanation (Waterfall Contributions)
+```bash
+# Requires ALLOW_MODEL_LOAD=true
+curl -X POST http://localhost:8000/m3/explainability/local \
+  -H "Content-Type: application/json" \
+  -d '{
+    "dataset_path": "../sample_data/hr_recruitment.csv",
+    "model_path": "../sample_data/hr_model.joblib",
+    "target_column": "hired",
+    "row_index": 0,
+    "top_n": 5
+  }'
+```

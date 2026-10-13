@@ -119,3 +119,84 @@ class SecurityScanResponse(BaseModel):
     domainRisk: float = Field(description="Normalized security domain risk score [0.0, 1.0]")
     testResults: list[SecurityTestResult]
     summary: dict[str, Any]
+
+
+class FeatureImportanceItem(BaseModel):
+    """Chart-ready item representing a feature's global importance."""
+
+    feature: str = Field(description="Name of the feature")
+    importance: float = Field(description="Mean absolute SHAP value or importance score")
+    rank: int = Field(description="1-based feature importance rank")
+    percentage: float = Field(default=0.0, description="Percentage share of total importance")
+    is_sensitive: bool = Field(
+        default=False, description="True if feature corresponds to a sensitive demographic attribute"
+    )
+
+
+class GlobalExplanationRequest(BaseModel):
+    """Request payload for global model feature importance and explainability audit."""
+
+    assessment_id: str = Field(default="temp", description="Associated assessment UUID")
+    dataset_path: str | None = Field(default=None, description="Path to CSV dataset")
+    csv_content: str | None = Field(default=None, description="Inline raw CSV string")
+    model_path: str | None = Field(default=None, description="Path to serialized .joblib / .pkl model")
+    target_column: str | None = Field(default=None, description="Target column to exclude from features")
+    drop_columns: list[str] | None = Field(default=None, description="Columns to exclude from analysis")
+    sensitive_attributes: list[str] | None = Field(
+        default=None, description="Declared sensitive attributes to monitor"
+    )
+    model_documentation: str | None = Field(
+        default=None, description="Model card text for documentation audit"
+    )
+    top_n: int = Field(default=10, description="Number of top features to return")
+    sample_size: int = Field(
+        default=500, description="Maximum sample size for background reference computation"
+    )
+
+
+class GlobalExplanationResponse(BaseModel):
+    """Chart-ready global feature importances and explainability risk findings."""
+
+    assessmentId: str
+    findings: list[Finding]
+    domainRisk: float = Field(description="Normalized explainability domain risk in [0.0, 1.0]")
+    featureImportances: list[FeatureImportanceItem]
+    explainerType: str = Field(description="Explainer method employed (e.g. TreeExplainer, LinearExplainer)")
+    stabilityScore: float = Field(description="Spearman rank correlation across bootstrap samples")
+    summary: dict[str, Any]
+
+
+class FeatureContributionItem(BaseModel):
+    """Chart-ready item representing an individual feature's contribution for a specific prediction."""
+
+    feature: str = Field(description="Feature name")
+    value: Any = Field(description="Feature value in the explained row")
+    contribution: float = Field(description="SHAP contribution value towards output")
+    is_positive: bool = Field(description="True if pushing towards positive prediction, False otherwise")
+
+
+class LocalExplanationRequest(BaseModel):
+    """Request payload for explaining an individual prediction."""
+
+    assessment_id: str = Field(default="temp", description="Associated assessment UUID")
+    dataset_path: str | None = Field(default=None, description="Path to CSV dataset")
+    csv_content: str | None = Field(default=None, description="Inline raw CSV string")
+    model_path: str | None = Field(default=None, description="Path to serialized model")
+    target_column: str | None = Field(default=None, description="Target column to exclude")
+    drop_columns: list[str] | None = Field(default=None, description="Columns to exclude")
+    row_index: int = Field(default=0, description="Zero-based index of row in dataset to explain")
+    top_n: int = Field(default=10, description="Top positive/negative contributors to return")
+
+
+class LocalExplanationResponse(BaseModel):
+    """Chart-ready local prediction explanation."""
+
+    assessmentId: str
+    rowIndex: int
+    prediction: Any = Field(description="Predicted class or numeric output")
+    predictionProbability: float | None = Field(default=None, description="Predicted probability if classifier")
+    baseValue: float = Field(description="Expected model baseline value")
+    contributions: list[FeatureContributionItem]
+    topPositive: list[FeatureContributionItem]
+    topNegative: list[FeatureContributionItem]
+    summary: dict[str, Any]
