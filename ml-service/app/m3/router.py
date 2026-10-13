@@ -5,6 +5,10 @@ from fastapi import APIRouter, HTTPException, status
 from app.m3.loader import load_test_cases
 from app.m3.runner import run_security_scan
 from app.m3.schemas import (
+    GlobalExplanationRequest,
+    GlobalExplanationResponse,
+    LocalExplanationRequest,
+    LocalExplanationResponse,
     SecurityScanRequest,
     SecurityScanResponse,
     TestCaseDefinition,
@@ -64,3 +68,73 @@ def list_security_testcases(
     """Retrieve metadata of test probes in the library for inspection and UI catalog display."""
     categories = [category] if category else None
     return load_test_cases(categories=categories)
+
+
+@router.post(
+    "/explainability/global",
+    response_model=GlobalExplanationResponse,
+    status_code=status.HTTP_200_OK,
+    summary="Compute SHAP global feature importances and explainability risk findings",
+)
+def compute_global_explanation(
+    request: GlobalExplanationRequest,
+) -> GlobalExplanationResponse:
+    """Compute global feature importances with SHAP TreeExplainer/LinearExplainer/Permutation fallback.
+
+    Performs explainability risk checks:
+    - EXP-001: Sensitive attributes or proxies in top features.
+    - EXP-002: Single feature concentration (>50% importance).
+    - EXP-003: Model explainability failure.
+    - EXP-004: Explanation instability across bootstrap subsamples (Spearman correlation < 0.7).
+    - EXP-005: Model card documentation gap.
+    """
+    try:
+        from app.m3.explain import explain_global
+
+        return explain_global(request)
+    except PermissionError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail=str(exc),
+        ) from exc
+    except (ValueError, FileNotFoundError) as exc:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=str(exc),
+        ) from exc
+    except Exception as exc:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Global explanation analysis failed: {exc}",
+        ) from exc
+
+
+@router.post(
+    "/explainability/local",
+    response_model=LocalExplanationResponse,
+    status_code=status.HTTP_200_OK,
+    summary="Compute local prediction explanation with waterfall-style feature contributions",
+)
+def compute_local_explanation(
+    request: LocalExplanationRequest,
+) -> LocalExplanationResponse:
+    """Generate row-level SHAP explanation showing positive and negative feature contributions towards a prediction."""
+    try:
+        from app.m3.explain import explain_local
+
+        return explain_local(request)
+    except PermissionError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail=str(exc),
+        ) from exc
+    except (ValueError, FileNotFoundError) as exc:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=str(exc),
+        ) from exc
+    except Exception as exc:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Local prediction explanation failed: {exc}",
+        ) from exc

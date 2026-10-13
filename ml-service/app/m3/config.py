@@ -58,3 +58,20 @@ REDACTION_PATTERNS: list[str] = [
     r"sk-[a-zA-Z0-9]{20,}",
     r"ghp_[a-zA-Z0-9]{20,}",
 ]
+
+# Explainability thresholds and bounds
+EXPLAINABILITY_DOMAIN_RISK_CAP: float = 20.0
+MAX_SHAP_BACKGROUND_SAMPLES: int = 500
+DOMINANT_FEATURE_THRESHOLD: float = 0.50
+TOP_SENSITIVE_FEATURE_RANK_CUTOFF: int = 3
+BOOTSTRAP_STABILITY_CORRELATION_THRESHOLD: float = 0.70
+DEFAULT_TOP_N_FEATURES: int = 10
+
+# Model card audit required topics/keywords (for EXP-005)
+MODEL_CARD_REQUIRED_SECTIONS: list[str] = [
+    "intended use",
+    "training data",
+    "limitations",
+    "ethical considerations",
+    "out-of-scope",
+]
