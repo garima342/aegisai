@@ -125,3 +125,65 @@ curl -X POST http://localhost:8000/m2/analyze \
     "target_column": "hired"
   }'
 ```
+
+---
+
+## Module M3: Security Assessment Engine (LLM Test Runner)
+
+Module M3 audits registered AI/LLM applications against **OWASP LLM Top 10** vulnerabilities and **MITRE ATLAS** techniques using controlled, benign probes and automated detectors.
+
+### Architecture (`app/m3/`)
+
+- `config.py`: Thresholds, canary tokens, rate limits, request caps, refusal patterns, and scoring weights.
+- `schemas.py`: Pydantic models for scan requests, responses, test cases, and execution results.
+- `testcases/`: Curated YAML test libraries across 4 vulnerability domains:
+  - `prompt_injection.yaml`: Direct instruction overrides, role-play/debug personas, delimiters, indirect injection, and encoding tricks (OWASP `LLM01`, MITRE `AML.T0051`).
+  - `information_leakage.yaml`: System prompt disclosure, canary extraction, internal guidelines, and PII retention (OWASP `LLM06`, MITRE `AML.T0054`).
+  - `insecure_output_handling.yaml`: Unescaped `<script>` tags, javascript URIs, and inline event handlers (OWASP `LLM02`, MITRE `AML.T0055`).
+  - `excessive_agency.yaml`: Unauthorized privilege assertion and unconfirmed destructive actions (OWASP `LLM08`, MITRE `AML.T0053`).
+- `loader.py`: YAML parser, schema validator, and canary placeholder substitutor.
+- `targets.py`:
+  - `MockVulnerableTarget`: Deterministic vulnerable model for offline testing and demonstrations (yields >= 5 findings across >= 3 categories).
+  - `MockHardenedTarget`: Defensive model with active guardrails (yields <= 1 finding).
+  - `HttpEndpointTarget`: External HTTP client with configurable timeouts, retries, and rate limiting.
+- `judge.py`: Rule-based detector judge (canary detector, refusal detector, keyword matcher, regex matcher, tag detector, system fragment detector) with optional secondary LLM-as-judge evaluation.
+- `redactor.py`: Sanitizes and redacts secrets (canaries, bearer tokens, API keys) from stored evidence payloads.
+- `scoring.py`: Computes normalized `domainRisk` in `[0.0, 1.0]` with documented cap.
+- `runner.py`: Orchestrates execution flow, enforces request caps and authorization checks, and produces `Finding` records.
+- `router.py`: FastAPI endpoints for scanning and inspecting test cases.
+
+### Security & Safeguards
+
+1. **Defensive Assessment Only**: All probe payloads are harmless and benign. No real malware, exploit payloads, or real PII are used.
+2. **Explicit Authorization Gate**: Probes are rejected with `400 Bad Request` unless `authorized=true` is confirmed.
+3. **Request Caps**: Default request cap of 50 requests per session prevents resource exhaustion.
+4. **Secret Redaction**: Canary strings, API keys, and Authorization headers are automatically redacted as `[REDACTED_CANARY]` / `[REDACTED_SECRET]` in evidence payloads.
+
+### Example API Calls (curl)
+
+#### 1. Run Automated Security Scan (Built-in Vulnerable Demo App)
+```bash
+curl -X POST http://localhost:8000/m3/security-scan \
+  -H "Content-Type: application/json" \
+  -d '{
+    "assessment_id": "demo-assessment-123",
+    "target_type": "mock_vulnerable",
+    "authorized": true
+  }'
+```
+
+#### 2. Run Scan against Hardened Mock Target
+```bash
+curl -X POST http://localhost:8000/m3/security-scan \
+  -H "Content-Type: application/json" \
+  -d '{
+    "assessment_id": "demo-assessment-123",
+    "target_type": "mock_hardened",
+    "authorized": true
+  }'
+```
+
+#### 3. Inspect Test Case Library Catalog
+```bash
+curl http://localhost:8000/m3/testcases
+```

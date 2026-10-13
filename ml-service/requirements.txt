@@ -10,3 +10,4 @@ shap
 python-multipart
 pytest-cov
 httpx
+pyyaml
